@@ -1,0 +1,2897 @@
+---
+layout: none
+title: 租事無憂｜房東房客租屋知識平台
+description: 房東房客都需要的工具與知識。押金試算、修繕責任判定、點交清單、政府政策整理，讓每段租賃關係有據可循。
+---
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KCDS4TTQED"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KCDS4TTQED');
+</script>
+<!-- Google AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9753491901026477"
+     crossorigin="anonymous"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="租事無憂｜房東房客租屋知識平台。租金押金試算、修繕責任判定、點交清單，深度文章，政府政策整理。">
+<meta name="keywords" content="租屋,押金,修繕,合約,房東,房客,公證,退租,租金補貼,公益出租人,電費,漏水,點交清單">
+<title>租事無憂｜房東房客租屋知識平台</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700;900&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+/* ═══ TOKEN SYSTEM：森林綠 + 燕麥色 ═══ */
+:root{
+  /* ── 苔蘚橄欖綠系 ── 比正綠更沉、更有手工質感 */
+  --gr:#4A6741;      /* 主色：苔蘚橄欖綠 */
+  --grd:#334A2D;     /* 深：近墨橄欖 */
+  --grl:#6B8F62;     /* 中亮：草地綠 */
+  --grp:#EBF0E6;     /* 淡底：白霧綠，帶灰不帶藍 */
+  /* ── 陶土暖棕系 ── 取代原本過正的棕 */
+  --br:#9C6B47;      /* 陶土橘棕 */
+  --brp:#F5EDE4;     /* 淡陶土底 */
+  /* ── 背景系 ── 精心分層的奶白，每層都有個性 */
+  --bg:#F7F4EF;      /* 頁面底：溫奶白，微微偏黃暖 */
+  --bgc:#FDFCFA;     /* 卡片：近白但不死白，有紙感 */
+  --oa:#F0EBE2;      /* 次層底：亞麻色，明顯但不突兀 */
+  --oad:#E6DDD2;     /* 深亞麻：邊框、分隔線底 */
+  --oal:#FAF8F5;     /* 極淺：input底色 */
+  /* ── 深色區 ── 墨水藍綠，不是純黑也不是綠黑 */
+  --bgdk:#1A2420;    /* 深底：墨綠近黑，帶藍調 */
+  /* ── 文字 ── 不用純黑，用有溫度的深墨 */
+  --tx:#1E2620;      /* 主文字：深墨橄欖，護眼 */
+  --txm:#4D5C4A;     /* 次文字：苔蘚灰綠 */
+  --txl:#8A9686;     /* 輔文字：霧綠灰 */
+  --txi:#F7F4EF;     /* 反色文字 */
+  /* ── 狀態色 */
+  --ok:#2E6B3E;
+  --wn:#9C6B47;
+  --dn:#963232;
+  /* ── 視覺 */
+  --r:10px;--rl:18px;
+  --sh:0 2px 16px rgba(26,36,32,.08);
+  --shm:0 8px 32px rgba(26,36,32,.13);
+  --bd:rgba(74,103,65,.13);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Noto Sans TC',sans-serif;background:var(--bg);color:var(--tx);font-size:16px;line-height:1.8;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:'Noto Serif TC',serif;line-height:1.35;color:var(--tx)}
+a{color:inherit;text-decoration:none}
+p{line-height:1.85}
+/* ── Layout ── */
+.wrap{max-width:1100px;margin:0 auto;padding:0 22px}
+.sec{padding:72px 0}
+.sec-sm{padding:48px 0}
+/* ── Buttons ── */
+.btn{display:inline-flex;align-items:center;gap:7px;padding:11px 26px;border-radius:26px;font-size:14px;font-weight:700;cursor:pointer;transition:all .22s;border:none;font-family:'Noto Sans TC',sans-serif;letter-spacing:.01em}
+.bp{background:var(--gr);color:#fff}.bp:hover{background:var(--grd);transform:translateY(-1px);box-shadow:0 4px 18px rgba(61,107,79,.38)}
+.bo{background:transparent;border:2px solid var(--gr);color:var(--gr)}.bo:hover{background:var(--gr);color:#fff}
+.bb{background:rgba(61,107,79,.1);color:var(--gr);border:none}.bb:hover{background:rgba(61,107,79,.18)}
+.blg{padding:13px 32px;font-size:15px}
+/* ── Header ── */
+header{position:sticky;top:0;z-index:200;background:rgba(247,244,239,.96);backdrop-filter:blur(14px);border-bottom:1.5px solid var(--bd)}
+.hi{display:flex;align-items:center;justify-content:space-between;height:62px}
+.logo{display:flex;align-items:center;gap:0;cursor:pointer;user-select:none;text-decoration:none}
+.lm{width:36px;height:36px;border-radius:9px;background:var(--gr);color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}
+.nav{display:flex;align-items:center;gap:2px}
+.nav a{padding:7px 14px;border-radius:20px;font-size:14px;font-weight:500;color:var(--txm);transition:all .2s;cursor:pointer}
+.nav a:hover{color:var(--gr);background:var(--grp)}
+.hcta{display:flex;gap:8px;flex-shrink:0}
+.ham{display:none;background:none;border:none;cursor:pointer;padding:6px}
+.ham span{display:block;width:22px;height:2px;background:var(--tx);margin:5px 0;border-radius:2px}
+.mnav{display:none;position:fixed;inset:62px 0 0 0;background:var(--bgc);z-index:190;padding:24px 20px;flex-direction:column;gap:4px;border-top:1px solid var(--bd);overflow-y:auto}
+.mnav.op{display:flex}
+.mnav a{padding:14px 16px;border-radius:var(--r);font-size:16px;font-weight:600;color:var(--tx);border-bottom:1px solid var(--bd);cursor:pointer}
+/* ── Hero ── */
+.hero{padding:64px 0 56px;background:linear-gradient(135deg,#EDF2E8 0%,#F0EBE0 40%,#E8DFD3 75%,#DED7CC 100%);position:relative;overflow:hidden}
+.hero::after{content:'租事無憂';position:absolute;right:-20px;bottom:-30px;font-family:'Noto Serif TC',serif;font-size:160px;font-weight:900;color:rgba(58,88,48,.05);pointer-events:none;letter-spacing:8px;white-space:nowrap}
+.hgrid{display:grid;grid-template-columns:1fr 380px;gap:52px;align-items:center}
+.hey{display:inline-flex;align-items:center;gap:6px;background:rgba(61,107,79,.1);color:var(--gr);padding:5px 14px;border-radius:20px;font-size:12px;font-weight:700;letter-spacing:.06em;margin-bottom:20px}
+.hero h1{font-size:clamp(28px,4vw,48px);font-weight:900;margin-bottom:18px;color:var(--tx)}
+.hero h1 em{color:var(--gr);font-style:normal}
+.hsub{font-size:17px;color:var(--txm);margin-bottom:32px;line-height:1.85;max-width:500px}
+.hpills{display:flex;flex-wrap:wrap;gap:8px;padding-top:24px;border-top:1px solid rgba(61,107,79,.14)}
+.hpill{display:flex;align-items:center;gap:5px;font-size:13px;color:var(--txm);font-weight:500}
+.hpill::before{content:'✓';color:var(--gr);font-weight:900}
+/* hero right card */
+.hcard{background:var(--bgc);border-radius:var(--rl);padding:26px;box-shadow:var(--shm);border:1.5px solid var(--bd);position:relative;z-index:1}
+.hct{font-size:11px;font-weight:700;color:var(--txl);margin-bottom:14px;text-transform:uppercase;letter-spacing:.08em}
+.qls{display:flex;flex-direction:column;gap:8px}
+.ql{display:flex;align-items:center;gap:11px;padding:13px 15px;border-radius:var(--r);background:var(--oal);border:1.5px solid var(--bd);font-size:14px;font-weight:600;color:var(--tx);cursor:pointer;transition:all .2s}
+.ql:hover{background:var(--grp);border-color:var(--gr);color:var(--gr)}
+.qla{margin-left:auto;color:var(--txl);font-size:13px}
+.ql-ic{font-size:20px;flex-shrink:0;width:28px;text-align:center}
+/* ── Section heading ── */
+.sh{margin-bottom:44px}
+.sl{font-size:11px;font-weight:700;letter-spacing:.12em;color:var(--grl);text-transform:uppercase;margin-bottom:10px;display:flex;align-items:center;gap:8px}
+.sl::after{content:'';flex:1;height:1px;background:var(--grp);max-width:60px}
+.st{font-size:clamp(22px,3vw,32px);font-weight:900;margin-bottom:10px}
+.ss{font-size:15px;color:var(--txm);max-width:540px;line-height:1.8}
+.sh.c{text-align:center}
+.sh.c .sl{justify-content:center}
+.sh.c .sl::after{display:none}
+.sh.c .ss{margin:0 auto}
+/* ── Tools ── */
+.tgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.tc{background:var(--bgc);border-radius:var(--rl);padding:26px;border:1.5px solid var(--bd);box-shadow:var(--sh);cursor:pointer;transition:all .22s;position:relative;overflow:hidden}
+.tc::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--gr);transform:scaleX(0);transform-origin:left;transition:transform .22s}
+.tc:hover{transform:translateY(-3px);box-shadow:var(--shm);border-color:rgba(61,107,79,.3)}
+.tc:hover::before{transform:scaleX(1)}
+.tic{width:48px;height:48px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:21px;margin-bottom:14px}
+.ig{background:rgba(74,103,65,.09)}.io{background:rgba(156,107,71,.09)}.ib{background:rgba(55,80,155,.09)}.ir{background:rgba(150,50,50,.09)}.iw{background:rgba(156,107,71,.09)}.ip{background:rgba(90,55,155,.09)}
+.tn{font-family:'Noto Serif TC',serif;font-size:15px;font-weight:700;margin-bottom:6px}
+.td{font-size:13px;color:var(--txm);line-height:1.65}
+.tt{display:inline-block;margin-top:11px;background:var(--grp);color:var(--gr);font-size:11px;font-weight:700;padding:2px 10px;border-radius:20px}
+/* panels */
+.tpanels{margin-top:28px}
+.tpanel{display:none;background:var(--bgc);border-radius:var(--rl);padding:32px;box-shadow:var(--shm);border:1.5px solid var(--bd);animation:fi .28s ease}
+.tpanel.act{display:block}
+@keyframes fi{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.ph{display:flex;align-items:center;justify-content:space-between;margin-bottom:22px;padding-bottom:16px;border-bottom:1px solid var(--bd)}
+.pt2{font-family:'Noto Serif TC',serif;font-size:19px;font-weight:700;display:flex;align-items:center;gap:9px}
+.pc{width:30px;height:30px;border-radius:15px;border:none;background:var(--oal);cursor:pointer;font-size:15px;color:var(--txm);display:flex;align-items:center;justify-content:center}
+.pc:hover{background:var(--oad)}
+.fg{margin-bottom:18px}
+.fl{font-size:13px;font-weight:700;color:var(--tx);margin-bottom:6px;display:block}
+.fh{font-size:11px;color:var(--txl);margin-top:3px}
+.fi3,.fs{width:100%;padding:12px 16px;background:var(--oal);border:1.5px solid rgba(61,107,79,.2);border-radius:var(--r);font-size:15px;color:var(--tx);font-family:'Noto Sans TC',sans-serif;outline:none;transition:border-color .2s}
+.fi3:focus,.fs:focus{border-color:var(--gr);background:#fff}
+.fs{appearance:none;cursor:pointer;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%233D6B4F' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;padding-right:38px;background-color:var(--oal)}
+.fs:focus{background-color:#fff}
+.fr{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.rb{background:linear-gradient(135deg,rgba(74,103,65,.07) 0%,rgba(156,107,71,.07) 100%);border-radius:var(--r);padding:22px;margin-top:18px;border:1px solid rgba(61,107,79,.15)}
+.rn{font-family:'Noto Serif TC',serif;font-size:32px;font-weight:900;color:var(--gr)}
+.rl2{font-size:12px;color:var(--txm);margin-top:2px}
+.ris{margin-top:14px;display:grid;gap:8px}
+.ri{display:flex;align-items:center;justify-content:space-between;padding:9px 14px;background:rgba(255,255,255,.7);border-radius:8px;font-size:13px}
+.ri .v{font-weight:700;color:var(--gr)}
+.pill{display:inline-flex;align-items:center;gap:4px;padding:6px 16px;border-radius:20px;font-size:13px;font-weight:700}
+.pok{background:rgba(42,102,64,.1);color:var(--ok)}
+.pwn{background:rgba(139,94,60,.1);color:var(--wn)}
+.pdn{background:rgba(155,48,48,.1);color:var(--dn)}
+/* quiz */
+.qp{height:5px;background:var(--oad);border-radius:3px;margin-bottom:24px;overflow:hidden}
+.qb{height:100%;background:var(--gr);border-radius:3px;transition:width .4s ease}
+.qs{display:none}.qs.act{display:block}
+.qq{font-size:17px;font-weight:700;margin-bottom:16px}
+.qos{display:grid;gap:10px}
+.qo{padding:13px 18px;background:var(--oal);border:1.5px solid var(--bd);border-radius:var(--r);cursor:pointer;font-size:14px;color:var(--tx);transition:all .18s;text-align:left;font-family:'Noto Sans TC',sans-serif}
+.qo:hover{border-color:var(--gr);background:var(--grp)}
+.qo.sel{border-color:var(--gr);background:var(--grp);color:var(--gr);font-weight:700}
+/* checklist */
+.clt{display:flex;gap:8px;margin-bottom:20px}
+.cltb{flex:1;padding:10px;background:var(--oad);border-radius:var(--r);font-size:13px;font-weight:700;text-align:center;cursor:pointer;border:2px solid transparent;color:var(--txm);transition:all .2s}
+.cltb.act{border-color:var(--gr);color:var(--gr);background:var(--grp)}
+.clg{margin-bottom:18px}
+.clgt{font-size:11px;font-weight:700;color:var(--grl);margin-bottom:10px;text-transform:uppercase;letter-spacing:.07em}
+.cli{display:flex;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid rgba(61,107,79,.07);cursor:pointer}
+.clb{width:20px;height:20px;border-radius:6px;border:2px solid rgba(61,107,79,.28);flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:12px;transition:all .2s}
+.cli.ck .clb{background:var(--gr);border-color:var(--gr);color:#fff}
+.cli.ck .clt2{color:var(--txl);text-decoration:line-through}
+.clt2{font-size:14px;color:var(--tx);flex:1}
+.clp{margin-top:14px}
+.clpb{height:7px;background:var(--oad);border-radius:4px;overflow:hidden}
+.clpf{height:100%;background:var(--gr);border-radius:4px;transition:width .4s}
+.clpl{font-size:12px;color:var(--txm);margin-top:5px}
+/* ── Knowledge ── */
+.kbg{background:#EDE8E0}
+.kzones{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:40px}
+.kz{background:var(--bgc);border-radius:var(--rl);overflow:hidden;border:1.5px solid var(--bd);box-shadow:var(--sh);cursor:pointer;transition:all .22s}
+.kz:hover{transform:translateY(-3px);box-shadow:var(--shm)}
+.kzh{padding:28px 24px 20px;position:relative}
+.kzh.ld{background:linear-gradient(135deg,#2A3D24 0%,#3E5E35 55%,#4A6741 100%)}
+.kzh.tn{background:linear-gradient(135deg,#3A5832 0%,#527048 55%,#628A58 100%)}
+.kzh.ru{background:linear-gradient(135deg,#4A3520 0%,#7A5030 55%,#9C6B47 100%)}
+.kzic{font-size:34px;margin-bottom:12px}
+.kztt{font-family:'Noto Serif TC',serif;font-size:19px;font-weight:900;color:#fff;margin-bottom:5px}
+.kzst{font-size:13px;color:rgba(255,255,255,.78);line-height:1.6}
+.kzp{padding:16px 20px}
+.kzhot{display:flex;flex-direction:column;gap:5px}
+.kzhi{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--txm);padding:5px 0;border-bottom:1px solid rgba(61,107,79,.07)}
+.kzhi .dot{width:5px;height:5px;border-radius:50%;background:var(--grl);flex-shrink:0}
+.kzbw{padding:0 20px 20px}
+/* drawer */
+.kdrawer{display:none;margin-top:20px;animation:fi .28s ease}
+.kdrawer.op{display:block}
+.dbg{background:var(--bgc);border-radius:var(--rl);border:1.5px solid var(--bd);overflow:hidden;box-shadow:var(--shm)}
+.dh{display:flex;align-items:center;justify-content:space-between;padding:20px 24px;border-bottom:1px solid var(--bd);background:var(--oal)}
+.dt{font-family:'Noto Serif TC',serif;font-size:17px;font-weight:900}
+.dc{background:none;border:none;cursor:pointer;font-size:18px;color:var(--txm);padding:4px 8px;border-radius:6px}
+.dc:hover{background:var(--oad)}
+.alist{padding:12px 24px}
+.aacc{border-bottom:1px solid rgba(61,107,79,.08)}
+.aacc:last-child{border-bottom:none}
+.aab{display:flex;align-items:center;gap:11px;width:100%;padding:14px 0;background:none;border:none;cursor:pointer;text-align:left;font-family:'Noto Sans TC',sans-serif;transition:all .18s}
+.aab:hover .att{color:var(--gr)}
+.anum{font-size:11px;font-weight:700;color:var(--txl);width:26px;flex-shrink:0}
+.att{font-size:14px;font-weight:600;color:var(--tx);flex:1;line-height:1.5;transition:color .18s}
+.atag{font-size:10px;font-weight:700;padding:2px 8px;border-radius:10px;flex-shrink:0}
+.th{background:rgba(155,48,48,.1);color:var(--dn)}
+.tn2{background:rgba(61,107,79,.1);color:var(--gr)}
+.tf{background:rgba(139,94,60,.1);color:var(--br)}
+.aarw{font-size:13px;color:var(--txl);flex-shrink:0;transition:transform .2s}
+.aab.op .aarw{transform:rotate(90deg);color:var(--gr)}
+.abody{display:none;padding:4px 36px 20px;font-size:14px;color:var(--txm);line-height:1.85;animation:fi .2s ease}
+.abody.op{display:block}
+.abody p{margin-bottom:10px}
+.abody ul{padding-left:18px;margin-bottom:10px}
+.abody li{margin-bottom:5px;padding-left:4px}
+.abody strong{color:var(--tx);font-weight:700}
+/* ── Policy section ── */
+.polbg{background:#EDF1E8}
+.pol-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:36px}
+.pol-card{background:var(--bgc);border-radius:var(--rl);border:1.5px solid var(--bd);box-shadow:var(--sh);overflow:hidden}
+.pol-head{padding:20px 22px;border-bottom:1px solid var(--bd);display:flex;align-items:flex-start;gap:14px}
+.pol-ic{font-size:28px;flex-shrink:0;margin-top:2px}
+.pol-meta{flex:1}
+.pol-tag{font-size:10px;font-weight:700;color:var(--gr);background:var(--grp);padding:2px 10px;border-radius:12px;display:inline-block;margin-bottom:6px;letter-spacing:.04em}
+.pol-name{font-family:'Noto Serif TC',serif;font-size:16px;font-weight:900;color:var(--tx);line-height:1.3}
+.pol-body{padding:18px 22px}
+.pol-desc{font-size:13.5px;color:var(--txm);line-height:1.8;margin-bottom:14px}
+.pol-bullets{display:grid;gap:7px}
+.pol-b{display:flex;align-items:baseline;gap:8px;font-size:13px;color:var(--txm)}
+.pol-b::before{content:'›';color:var(--gr);font-weight:900;flex-shrink:0}
+.pol-b strong{color:var(--tx);font-weight:700}
+.pol-cta{margin-top:14px;display:flex;align-items:center;gap:6px;font-size:13px;font-weight:700;color:var(--gr);cursor:pointer;padding-top:12px;border-top:1px solid var(--bd)}
+.pol-cta:hover{color:var(--grd)}
+/* ── Partners ── */
+.pteaser{text-align:center;padding:52px 0 40px}
+.ptcard{max-width:620px;margin:0 auto;background:var(--bgc);border-radius:var(--rl);padding:42px 36px;border:1.5px solid var(--bd);box-shadow:var(--shm)}
+.ptic{font-size:48px;margin-bottom:14px}
+.ptt{font-family:'Noto Serif TC',serif;font-size:22px;font-weight:900;margin-bottom:10px}
+.pts{font-size:15px;color:var(--txm);line-height:1.8;margin-bottom:24px}
+.ptbd{display:flex;flex-wrap:wrap;gap:7px;justify-content:center;margin-bottom:24px}
+.ptbdg{display:flex;align-items:center;gap:5px;background:var(--grp);border-radius:20px;padding:5px 13px;font-size:12px;font-weight:600;color:var(--gr);border:1px solid rgba(61,107,79,.15)}
+.pexp{display:none;animation:fi .28s ease}
+.pexp.op{display:block}
+.pcats{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:28px}
+.pcat{background:var(--bgc);border-radius:var(--rl);border:1.5px solid var(--bd);overflow:hidden;box-shadow:var(--sh)}
+.pcath{padding:18px 20px;display:flex;align-items:center;gap:11px;background:var(--oal);border-bottom:1px solid var(--bd)}
+.pcatic{font-size:24px}
+.pcatn{font-family:'Noto Serif TC',serif;font-size:15px;font-weight:700}
+.pcatc{margin-left:auto;font-size:11px;font-weight:700;color:var(--txl)}
+.pcatb{padding:15px 20px}
+.pcatd{font-size:13px;color:var(--txm);line-height:1.65;margin-bottom:12px}
+.pcata{font-size:13px;font-weight:700;color:var(--gr);display:flex;align-items:center;gap:4px;cursor:pointer}
+.pcata:hover{color:var(--grd)}
+.pnote{margin-top:22px;background:rgba(61,107,79,.06);border-radius:var(--r);padding:15px 20px;font-size:13px;color:var(--txm);text-align:center;border:1px solid rgba(61,107,79,.12)}
+/* ── Reviews modal ── */
+.rvov{display:none;position:fixed;inset:0;background:rgba(28,43,32,.5);z-index:400;backdrop-filter:blur(4px);align-items:flex-start;justify-content:center;padding:70px 16px 30px;overflow-y:auto}
+.rvov.op{display:flex;animation:fi .25s ease}
+.rvmd{background:var(--bg);border-radius:var(--rl);max-width:740px;width:100%;box-shadow:0 20px 60px rgba(0,0,0,.28)}
+.rvmh{display:flex;align-items:center;justify-content:space-between;padding:20px 26px;background:var(--bgc);border-bottom:1.5px solid var(--bd);border-radius:var(--rl) var(--rl) 0 0;position:sticky;top:0}
+.rvmt{font-family:'Noto Serif TC',serif;font-size:18px;font-weight:900}
+.rvmb{padding:20px 26px;display:grid;gap:14px}
+.rvc{background:var(--bgc);border-radius:var(--r);padding:22px;border:1.5px solid var(--bd);box-shadow:var(--sh)}
+.rvs{color:#B07A20;font-size:14px;margin-bottom:9px;letter-spacing:1px}
+.rvt{font-size:14px;color:var(--tx);line-height:1.8;margin-bottom:14px}
+.rva{display:flex;align-items:center;gap:10px}
+.rvav{width:34px;height:34px;border-radius:17px;font-size:14px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.rvn{font-size:13px;font-weight:700}
+.rvr{font-size:11px;color:var(--txl)}
+/* ── FAQ ── */
+.faqbg{background:var(--bgdk)}
+.faqbg .st{color:var(--txi)}
+.faqbg .ss{color:rgba(248,244,238,.6)}
+.fgrid{display:grid;gap:9px}
+.fitem{background:rgba(255,255,255,.06);border-radius:var(--r);border:1px solid rgba(255,255,255,.1);overflow:hidden}
+.fq{display:flex;align-items:center;gap:12px;width:100%;padding:17px 20px;background:none;border:none;cursor:pointer;text-align:left;font-family:'Noto Sans TC',sans-serif;transition:background .2s}
+.fq:hover{background:rgba(255,255,255,.05)}
+.fq.op{background:rgba(61,107,79,.25)}
+.fqt{font-size:15px;font-weight:600;color:rgba(248,244,238,.92);flex:1;line-height:1.5}
+.fico{font-size:18px;color:rgba(255,255,255,.38);flex-shrink:0;transition:transform .25s}
+.fq.op .fico{transform:rotate(45deg);color:var(--grl)}
+.fa{display:none;padding:0 20px 18px 20px;font-size:14px;color:rgba(248,244,238,.7);line-height:1.88;animation:fi .2s ease}
+.fa.op{display:block}
+.fa strong{color:rgba(248,244,238,.92);font-weight:700}
+/* ── Social CTA ── */
+.scta{background:#3E5A36;color:#fff;text-align:center;padding:58px 0}
+.scta h2{font-size:24px;margin-bottom:10px;color:#fff}
+.scta p{opacity:.82;font-size:15px;margin-bottom:26px}
+.sbtns{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.sbtn{display:flex;align-items:center;gap:7px;padding:12px 22px;border-radius:24px;font-size:14px;font-weight:700;cursor:pointer;border:none;font-family:'Noto Sans TC',sans-serif;transition:all .2s}
+.sbtn:hover{transform:translateY(-2px)}
+/* ── Footer ── */
+footer{background:#131B18;color:rgba(248,244,238,.52)}
+.fmain{padding:50px 0 34px}
+.fgr{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:32px}
+.flogo{display:flex;align-items:center;margin-bottom:14px}
+.fdesc{font-size:13px;line-height:1.85;max-width:240px}
+.fct{font-size:13px;font-weight:700;color:var(--txi);margin-bottom:13px}
+.fls{display:flex;flex-direction:column;gap:8px}
+.fls a{font-size:13px;transition:color .2s;cursor:pointer}
+.fls a:hover{color:var(--grl)}
+.fbot{padding:16px 0;border-top:1px solid rgba(255,255,255,.07);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:12px}
+.srow{display:flex;gap:9px;margin-top:14px}
+.sic{width:30px;height:30px;border-radius:7px;background:rgba(255,255,255,.07);display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:rgba(255,255,255,.5);transition:all .2s;cursor:pointer}
+.sic:hover{background:var(--gr);color:#fff}
+/* ── Float ── */
+.fl2{position:fixed;bottom:24px;right:24px;z-index:300}
+.flb{display:flex;align-items:center;gap:9px;background:#06C755;color:#fff;padding:12px 20px;border-radius:28px;box-shadow:0 8px 24px rgba(6,199,85,.38);cursor:pointer;border:none;font-family:'Noto Sans TC',sans-serif;font-size:13px;font-weight:700;transition:all .25s}
+.flb:hover{background:#04A843;transform:translateY(-2px)}
+.ldot{width:7px;height:7px;border-radius:50%;background:#fff;animation:bk 1.8s infinite;flex-shrink:0}
+@keyframes bk{0%,100%{opacity:1}50%{opacity:.35}}
+/* ── Reveal ── */
+.rv{opacity:0;transform:translateY(16px);transition:opacity .5s,transform .5s}
+.rv.vi{opacity:1;transform:none}
+/* ── Responsive ── */
+@media(max-width:900px){
+  .hgrid{grid-template-columns:1fr}.hcard{display:none}
+  .tgrid{grid-template-columns:repeat(2,1fr)}
+  .kzones{grid-template-columns:1fr}
+  .pol-grid{grid-template-columns:repeat(2,1fr)}
+  .fgr{grid-template-columns:1fr 1fr}
+  .pcats{grid-template-columns:1fr}
+}
+@media(max-width:600px){
+  .tgrid{grid-template-columns:1fr}
+  .pol-grid{grid-template-columns:1fr}
+  .fgr{grid-template-columns:1fr}
+  .fr{grid-template-columns:1fr}
+  .nav,.hcta{display:none}
+  .ham{display:block}
+  .hero h1{font-size:26px}
+  .hsub{font-size:15px}
+}
+
+.abody h3{font-family:'Noto Serif TC',serif;font-size:14.5px;font-weight:700;color:var(--tx);margin:18px 0 8px;padding-bottom:5px;border-bottom:1px solid rgba(61,107,79,.1)}
+.abody h3:first-child{margin-top:0}
+.abody ol{padding-left:20px;margin-bottom:10px}
+.abody ol li{margin-bottom:6px;padding-left:4px;line-height:1.8}
+.abody p+h3{margin-top:20px}
+.abody p{margin-bottom:8px}
+
+.art-share{display:flex;align-items:center;gap:8px;margin-top:20px;padding-top:14px;border-top:1px solid rgba(61,107,79,.12)}
+.art-share-lbl{font-size:12px;color:var(--txl);font-weight:600;flex-shrink:0}
+.art-share-btn{display:inline-flex;align-items:center;gap:5px;padding:6px 13px;border-radius:20px;font-size:12px;font-weight:700;cursor:pointer;border:none;font-family:'Noto Sans TC',sans-serif;text-decoration:none;transition:all .2s}
+.art-share-btn:hover{transform:translateY(-1px);opacity:.88}
+.share-fb{background:#1877F2;color:#fff}
+.share-ig{background:linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);color:#fff}
+.share-line{background:#06C755;color:#fff}
+.share-th{background:#000;color:#fff}
+
+/* ── Real logo ── */
+.logo-img{height:38px;width:auto;display:block;
+  /* Colorize black logo to brand moss-green using CSS filter */
+  /* Original is black on white - we need white/green version */
+  filter: brightness(0) saturate(100%) invert(30%) sepia(25%) saturate(800%) hue-rotate(90deg) brightness(85%);
+}
+.logo-img-inv{
+  /* For dark backgrounds (footer): white version */
+  filter: brightness(0) invert(1);
+}
+.logo-text-hide{display:none}
+
+/* ── Policy accordion (mobile) ── */
+.pol-card{transition:all .2s}
+.pol-acc-toggle{display:none}  /* hidden checkbox trick or JS */
+@media(max-width:700px){
+  .pol-grid{grid-template-columns:1fr;gap:12px}
+  .pol-head{cursor:pointer;user-select:none}
+  .pol-body{
+    max-height:0;overflow:hidden;padding:0 22px;
+    transition:max-height .35s ease,padding .35s ease;
+  }
+  .pol-card.open .pol-body{max-height:1600px;padding:16px 22px 20px}
+  .pol-head::after{
+    content:'›';font-size:20px;color:var(--gr);margin-left:auto;
+    flex-shrink:0;transition:transform .25s;line-height:1;
+  }
+  .pol-card.open .pol-head::after{transform:rotate(90deg)}
+  .pol-head{display:flex;flex-wrap:nowrap}
+  /* Show short desc always visible on mobile */
+  .pol-short-desc{
+    font-size:12px;color:var(--txl);margin-top:3px;
+    display:none;
+  }
+}
+@media(min-width:701px){
+  .pol-body{display:block!important;max-height:none!important}
+  .pol-head::after{display:none}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="hi">
+      <div class="logo" onclick="scrollTop()"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAP8AAAFPCAYAAACCtRgLAAAACXBIWXMAAAsSAAALEgHS3X78AAAgAElEQVR4nO2d63XbRteFMVr5b6UCKRWIqcB0BWYqEF2B6QpMVxC6AksVhKrAZAUhK4hYwSdWMN8avRsyBAEkgDlzxX7WYmQ7Ei8Q9pwz5zZKa12QcaCUui6K4rr2YXda6yfeAuOD4k8QpdRlURQTvPMpvlaFbb5eWX6yfVEU5aLwiIdhY/6jtd7kfp1zh+KPGKXUBEKe4GFE/z6id3w0nkNlcTALwqPW+rHDz5LAUPyRAJd8WhF6TCLvS7kobPB1xwUhPij+QMCqTyuPd5l/5AMWg+cHF4PwUPyegGWfjUjs5ygXgzUWAwYdPUPxO0QpVYp9JhCAy52HcjGgV+AHil8QROFnFQs/dus+FJNpuONC4BaKXwCl1ByC/5j8h4mPB2wN1twayELxD0QpZSx7KXpaePccsQistNa73D+sDyj+HiBoN8eDe/hwmG3Bit6AHRR/B2DlF3Tro+OIReCOsYH+UPwtVIJ3S1r5JLg3vysuAt2h+GtA9As8uJdPjwfEBdh7cAaKH2A/b6z8bRRviNiyhSfARaCF0Ys/Q9GXdfVVql15TZRNQyXmzze+37gjuB1oYbTih3u/SlD0W7Ta7ipfnbXYNrQPl3+XaBv2iVkEFswO/GJ04k9oT38oO+JibpVFJuQ6kW7EI+IBxtMbPaMSPyrxVpGKfltpgU260aXWsTiJ0EMwC+t87PGAUYgf1mkV2T52X2lkyfomrC0GMdVKPGArMMp4QNbij3Bfzzr1X92Os0hKo48ICK4Cvw/vZCt+pdQCUfyQN9exIvZ1wPcRLREtBHtsBUbTN5Cd+JG6uwsceKKFHwAWgnngrcG3sQQEsxJ/YGt/qDSbMKdsAbZrc2RkQgQLt/ACsv49ZiH+wNae5aQOCdhUdUQw8M7z63ojefHDVbzzbO2PeM0VrbwfAlZiZlsclKz4A0XyyxbSFffyYQhUpJVlMDBJ8SNvfOcxb39AOihbFzA1AiwC2W0DkhO/5yq97Pd9qYNFwGwHPnv6KPda63kW1y4l8SulVp5+yXTvE8NzTMBsA6ap3xtJiB+r+9pTNP87XHyKPkGQHVh6uFfMVnCWchwgevF73N+PIrc7FjxtD49YAJJM815E8B5agfA3joVvVvC/tNZTCj8fEKe5hifnCrOw/MRCkxzRih8X9F/HK/c303LKuvs8MVs3rbXJBnzAIu+KH6guTYoo3X4I/4fDlxhdE8fY8ZQVSCoTEJ34lVJ3jiO2o2ncIG9BQNDcY656BpJZAKISv2Ph09qTZzxUhyaxAEQjfsfC/469HyHVe85lX0j0C0AU4nco/COsPQN6pBEUB60dZZSiXgCCR/sdCt/k7a8pfHIKpHen6N6T5hb3d5QEFb9D4X9H3p5VeuQsSAkaC/3JwdWKdgEI5vY7Ej4bcYgVlcIy6ThAdFuAIJYfDTrSwj+g2YLCJ4NBNmiC7JAkxgOIKsXs3fI7KuDJosuKxIPDZrJPsRgor5bfkfDvKXwiDeIALgKBP5BiDI43y+9oL5XNYAUSLw7mSBxhsIIWnHkRP3KpO2HhR+M+kfxx4LUekYoO5rE6d/sreycKnyQL7jfJVKDRwwb6CIKPPb/0IA4KnwTBwQJwgx6DIDgVP/ZKkoctUPgkKA4WgNtQswCc7fkR0fxH8CkpfBINDmIAf/oOADoRv4PIPoVPokN4AfAeABR3+xHAkGyTpPBJlOC+/CL03t4hMO4NF3v+lWCAj8InUaO1XgkWAr33uf8XdfuF9/lfcGEJiR7hRjUv+38x8QsX8rByjySHUmon5PV66VWRdPul9vkPFD5JlKlQN+ANJg07RUT8aFWU6H56HrIp8DyEeAeWeo7IvS2fMWnYGdZuP9J6/wq8weC1zoRIANH+FHiqAw6VcaIJCcsvFY1nWy7JApzdJ5ECvHLp/luJH+6+RIDjE+fpk5xApupB4CM5c/8Hu/2C7j4j+yRLUPC2EzgdaK+1nkhfIxvLL5GDNwE+HqZBsgTbWImpPTcu5v8NEj+qkGyj++WBGtznk2zBdlZi/79ALY0Yvd1+uDKPAjl9lu6S0aCUWgu0t5saGLH5f0PEL1HGKPohCIkdQaP5AdkEa3qJXyh/yXw+GSVCvS9iwb++e36JoAP3+WSU4NxI2/TfDeYIWNPZ8gsNLqC7T0aNkPsv4j13svx4w7ZW/8i6fTJ2KvX/NryTSJF3dfsXAoUKC7r7hIi5/wvbsd9n3X4hN2WLo48IIXLzL8xR9IM9gC6WfyWQnqC7T0gFrfWjQJXsZ5vCn5OWH0/839AnB1arEyE5o5R6tNxSD+6NOSd+24Ie5vQJOYFQ7cwf8CR60er2w+rbVvItKXxC2kG13tbyEg3KxLVafgGrf9BaizYi+ASL3/P7lyqnJKQJge31IA+70fJLWX3Ln/eGcb1MEZM5W1ApZU5O1fhlGHfsp1LqyUVLJSHFr+Cfzez/QXn/Rsufq9WvWHOzz5rgz30mETk7SwDDUWZ4X8GObbak6iE9/5leUzdCWP834heK8Adt10VtwqTyuBaaLnzUWosLU/jAhxg5IKdtHhsuCM3Au/xq8RS9jFOT+JOx+jWRX1f+LHVOYBOiC5vALzxVtvAO1pzf+D8ECup6ae+V+IWq+cStPlziS7jr1xWhuxR5G7IDFZR6CvQ5YuKAKdB3Q1JWOSFgDP5C+fBZ6uK3feHBVr+yH68K/VLw0E9JfpdIYQptsXJji0VglFOeBO6JzqX0dfHbWqFXVr82crgayHpJowntxX0jEvgTPNwhRw6oExndIiCw9e5W9GPEjwXAlAhqy8dO4DlSeGzK62bzgHczhutl83jEABjr653KA4bR5pqtunzWF8svUGM8Nqxdf8RY/m/sF7Ije7SFjyJTYGn9O2WlLopf7ieF3w/rFmWWPvfiBgVXK9s+9kSw2e68w7zAk5QVfmy57Y/4CSqkE5/N9tL1CbahgYdjc9z3WU2X4udcvQAghUn6cwUvIPeSa5ug8sdzHlIp/rHnmftyFDqdeAzuq0u+ohcj1+u4tjzr/6T1lziie2xscZz4qItRIuI9tgHZeVGICXUq2Gmhk/ht+4lzZo+Oq0/In05ZjhodZhuwyXQbZeP635wa8/Ubvq4TLbaRZou88nMTSkJppSPecxGw7Dk077AAZLU4m8+ilNpbVLrO2haQ5zy/4DliqVCKZYOvjyFuGMsKvyATkSvNVFWqFZtlJed1oPTxEduybBYAnIr998Afbz3eq1rkY/MCMfPKmsOiR5FfT1H8fYErXvZsTD15JlktAAL1/o3lvvXafoljhENxgMiDWvM+jEH8TeBzzxCQcrUQmAVgkktg1lKbzZ221VpfuGubBOu/p4nWcNvU9ov0F0RwDeYO7zmz+F9mdJ2GXod103Ne1BaCJ1iTbwNXGEJ6YSwS7rkPDrJONwIHY8SCTcqv0WP4rekftdZLNBbMKn31Lom1b594ApmVKU6DljglquRWKbVzNXvRF8YwK6W2Q7Nyptb/zZCPSFwa29ZWuv0ZPWAM1oLu/xP2/0lfJ0zoHXoN3rT5ssKPRAe2n8br/CL03t4JlWOHxsb1fxMcpvhJtMBV/9Oyvr3kBunsZEHm4mDx+V9t3yl+EjVI106FFoBlBk1AYtaf4ifRI7gAvMsg+m9Tck7xk/QQXABubc60D03XsdwtUPwkTbAASAyeSX0IyNB6iFfpdIqfJAXqAWyzAElbfxvXvzr+jOInyYEsQJAz7SPBpmeF4ifJM7Pc/98mHPm3Cfq9tPdS/CRJ0JZta72TnFqNzz50su/LdofiJ8kC939o0UuBctlUGer6vwT9KH6SOjbW+yrhuX+D9/1l0I/iJ0nj43CLSLEJ+j27/hQ/yQGbqr1UD6yh+AnBiKqhkf+rFHP+CPoNjXfQ7SdZYdOym6r1Hzqf8DnFSfGTXLARf6qHflpF/Cl+kgWo+x/q+qcq/sGTiU2BE8VPcmJo5du7RGv9bYJ+E4qf5IRI2WtC2Bw+Q8tPssLKEqZ2ISwPpaHlDwxP+xXE8mDVHE/4PQnFH5BYzgwkz6Ta4Te0tZmWn2THYDGM7Fbgnp8QkOrx9IO9R4qfkLQZGjei5SekpDrfbgTcUPyEjBSKn5CR0nhEd4JMlFIu3/WTZUGFCy5H5qZ2JeWR3F5R5qhepdQSbY08I/80e5SQrnBoojVKKR3pZx0jHywLhbwDA/BzyOuWbj+F3w1zjT4XRfEfFkxCkqUUP4Xfn69KqRzOfCcj5SLxY4tCYw5+SHUKDBk5FwyQWEP3nyTJRcINDbFwk/CxTyR9BhvvizG2MjqA15CEwkr8hJARQvHLIJLzJ8QnFL89B6mCH0J8QvHbk1RFGMkO7vkDYnNOHCG2DBX//sJy/O/YuY+w4YeQLjxdaK2N5fpkeczx2DBz4v7SWqd6vDPJh8Fu/3NX38tf/lfqO214womjYqD3Qs9jFq610HM1sat4SDvJqbvs6ouKFLv6ht4/D6/6+RG19tasopTaCTUVmcXqbmRR963Wmv38NZRSG0GjEjWWlaW70AE/qb6Cd6yxJyPEqrI0mPiVUnPhccm37FAkIyNZy79w8JzsrydjwsbyPwURP0YPuRgg8p5z7ciIsBH/YyjL73J/zr0/GQuD3X4THPcuflhml9FYWn8yFobq6LmmJ4Tl92GZufcnWaOUstrvF77F78Hql1whm0BIrthktp4LmXxbfp/78RXHa5GMsQr2FT7F79Hql7Dwh+SMTVzLr/gDCfGz5d6IkFgZfF+X/QtexI/Z9qHqrRn8I1kBgza0Ovale9eX5Q858OKGR2uRzLDxZl/mTzgXP6LuV65f5wxf6f6TjLDZ7/sRP6LtsVjdNaP/JBPiFz+ad0Jb/ZIr7v9J6qBzdbCmqsNKnIkfb9JF554NH5VSsb0nQvpgczDstvoXl5Z/KdyvL8Xf3P+ThLFx+V+NKHMifhT03Lp4biG4/yepIrLfLxxa/thn2XP/T5ID9TKDvWmt9asht+Lix57axaAOabj/J6lhY/W39X8QFX9kqb0ucP9PUsIm2PdmJLm05V9FGuQ7Bff/JHpgpGzS5m/OtRATfwJBvja4/ycpYDOf4th0rJyI+GE5UxbQR9b/k8ixcfkbT7OSsvwxVfIN5Stn/5EYwX0p6vIXEuLHXuSr7fNY8kXoedY8+INEiK3L78zyS7j732x+GCcN3wu8j3eOD/wkpBfYUou7/IWt+LFPts3p77XWEvvthdAx46b/nwFAEgtWhT1OxC/k7h8tV7UXcGz2HM9pyy2n/5JIcOLyF5aWX8I6LiSP1UY6Q0q0P1gAREKC+JPN+LuTW9hB4hdy9x+01uLuNVY6qxhCBRYAkZDYbodP6qu3+JF2sHX3D4IW+g2IITwIPNUVA4AkBAKBvkN1cEcTvcQvWMwzxx7dJXMsMra8ZwCQBGBuGeg7e8/2tfwrgWKeb+dWJAmwuMwYACSJYttxelb8v3V9JvQS29buS6X1OmECgGjb/SHwdCYAuGuqkQ7ENUuSG0m+SEtg4vVDp0C61vrsAxfUWFJt8TA/P2l7LZvn7vD+V5bvvXyYz3DZ5Zp1fQi9Lz5kHlPJ363FPbGz/DydPkdXt38t0Kq7DGU1tdaLpmEGAzDXYMMMAHEFAuo2mbSzgb6Ss+JXSq2E0nqhR3tJ7f9vEhhTRtLFdivX+edPih/7/M+Wb+boMq3XFQQApbr2brnfJtIInGR97JOabhU/qoskUlwzD2m9TmDb8Uno6b5icSRECluDsuqjtVOWX2Kf/91HWq8PqCqU6AA03LEFmEggYPWLvtvRRvGjqEWiWy/K6bha67lQB+C7xAaWknix9bLv+3rYb8SPHKNtPj+Kff4ZJAuAGP0ngxE6ybq3EXolfnSxSRTEBEvrdQVFEFJ7dnb/kUHAcNhmj+6HdMe+iB9vQmJ/vo0grdcJxCMkRoBFvdCRqFlI1NAM+aGq5d8IvAmx4Ry+EBgB9j2WbAZJCwSLbTtkvw+difEsfqFCnsJTt54Lho4A2zPgRyyw9ZCPNvffBVYf20KeAitQkr3vA0eAPaCGmlaf9AY1Ih8tr1yvvH6dCyHLlbwF7DkCzARYoileImkhFOQ72j7HhVDJa6ru/is6jgC7R50AIUNZCqT2FraaU2gBtOGLRHRfKTX4fWitle3r197LusUlExe+xefeCwx8yBGbOpUPritSUcn30/JpTAGddXr5N4y6GroKJZPW68kc6bvqdRFZ5AR5iq10OgZiPnJNcAyeyKJ/YVHpllxarysNI8A+ZbrIEb9IuPv3Uov+BQJdQ1aSLPb5bVSuyycXI8bJuIBHItEeL7bVe57hZ25upZ63zV1Le+9TTev1gaInEsDdl9DLUtLgvlT44Ubv0ut+YKCJkF7cCVTPisfXXjX2VBaAUzEA5rdJzETVYYnp0bbFPE66ZN+09GIBmLYsAN9i79YjoyeaDkt0yf4t8FRLyTMtSxqHeUDg9QVg63jmvsRwDUKiIIUu2dYxXpUFYO9pOAe3EiQnpLpknenu5Ik9OPFmisM2xN0OQnJEaAxe4crdLzl7XBeCe6wkI6QDCPDZjsErfJx1Meh8fkLIWzCLTyLA5/QI+xKKnxABENmXstReqmcpfkIsgfAlAnyFryPsC4qfEDuEhf/g8wh7ip+QgVRy+RLC3/s+64LiJ2QAwsI/huiSpfgJ6Qlc/Z1QLr+A8L2XzZ/N8xNCfiG8xy8Q4AvSHk/LT0hHHAj/3meArw7FT0gHUMAjKfx96CnQFD8hZ1BKLTHlSkz4QiPzreCen5AWKodrSNTqlxxjGYhDy09yQ6Q6rrK/lxb+NJYOWYqfkBrozNsIpvKKivCjmYRFt5+QX1yeOK3JlqiEX1D8JENsBPaPo8vxKcbZl3T7SW7ENg4u2kNfKH5C3BH1aU8UPyFuiP6YN+75CZGl7NCL/jg7ip8QOaJL552Cbj/JjVBls0kJv6D4SYbMAnykfWrCL+j2k5xQSl0LV+V1oRR+cidO0fKTnHB6yEUDD6kKv6D4SS6g395FWW4b37XWSR9XT7efJA/Ok/zh8XNEn8PvAi0/SRp04P309BlMRP/PHIRf0PKTVEFwz4jwvaePkGxgrw1afpIURvQYq/WfR+Gb/f0kJ+EXtPwkFTBZR+r4664kU6o7BIqfRAtm6M0get/5+y2EH8XILRdQ/CQ6lFIziN6nla/yLeQ8fV9Q/CQKKoKfCY7I7ss+1NFZIaD4SRAqLv00sOBLRmHtq1D8xBsoxinF7nsP38aorH0Vip84AXn4CcQ+8ZiW64qJ5C+11r77AaIhB/HvI3gPIbiM4U3AfZ/gcV35c2g3/hT3JoOQW96+LzGJ/3GgdcgyB9uBG6WUxuK3wcjq57SU1lrq1JpS2AUWm/LP5cCM2Kz5Obaw9iLXJ3WU1jqKjzDw+ONtLOeeDQUC9sG2w2ukJuauHCD6LGrypYhG/CUICtW5xqPEiH2TQ5DGo/jHyOj39aeITvxjg+J3whGDPVZj39efgtF+khMHiP6Ooj8PxU9ygHv6AVD8JGUe4Nozej8Aip+kxgFDPO5y7rjzAcVPUuEBgh9rXYc4FD+JmQcUca0ZwJOH4g+PcWOvxn4RKlDwnqD4w2P2r19H/PkPEPuGLr1fWOQTARhIuYi8GUaKA8q4NxA8g3aBoPgjAv0N9UfKC8IBzUZl49GGrnw8UPyRU+msu660zF5G1ja7R79F2Vlovu4o9Lih+BMHQzPKpqdqU1S9Qeq6R2DxCAFX2TT8mQJPGIqfkJHCE3sIGSkUPyEjheInZKRQ/ISMFIqfkJFC8RMyUih+QkYKxU/ISKH4CRkpFD8hI4XiJ2SkUPyEjBSKn5CRQvETMlIofkJGCsVPyEih+AkZKdmI35zrr5TamSOv8bXpnP9sUUrNlVJP+Pzm62xMn5/0J5sxXkbwRVHcVP5pr7WeBHxL3jDCL4riR+31tlrrUS2ApB85Hdpxc+bvWYIBnquGzzbawZoYgb6oDDZNGXNyUdPv1/46ZWT533wQrbUK8278oZQyk3TfN7zgh7EeXX3imqSKk9+lV8sPKzXD3Hkfr7d08LSbWESFfX3TTf4w8jPrc9vuTWqj00XwavmVUo+ZHEr5p9a6PtfeK1hIdy0Hd/wVmdv/6PNYLqWUcZM/+3o9x5gzFCYurp9v8edySMA3rbULr6IzDQHO2PEagHSU7Vk1XPNPOKXIFc4WTt/if8rkMMqg+2mllDnZ9zbU61uQbBwCntZ/tX9OOqPiO9o/xZ5f+oJdtljBrfDrlGfQhRT+PFHhRwdiJl3jA03f92QZV7oLeUpxFtF+uHg/6/+eW7S/JZ+fCs72rkOIKCPwSWt9F+KFc8rzZ00P4X9r+fevtb+b47ObbrrrBs/ivmVfO20QUNv3BrVyVWCtY0kF/jALUYhrE4Xlx409tSjKcOH2b2K5YftY/DZvpyHY2rhfbfGiGvfqEFF9UYl+X98SLN26SKfVaFpYDV9cFfKcIrjldxy8slndzc8ujBhCpvXOpK32iUX8Y6F+zfa+AnfYbtQXci91L3WCih9WJubglclMLBGk9I5SanFC+F9OeDykH7aBuz4EEXoToS1/CmmSjyFeFKmlv1v+971xEz3esLnzPrNy4E7E2NJ7QAWd6vow+8ymJ+r5HH8iIh0LbfEPsz+cR/Q+SaLEGO1fh9hjm9fENuRf36/dwg6LUVkUZf68CJUWyhwfwb4q9SBpEGIUfw5tmNZorZ+wGJXxhmhSZRmy8VmurZSi+Fv4iAxAHwvXWKXVs777sudrOgceUNAGopEwHWP8JLT42zrPboWyAG+q/gZwEHgOEjejDPiFFv/6REQ7FkLW8RtvZH4iPdRUpNPVgl23fG/Ttmve4kU1/Vvb9xYxzUIgEVT4RV6vbopoTJFPkN74jOYfVAlWy17SVO0YOOAXpEU8+J7f3AioerKZ8NNWNtlW594F0723tvh5K2A9cxN+AU8mtowFA36hQBR7cG1zW6Vg6IEbluQ6gNNrxgLDPM8ZlevAo96bXt/59CO29EZMZuOoCgRPZz7qOFAavUx8eMwWtR1Orlcw8WOQwkLo6Vx09ZlVdxlJV1+bVWoa7NFY7diwOO5brv+kIQj7pSXl2PT6bd/rbY4fhB97ILkrprjr2kncyYg/xAPi0gk8ZqGu0bkHLNura9j2Mw3XedPyfdOG7522fO+b12/7Xs/XJZV7q+tj4eI6haztj6a76Qze+6yJNU2BUjNk5I+e/SJvekyKovi9UvtxRK9F5x6SM6/5FzyyOk60ElL8qYjqCvl2ki5H0wxV3XaY36lSam0yTYitFJX/t8M26d+GWojryuJi4gl/4zk63SM4U/ER5ym+2nYhu9QUpHYSjAwW7UckfikUZW3apxYn9r9ttA3HdHJoAvFGUwxiXanqe28WAlOAhPuxGj96dX+iAex7LRD7Hs/36nuxqJQdmGVT1ryyeJiFY1Lr0vSW5Ykhz28tKqWag/oDntv88jkZN3Mg8Ho5b5vo3pT9aq0XKMD6u+374AlUF4gl6hsea997ixl+3msfeD4/GSN1oR36ptMwc+8D9v/HhoKy+vSn0tovGuZG/EA9gle8Wf6eM9L70tgGLNipVa9Xf8TcgdGehJsquCfqAcGTVhddptU0ZdWjnFe+b4Hg3HWD+J/TzmjVNj/zT8N7mGDrUX8LbracoVJSGTwaU2VM9UWR6qu+r6cyXQtR1t+vEfVl5Webvkc8XYcYQeP3YCGovv+Ji+vky+1P9kijE4yuBTQVEEz+HWPELys9Gk1FTfOqB4eMwIPwR902jOaeN7SLz/AezP/7o/L+nVT4+XL71xmKRfoosEYQOFq1bG3e/BuapLowafneppTVCucsnn39E9+78tkoBUHXP1/9s31vCgprrWctZxL04YAsw7opmAf3f4b3WJYg7yr//9F1H4SX8l7cwOVIKhdjuiTLe5sWqX0lGvyEX9LKx54/o/p+d2WqHUFQ7Q73ihF+Y3k57tdNwz310FKfshv6uTCleY776s7n9WFjz9vnarogwU6hiehMOQlSOM1nCk+13hDU1gsxBG99DqfgWX3xs8tI/NHOI4QFXp4YH3cjNBaufL0DGseCzTag+CuEyLV2YFlJH6WMl21SXyD6UycjueIKW4hg4g/Z0rsUzAJI7fnbLOzvzOnnBYJts8DHxZkzAoMZnCDih4WN5XCMc5imkGgae2CpypFnTg44QcDr+absukevBHXLBX0Z24JZEbx5dB3ycW9hnctx8E2vtUeaMdxWKFARRlMhSayPZeiilVoBylPtOp2cN4BtwwaP+YDXWA8orNHY3192+VnH16v8/F3ur03D9dWIwvd97fmJuQLr0Nfm+T0G+qVctlzk2B6r0L+g2nW7a7g+rYsTrHevCryWqr0ui0aTwDotHI6uVR8D81ipApy03JsbpCrP3dfLE6J/imk4TJCAHwocrgVr/aVaeqsMzt26AG5136PCm7YrizO14k0pqGUH17cpJWlOX5oFmoLcJZ70AKv+8v4qZzZuau66+Ww71F28Cl52jB98j24rFJNlk17lc/hslc/Y1h/RaklO1Km3WrATP3PS+p/w5p5CuLhY5Npc7ueDUM78/DW2Lm0WfIlo/bmRYXfnPIZg91SMb2rALzpr8Z8SVoefbfq5kzPhWlz4XYfXahVcoOtWTvBdDm04smhKi1b05SOXfv7cx2wtWiLGXUahNbn45873b3Lxb85NXULzStPZhh9DzMU378c0+eDRq7LQbEvhzhcDzmu8L2MEMY+AS6q8t+UAhjLI8ibPn/rc/uJXam/XIP5OtfInxlifrF1Ac079Ne9rI6eafm7W0KteYGBGVIVKlZRm+fUaDxcVldX+kPpC1NrE47IcOhnxD6lxz0T8d21HkXU5kehETcXJOvuW1+1U83Did+XlnL7KAaeTlspI8++2h3lshZ7nHEfEW6EsyGMAAAEFSURBVOSDpjHvSSr7riF1AcHSTMKfvWnP/tjzOZquz8n6BUSvB8VRTvy+vNRMOEojP2E79BIshMcwRxDRZerayeCYnGv7c5m332RZzu3Z65iU1sfav510J42lQfNJdeRVffZc28+aUVTbHkMyxUBsQcIa77Hd2kF8byrxsG26K2Mk8LLKKsdJ9AetJmL9+hQFPXUpSknlgUXMynrC9a1G8DsVL+EGLlNZj30i5njNahrMS8XfgHtlA8u9hLcjNoYM72WKgO0Kr9WWPjz1cHI/p7Tnv+5g8bIcrFkJdD4FrQUfACyx1/eN16xnF3YVzyOKAi7c0/WYxEtfBe5n817lr11RFP8Pa2aTfcbIMlYAAAAASUVORK5CYII=" alt="租事無憂" class="logo-img"></div>
+      <nav class="nav">
+        <a onclick="scrollTo2('tools')">免費工具</a>
+        <a onclick="scrollTo2('knowledge')">深度文章</a>
+        <a onclick="scrollTo2('policy')">政策資訊</a>
+        <a onclick="scrollTo2('partners')">廠商合作</a>
+        <a onclick="openRv()">用戶回饋</a>
+        <a onclick="window.open('https://lin.ee/xLs83C2','_blank')">FAQ</a>
+      </nav>
+      <div class="hcta">
+        <button class="btn bb" onclick="scrollTo2('partners')">廠商洽詢</button>
+        <button class="btn bp" onclick="scrollTo2('tools')">使用工具 →</button>
+      </div>
+      <button class="ham" onclick="toggleMN()" aria-label="選單"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<nav class="mnav" id="mn">
+  <a onclick="closeMN();scrollTo2('tools')">🔧 免費工具</a>
+  <a onclick="closeMN();scrollTo2('knowledge')">📖 深度文章</a>
+  <a onclick="closeMN();scrollTo2('policy')">🏛️ 政策資訊</a>
+  <a onclick="closeMN();scrollTo2('partners')">🤝 廠商合作</a>
+  <a onclick="closeMN();openRv()">⭐ 用戶回饋</a>
+  <a onclick="closeMN();scrollTo2('faq')">❓ FAQ</a>
+</nav>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="hgrid">
+      <div>
+        <div class="hey">🏡 房東房客租屋知識平台</div>
+        <h1>租屋大小事<br>就找<em>租事無憂</em></h1>
+        <p class="hsub">房東、房客都需要的工具與知識。押金試算、修繕判定、點交清單、政府政策一站整理，讓每段租賃關係有據可循。</p>
+        <div class="hpills">
+          <span class="hpill">6 大免費工具</span>
+          <span class="hpill">無需登入</span>
+          <span class="hpill">房東房客皆適用</span>
+          <span class="hpill">手機電腦都好用</span>
+          <span class="hpill">引用官方資料</span>
+        </div>
+      </div>
+      <div class="hcard">
+        <div class="hct">工具快速入口</div>
+        <div class="qls">
+          <div class="ql" onclick="openTool('rent')"><span class="ql-ic">💰</span>租金試算器<span class="qla">›</span></div>
+          <div class="ql" onclick="openTool('deposit')"><span class="ql-ic">🏦</span>押金合法性試算<span class="qla">›</span></div>
+          <div class="ql" onclick="openTool('repair')"><span class="ql-ic">🔨</span>修繕責任判定<span class="qla">›</span></div>
+          <div class="ql" onclick="openTool('checklist')"><span class="ql-ic">📋</span>入住點交清單<span class="qla">›</span></div>
+          <div class="ql" onclick="openTool('notary')"><span class="ql-ic">📜</span>公證規費試算<span class="qla">›</span></div>
+          <div class="ql" onclick="openTool('judgment')"><span class="ql-ic">⚖️</span>裁判書查詢助手<span class="qla">›</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TOOLS -->
+<section class="sec" id="tools" style="background:#FDFCFA">
+  <div class="wrap">
+    <div class="sh rv">
+      <div class="sl">免費自助工具</div>
+      <h2 class="st">6 大工具，立即解決租屋疑難</h2>
+      <p class="ss">無需登入，直接使用。每個工具依官方資料設計，結果即時顯示。</p>
+    </div>
+    <div class="tgrid rv">
+      <div class="tc" onclick="openTool('rent')"><div class="tic ig">💰</div><div class="tn">租金試算器</div><div class="td">不足月租金精準換算、日租金計算，支援多種入退租情境。</div><span class="tt">即時計算</span></div>
+      <div class="tc" onclick="openTool('deposit')"><div class="tic io">🏦</div><div class="tn">押金試算器</div><div class="td">自動判斷押金是否超過法定上限，預估可退金額，附燈號提示。</div><span class="tt">合規檢查</span></div>
+      <div class="tc" onclick="openTool('repair')"><div class="tic ir">🔨</div><div class="tn">修繕責任判定</div><div class="td">三步問卷判定責任歸屬，自動產出書面催告通知範本。</div><span class="tt">問卷判定</span></div>
+      <div class="tc" onclick="openTool('checklist')"><div class="tic ib">📋</div><div class="tn">入住點交清單</div><div class="td">房東房客雙軌互動清單，逐項勾選，進度即時更新。</div><span class="tt">互動勾選</span></div>
+      <div class="tc" onclick="openTool('notary')"><div class="tic iw">📜</div><div class="tn">公證規費試算</div><div class="td">依司法院費用標準估算公證費用，附必備文件與流程說明。</div><span class="tt">官方標準</span></div>
+      <div class="tc" onclick="openTool('judgment')"><div class="tic ip">⚖️</div><div class="tn">裁判書查詢助手</div><div class="td">前端組合搜尋字串，一鍵導入司法院官方系統，零個資風險。</div><span class="tt">隱私保護</span></div>
+    </div>
+    <div class="tpanels">
+      <div class="tpanel" id="panel-rent">
+        <div class="ph"><div class="pt2">💰 租金試算器</div><button class="pc" onclick="closeTool()">✕</button></div>
+        <div class="fr">
+          <div class="fg"><label class="fl">月租金（NT$）</label><input type="number" class="fi3" id="r-m" placeholder="例：18,000" oninput="calcR()"></div>
+          <div class="fg"><label class="fl">入住日期</label><input type="date" class="fi3" id="r-s" onchange="calcR()"></div>
+        </div>
+        <div class="fr">
+          <div class="fg"><label class="fl">退租日期（選填）</label><input type="date" class="fi3" id="r-e" onchange="calcR()"><div class="fh">不填則計算入住當月不足月租金</div></div>
+          <div class="fg"><label class="fl">計費方式</label><select class="fs" id="r-md" onchange="calcR()"><option value="actual">依當月實際天數</option><option value="30">固定 30 天制</option></select></div>
+        </div>
+        <div class="rb" id="r-res" style="display:none"><div class="rn" id="r-n">—</div><div class="rl2" id="r-l">計算結果</div><div class="ris" id="r-i"></div></div>
+      </div>
+      <div class="tpanel" id="panel-deposit">
+        <div class="ph"><div class="pt2">🏦 押金試算器</div><button class="pc" onclick="closeTool()">✕</button></div>
+        <div class="fr">
+          <div class="fg"><label class="fl">月租金（NT$）</label><input type="number" class="fi3" id="d-r" placeholder="例：18,000" oninput="calcD()"></div>
+          <div class="fg"><label class="fl">房東要求押金（NT$）</label><input type="number" class="fi3" id="d-a" placeholder="例：36,000" oninput="calcD()"></div>
+        </div>
+        <div class="fg"><label class="fl">預估損壞或清潔費（NT$，選填）</label><input type="number" class="fi3" id="d-d" placeholder="若無特殊損壞可不填" oninput="calcD()"></div>
+        <div class="rb" id="d-res" style="display:none"><div id="d-st"></div><div class="ris" id="d-i" style="margin-top:12px"></div></div>
+      </div>
+      <div class="tpanel" id="panel-repair">
+        <div class="ph"><div class="pt2">🔨 修繕責任判定</div><button class="pc" onclick="closeTool()">✕</button></div>
+        <div class="qp"><div class="qb" id="rp-b" style="width:25%"></div></div>
+        <div class="qs act" id="rp-1"><div class="qq">Q1 — 哪個部位出了問題？</div><div class="qos"><button class="qo" onclick="rpS(1,'wall',event)">🧱 牆面、油漆、壁紙</button><button class="qo" onclick="rpS(1,'floor',event)">🪵 地板、磁磚、木地板</button><button class="qo" onclick="rpS(1,'app',event)">🔌 冷氣、熱水器、家電設備</button><button class="qo" onclick="rpS(1,'door',event)">🚪 門窗、鎖具</button><button class="qo" onclick="rpS(1,'pipe',event)">🔧 水管、電線、結構漏水</button></div></div>
+        <div class="qs" id="rp-2"><div class="qq">Q2 — 損壞的原因是？</div><div class="qos"><button class="qo" onclick="rpS(2,'nat',event)">⏳ 正常使用、自然老化磨損</button><button class="qo" onclick="rpS(2,'flt',event)">⚠️ 我方不小心或使用不當</button><button class="qo" onclick="rpS(2,'pre',event)">🏗️ 入住前設備本身已有問題</button></div></div>
+        <div class="qs" id="rp-3"><div class="qq">Q3 — 已通知房東多久了？</div><div class="qos"><button class="qo" onclick="rpS(3,'no',event)">❌ 尚未通知房東</button><button class="qo" onclick="rpS(3,'vb',event)">💬 口頭告知，但對方未處理</button><button class="qo" onclick="rpS(3,'wr',event)">📩 已有書面記錄（LINE 截圖等）</button></div></div>
+        <div class="qs" id="rp-r"><div class="rb" id="rp-rb"></div><div style="display:flex;gap:10px;margin-top:16px"><button class="btn bo" onclick="resetRP()">重新判定</button><button class="btn bp" onclick="copyLtr()">📄 複製催告範本</button></div></div>
+      </div>
+      <div class="tpanel" id="panel-checklist">
+        <div class="ph"><div class="pt2">📋 入住點交清單</div><button class="pc" onclick="closeTool()">✕</button></div>
+        <div class="clt"><div class="cltb act" onclick="swCL('t',this)">🏠 房客自保清單</div><div class="cltb" onclick="swCL('l',this)">🔑 房東點交清單</div></div>
+        <div id="cl-c"></div>
+        <div class="clp"><div class="clpb"><div class="clpf" id="cl-f" style="width:0%"></div></div><div class="clpl" id="cl-l">已完成 0 / 0 項</div></div>
+      </div>
+      <div class="tpanel" id="panel-notary">
+        <div class="ph"><div class="pt2">📜 公證規費試算</div><button class="pc" onclick="closeTool()">✕</button></div>
+        <div class="fr">
+          <div class="fg"><label class="fl">月租金（NT$）</label><input type="number" class="fi3" id="n-r" placeholder="例：18,000" oninput="calcN()"></div>
+          <div class="fg"><label class="fl">租約期間（月）</label><input type="number" class="fi3" id="n-m" placeholder="例：12" oninput="calcN()"></div>
+        </div>
+        <div class="fr">
+          <div class="fg"><label class="fl">押金金額（NT$）</label><input type="number" class="fi3" id="n-d" placeholder="例：36,000" oninput="calcN()"></div>
+          <div class="fg"><label class="fl">公證類型</label><select class="fs" id="n-t" onchange="calcN()"><option value="e">逕受強制執行公證（效力更強）</option><option value="g">一般公證</option></select></div>
+        </div>
+        <div class="rb" id="n-res" style="display:none"><div class="rn" id="n-n">—</div><div class="rl2">預估公證規費</div><div class="ris" id="n-i"></div></div>
+      </div>
+      <div class="tpanel" id="panel-judgment">
+        <div class="ph"><div class="pt2">⚖️ 裁判書查詢助手</div><button class="pc" onclick="closeTool()">✕</button></div>
+        <div class="fg"><label class="fl">關鍵人物姓名（選填，不會儲存）</label><input type="text" class="fi3" id="j-nm" placeholder="例：王小明"></div>
+        <div class="fr">
+          <div class="fg"><label class="fl">案件類型</label><select class="fs" id="j-t"><option>遷讓房屋</option><option>給付租金</option><option>租賃糾紛</option><option>押金返還</option><option>修繕費用</option></select></div>
+          <div class="fg"><label class="fl">時間範圍</label><select class="fs" id="j-y"><option value="1">近 1 年</option><option value="5" selected>近 5 年</option><option value="10">近 10 年</option></select></div>
+        </div>
+        <div style="background:var(--grp);border-radius:var(--r);padding:13px 16px;font-size:13px;color:var(--txm);margin-bottom:16px;border:1px solid rgba(61,107,79,.15)">🔒 <strong>隱私說明：</strong>資料在您的瀏覽器組合，完全不經本站伺服器，直接連至司法院官方系統。</div>
+        <button class="btn bp" onclick="goJ()" style="width:100%;justify-content:center;padding:14px">🔍 前往司法院裁判書查詢</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KNOWLEDGE -->
+<section class="sec kbg" id="knowledge">
+  <div class="wrap">
+    <div class="sh rv">
+      <div class="sl">深度文章</div>
+      <h2 class="st">房東、房客、租賃規範三大專區</h2>
+      <p class="ss">每篇文章針對真實情境深度撰寫，點擊專區查看全部文章，點擊標題展開閱讀。</p>
+    </div>
+    <div class="kzones rv">
+      <div class="kz" onclick="toggleZ('l')">
+        <div class="kzh ld"><div class="kzic">🏠</div><div class="kztt">房東專區</div><div class="kzst">招租、合約、稅務、修繕管理，房東實務完整攻略</div></div>
+        <div class="kzp"><div class="kzhot">
+          <div class="kzhi"><span class="dot"></span>押金要收多少才對？</div>
+          <div class="kzhi"><span class="dot"></span>遇到惡意欠租怎麼辦？</div>
+          <div class="kzhi"><span class="dot"></span>公益出租人稅務優惠解析</div>
+        </div></div>
+        <div class="kzbw"><button class="btn bp" style="width:100%;justify-content:center" onclick="event.stopPropagation();toggleZ('l')">查看全部文章 →</button></div>
+      </div>
+      <div class="kz" onclick="toggleZ('t')">
+        <div class="kzh tn"><div class="kzic">🪪</div><div class="kztt">房客專區</div><div class="kzst">看房、入住、糾紛處理、退租押金，房客自保全流程</div></div>
+        <div class="kzp"><div class="kzhot">
+          <div class="kzhi"><span class="dot"></span>押金被亂扣怎麼追回？</div>
+          <div class="kzhi"><span class="dot"></span>電費被超收的自救方式</div>
+          <div class="kzhi"><span class="dot"></span>房東不修繕我可以怎麼辦？</div>
+        </div></div>
+        <div class="kzbw"><button class="btn bp" style="width:100%;justify-content:center;background:var(--grl)" onclick="event.stopPropagation();toggleZ('t')">查看全部文章 →</button></div>
+      </div>
+      <div class="kz" onclick="toggleZ('r')">
+        <div class="kzh ru"><div class="kzic">📋</div><div class="kztt">租賃規範知識</div><div class="kzst">合約條款、押金規定、修繕責任、公證制度完整解析</div></div>
+        <div class="kzp"><div class="kzhot">
+          <div class="kzhi"><span class="dot"></span>定型化契約無效條款大全</div>
+          <div class="kzhi"><span class="dot"></span>公證 vs 不公證差在哪？</div>
+          <div class="kzhi"><span class="dot"></span>租賃爭議怎麼走調解？</div>
+        </div></div>
+        <div class="kzbw"><button class="btn" style="width:100%;justify-content:center;background:var(--br);color:#fff" onclick="event.stopPropagation();toggleZ('r')">查看全部文章 →</button></div>
+      </div>
+    </div>
+    <div class="kdrawer" id="drawer-l"><div class="dbg"><div class="dh"><div class="dt">🏠 房東專區</div><button class="dc" onclick="toggleZ('l')">✕ 收起</button></div><div class="alist" id="arts-l"></div></div></div>
+    <div class="kdrawer" id="drawer-t"><div class="dbg"><div class="dh"><div class="dt">🪪 房客專區</div><button class="dc" onclick="toggleZ('t')">✕ 收起</button></div><div class="alist" id="arts-t"></div></div></div>
+    <div class="kdrawer" id="drawer-r"><div class="dbg"><div class="dh"><div class="dt">📋 租賃規範知識</div><button class="dc" onclick="toggleZ('r')">✕ 收起</button></div><div class="alist" id="arts-r"></div></div></div>
+  </div>
+</section>
+
+<!-- POLICY -->
+<section class="sec polbg" id="policy">
+  <div class="wrap">
+    <div class="sh rv">
+      <div class="sl">政府政策資訊</div>
+      <h2 class="st">房東房客都應該知道的政府福利</h2>
+      <p class="ss">整理現行政府租屋相關政策，資格條件、補貼金額、申請管道一次看懂。</p>
+    </div>
+    <div class="pol-grid rv" id="pol-grid"></div>
+
+    <!-- ═══ 300億元中央擴大租金補貼：長篇完整攻略（預設收合，點擊展開） ═══ -->
+    <style>
+    .pol-article{margin-top:26px;background:var(--bgc);border:1.5px solid var(--bd);border-radius:var(--rl);box-shadow:var(--sh);overflow:hidden}
+    .pol-art-toggle{display:flex;align-items:center;gap:12px;width:100%;padding:20px 24px;background:var(--oal);border:none;cursor:pointer;text-align:left;font-family:'Noto Sans TC',sans-serif;transition:background .2s}
+    .pol-art-toggle:hover{background:var(--grp)}
+    .pol-art-title{font-family:'Noto Serif TC',serif;font-size:16px;font-weight:900;color:var(--tx);flex:1;line-height:1.5}
+    .pol-art-hint{font-size:12px;font-weight:700;color:var(--gr);flex-shrink:0;white-space:nowrap}
+    .pol-art-arrow{font-size:14px;color:var(--gr);transition:transform .25s;flex-shrink:0}
+    .pol-art-toggle.op .pol-art-arrow{transform:rotate(90deg)}
+    .pol-art-body{display:none;padding:26px 28px 30px;font-size:14.5px;color:var(--txm);line-height:1.9;animation:fi .25s ease}
+    .pol-art-body.op{display:block}
+    .pol-art-body h3{font-family:'Noto Serif TC',serif;font-size:17px;font-weight:900;color:var(--tx);margin:26px 0 10px;padding-bottom:7px;border-bottom:1.5px solid rgba(74,103,65,.15)}
+    .pol-art-body h3:first-child{margin-top:0}
+    .pol-art-body h4{font-family:'Noto Serif TC',serif;font-size:15px;font-weight:700;color:var(--tx);margin:16px 0 6px}
+    .pol-art-body p{margin-bottom:12px}
+    .pol-art-body ul,.pol-art-body ol{padding-left:22px;margin-bottom:12px}
+    .pol-art-body li{margin-bottom:6px}
+    .pol-art-body strong{color:var(--tx);font-weight:700}
+    .pol-art-body .pol-art-note{background:var(--grp);border:1px solid rgba(74,103,65,.15);border-radius:var(--r);padding:14px 18px;font-size:13px;margin:14px 0}
+    .pol-art-body table{width:100%;border-collapse:collapse;margin:12px 0;font-size:13px}
+    .pol-art-body th,.pol-art-body td{border:1px solid var(--oad);padding:8px 12px;text-align:left}
+    .pol-art-body th{background:var(--oal);color:var(--tx);font-weight:700}
+    @media(max-width:600px){.pol-art-body{padding:20px 18px 24px}.pol-art-body table{font-size:12px}.pol-art-body th,.pol-art-body td{padding:6px 8px}}
+    </style>
+    <div class="pol-article rv" id="rent300-wrap" itemscope itemtype="https://schema.org/Article">
+      <button class="pol-art-toggle" id="rent300-toggle" onclick="toggleRent300()" aria-expanded="false" aria-controls="rent300-body">
+        <span style="font-size:24px">📖</span>
+        <span class="pol-art-title" itemprop="headline">2026（115年）300億元中央擴大租金補貼完整攻略：申請資格、補貼金額、加碼倍數、線上申請流程一次看懂</span>
+        <span class="pol-art-hint">點擊展開全文</span>
+        <span class="pol-art-arrow">›</span>
+      </button>
+      <div class="pol-art-body" id="rent300-body" itemprop="articleBody">
+        <h3>什麼是「300億元中央擴大租金補貼專案」？</h3>
+        <p>「300億元中央擴大租金補貼專案」是行政院自民國111年（2022年）7月起推動、由內政部國土管理署主辦的全國性租金補貼計畫，也是台灣歷來預算規模最大、照顧戶數最多、申請資格最寬的住宅補貼政策。專案將原本每年約12萬戶的補貼規模大幅擴大，並於後續的「租金補貼2.0」持續放寬資格、簡化流程，115年度（2026年）補貼戶數已擴大至每年75萬戶。</p>
+        <p>簡單來說，只要你是在外租屋、名下沒有房子、所得在標準以內的租屋族，政府每個月會直接把一筆補貼金額匯進你的帳戶，直接降低你的實質房租負擔。依內政部統計，超過半數受補貼家戶的房租負擔直接減少四成以上，弱勢族群甚至可減輕約七成。</p>
+        <h3>115年（2026年）申請時間</h3>
+        <p>115年度專案自 <strong>115年1月1日上午9時起，至115年12月31日下午5時止</strong>，全年受理、<strong>隨到隨辦</strong>。已領有補貼的舊戶不必重新申請，系統會自動帶入審查（自動勾稽財稅、戶政與弱勢身分資料）；新戶則可隨時提出申請，不必再像早年擠在短短兩個月的申請窗口。</p>
+        <h3>誰可以申請？六大資格條件</h3>
+        <ol>
+          <li><strong>國籍與年齡：</strong>具中華民國國籍、在國內設有戶籍，且年滿18歲即可申請（學生也可以申請）。</li>
+          <li><strong>無自有住宅：</strong>申請人及其配偶名下均無自有住宅。</li>
+          <li><strong>所得條件：</strong>家庭成員平均每人每月所得，低於租屋所在地當年度公告「最低生活費」的<strong>3倍</strong>（早期為2.5倍，本專案已放寬為3倍）。</li>
+          <li><strong>財產條件：</strong>家庭動產與不動產低於內政部公告限額（各縣市不同，依當年度公告為準）。</li>
+          <li><strong>租賃事實：</strong>有合法的定期租賃契約，契約需載明出租人姓名、承租人姓名與身分證統一編號、房屋地址、租金與租期。承租人必須就是申請人本人；出租人不得為家庭成員或直系親屬。</li>
+          <li><strong>房屋條件：</strong>所承租房屋不得為社會住宅或政府興辦之出租住宅。特別注意：<strong>115年新制上路後，承租「無房屋稅籍的未保存登記建物」（例如頂樓加蓋違建）原則上已不得申請</strong>，原領有補貼的舊戶則有一年緩衝期，建議儘早轉租合法住宅。</li>
+        </ol>
+        <h4>各縣市所得門檻參考（家庭成員平均每人每月所得上限）</h4>
+        <p>以近年內政部公告標準為例：台北市約 50,948 元、新北市約 42,250 元、桃園市約 41,920 元、台中市約 40,193 元、台南市約 38,788 元、高雄市約 40,100 元、其他多數縣市約 38,788 元。門檻其實比多數人想像的寬鬆——一般上班族多半符合資格。實際數字每年會隨最低生活費公告調整，請以內政部最新公告為準。</p>
+        <h3>可以領多少？補貼金額與加碼倍數</h3>
+        <p>補貼「基準金額」依租屋所在縣市分級，並依家庭組成不同，大約落在<strong>每月 2,000 元至 8,000 元</strong>之間（台北市等第一級地區金額最高）。在基準金額之上，專案還針對四大族群提供有感加碼：</p>
+        <table>
+          <tr><th>身分別</th><th>加碼倍數</th><th>說明</th></tr>
+          <tr><td>初入社會單身青年</td><td>1.2 倍</td><td>成年未滿40歲之單身者</td></tr>
+          <tr><td>新婚家庭</td><td>1.3 倍</td><td>申請時結婚2年以內</td></tr>
+          <tr><td>育兒家庭</td><td>1.4～1.8 倍</td><td>育有未成年子女（含胎兒）1名1.4倍、2名1.6倍、3名以上1.8倍，每多1名加0.2倍</td></tr>
+          <tr><td>經濟弱勢</td><td>1.4 倍</td><td>低收入戶、中低收入戶</td></tr>
+          <tr><td>社會弱勢</td><td>1.2 倍</td><td>身心障礙者、65歲以上長者、原住民、特殊境遇家庭等</td></tr>
+        </table>
+        <p>舉例：在台北市租屋、育有3名未成年子女的家庭，若適用最高基準金額 8,000 元，加碼 1.8 倍後每月最高可領約 <strong>14,400 元</strong>；一位25歲在台北市租屋的單身上班族，若基準金額為 3,000 元，加碼 1.2 倍後每月實領 3,600 元。想知道自己能領多少，可利用內政部「租金補貼資格檢視及金額試算」系統，不必輸入個資即可試算。</p>
+        <h3>怎麼申請？三種申請方式與線上五步驟</h3>
+        <ul>
+          <li><strong>線上申請（最推薦）：</strong>至「300億元中央擴大租金補貼」線上申請網站，依序完成：①驗證身分 → ②填寫資料 → ③上傳租約與存摺封面 → ④核對資料 → ⑤送出完成。全程約10至20分鐘。</li>
+          <li><strong>郵寄申請：</strong>下載並填寫申請書，連同應備文件掛號郵寄至租屋所在地的直轄市、縣（市）政府受理單位，以郵戳日期為申請日。</li>
+          <li><strong>臨櫃申請：</strong>於上班日親至租屋所在地縣市政府受理單位辦理，現場有專人協助。</li>
+        </ul>
+        <h4>應準備文件</h4>
+        <ul>
+          <li>申請書（線上申請免附）</li>
+          <li>定期租賃契約影本或電子契約（需載明出租人姓名、承租人姓名及身分證字號、地址、租金、租期）</li>
+          <li>載有申請人戶名與帳號的金融機構存摺封面</li>
+          <li>具弱勢身分者：弱勢身分證明文件影本</li>
+          <li>申請人或配偶懷孕者：審查基準日前一個月內醫療院所出具之證明</li>
+        </ul>
+        <p>審查方面，主辦機關應於受理後<strong>3個月內</strong>完成審查並核發核定函；核定後補貼款按月直接撥入申請人帳戶。審核進度可於官方「進度查詢」頁面，以身分證字號＋健保卡卡號查詢。</p>
+        <h3>房東不能拒絕！房客的三大保障</h3>
+        <ul>
+          <li><strong>不需要房東同意：</strong>申請租金補貼是房客的法定權利，租約中「不得申請租金補貼」的條款依規定無效，房客可以直接主張不受拘束。</li>
+          <li><strong>房東不得漲租或解約：</strong>房東若因房客申請補貼而要求漲租、要求房客負擔增加的稅賦或終止租約，房客可向縣市政府申訴；經限期改正而不改正者，可處3萬至30萬元罰鍰，仍不改正者可加重處5萬至50萬元且按次處罰。</li>
+          <li><strong>租約沒有房東身分證字號也能申請：</strong>租金補貼2.0已放寬，申請時可先送件，由政府協助補正。</li>
+        </ul>
+        <h3>對房東其實是好事：自動取得公益出租人資格</h3>
+        <p>房客獲核定租金補貼後，房東即自動成為「公益出租人」，無需申請即可享有三大稅務優惠：①綜合所得稅每屋每月租金收入 1.5 萬元以內免稅；②房屋稅適用自住稅率 1.2%；③地價稅最低可適用千分之2優惠稅率（依各地方自治條例認定）。與其擔心租賃所得曝光，不如配合房客申請、合法節稅，才是雙贏。詳情可見本站「公益出租人稅務減免」政策卡片。</p>
+        <h3>常見問題 FAQ</h3>
+        <h4>Q1：學生可以申請嗎？</h4>
+        <p>可以。租金補貼2.0已放寬為年滿18歲即可申請，在外縣市租屋的大學生同樣適用，惟仍需符合家庭所得與財產條件（以全體家庭成員計算）。</p>
+        <h4>Q2：已經領過的人明年要重新申請嗎？</h4>
+        <p>不用。舊戶由系統自動帶入審查；但若換約或搬家，應於原租賃契約消滅後三個月內檢附新租約，以免補貼中斷。</p>
+        <h4>Q3：可以和其他住宅補貼同時領嗎？</h4>
+        <p>原則上家庭成員不得同時接受政府其他住宅補貼；若正在領取其他租金補貼，需切結放棄原補貼後才能改領本專案。</p>
+        <h4>Q4：申請後多久入帳？</h4>
+        <p>審查作業約1至3個月，核定後按月撥款；舊戶帶入者因作業時間，年初款項可能較晚入帳，屬正常現象。</p>
+        <h4>Q5：如何避免租屋補貼詐騙？</h4>
+        <p>政府絕對不會要求你操作 ATM、也不會用簡訊連結要你「領取補貼」。官方網址結尾一定是「gov.tw」，任何非 gov.tw 的補貼連結一律不要點，有疑問可撥打165反詐騙專線。</p>
+        <div class="pol-art-note">📌 本文依內政部國土管理署、行政院公開資料整理撰寫，補貼金額、所得門檻及相關規定可能隨年度公告調整，實際申請條件請以官方最新公告為準。本站為中立租屋知識平台，不代辦任何補貼申請。</div>
+        <div class="pol-cta" onclick="window.open('https://has.nlma.gov.tw/house300e/','_blank')">🔗 前往「300億元中央擴大租金補貼」官方網站申請 →</div>
+      </div>
+    </div>
+    <script>
+    function toggleRent300(){
+      const t=document.getElementById('rent300-toggle'),b=document.getElementById('rent300-body');
+      const open=b.classList.contains('op');
+      b.classList.toggle('op',!open);t.classList.toggle('op',!open);
+      t.setAttribute('aria-expanded',String(!open));
+      t.querySelector('.pol-art-hint').textContent=open?'點擊展開全文':'點擊收合';
+      if(!open)setTimeout(()=>t.scrollIntoView({behavior:'smooth',block:'start'}),80);
+    }
+    </script>
+  </div>
+</section>
+
+<!-- PARTNERS -->
+<section class="sec" id="partners" style="background:#F4F0EA">
+  <div class="wrap">
+    <div class="sh c rv">
+      <div class="sl" style="justify-content:center">居家生態系合作</div>
+      <h2 class="st">廠商合作夥伴</h2>
+      <p class="ss">建立台灣優質居家服務生態系，歡迎各領域廠商洽詢進駐。</p>
+    </div>
+    <div class="pteaser rv" id="pt">
+      <div class="ptcard">
+        <div class="ptic">🤝</div>
+        <div class="ptt">歡迎優質廠商洽詢合作</div>
+        <div class="pts">租事無憂採固定廣告曝光費制度，不收取交易佣金，維持平台完全中立。正在徵求各居家服務領域的專業夥伴，與台灣房東房客建立長期信任。</div>
+        <div class="ptbd">
+          <span class="ptbdg">🏗️ 裝修工程</span><span class="ptbdg">🧹 清潔消毒</span><span class="ptbdg">💧 防水抓漏</span>
+          <span class="ptbdg">⚖️ 租賃顧問</span><span class="ptbdg">🔌 水電維修</span><span class="ptbdg">📦 搬運倉儲</span>
+          <span class="ptbdg">🐜 除蟲防治</span><span class="ptbdg">❄️ 冷氣清洗</span><span class="ptbdg">🎨 油漆粉刷</span>
+          <span class="ptbdg">🔍 驗屋檢測</span><span class="ptbdg">🛠️ 家電維修</span><span class="ptbdg">🛡️ 居家保險</span>
+          <span class="ptbdg">🔑 鎖具安全</span><span class="ptbdg">🗑️ 廢棄物清運</span><span class="ptbdg">📐 室內設計</span>
+        </div>
+        <button class="btn bp blg" onclick="window.open('https://lin.ee/xLs83C2','_blank')">了解合作領域與方式 →</button>
+      </div>
+    </div>
+    <div class="pexp" id="pe">
+      <div style="text-align:center;margin-bottom:24px"><button class="btn bo" onclick="hideP()">← 收起</button></div>
+      <div class="pcats" id="pcat-g"></div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec faqbg" id="faq">
+  <div class="wrap">
+    <div class="sh c rv">
+      <h2 class="st" style="color:var(--txi)">FAQ 專區</h2>
+      <p class="ss">房東房客最常遇到的問題，簡潔直接的完整答案。</p>
+    </div>
+    <div class="fgrid rv" id="fgrid"></div>
+  </div>
+</section>
+
+<!-- REVIEWS MODAL -->
+<div class="rvov" id="rvov" onclick="if(event.target===this)closeRv()">
+  <div class="rvmd">
+    <div class="rvmh"><div class="rvmt">⭐ 用戶真實回饋</div><button class="pc" onclick="closeRv()" style="background:var(--oad)">✕</button></div>
+    <div class="rvmb" id="rvmb"></div>
+  </div>
+</div>
+
+<!-- Social CTA -->
+<style>
+.sbtn-ghost{background:rgba(255,255,255,.12);color:#fff;border:1.5px solid rgba(255,255,255,.25)}
+.sbtn-ghost:hover{background:rgba(255,255,255,.22)}
+.sbtn-line{background:#06C755;color:#fff}
+.sbtn-line:hover{background:#04A843}
+</style>
+<section class="scta">
+  <div class="wrap">
+    <h2>不漏接最新租屋知識</h2>
+    <p>加入社群，每週更新租屋懶人包，第一手掌握最新政策與實用知識</p>
+    <div class="sbtns">
+      <a href="https://www.instagram.com/rentfreely.life/" target="_blank" class="sbtn sbtn-ghost">📸 Instagram</a>
+      <a href="https://www.threads.com/@rentfreely.life" target="_blank" class="sbtn sbtn-ghost">🧵 Threads</a>
+      <a href="https://www.facebook.com/profile.php?id=61591464345443" target="_blank" class="sbtn sbtn-ghost">👍 Facebook</a>
+      <a href="https://lin.ee/xLs83C2" target="_blank" class="sbtn sbtn-line">💬 加入 LINE 官方帳號</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="fmain">
+    <div class="wrap">
+      <div class="fgr">
+        <div>
+          <a class="flogo" href="/"><img src="/assets/images/logo.png" alt="租事無憂" class="logo-img logo-img-inv" style="height:30px"></a>
+          <div class="fdesc">房東房客一站式租屋知識平台。讓每段租賃有規範可循、有工具可用、有知識可依靠。</div>
+          <div class="srow">
+            <a href="https://www.instagram.com/rentfreely.life/" target="_blank" class="sic" aria-label="Instagram">IG</a>
+            <a href="https://www.facebook.com/profile.php?id=61591464345443" target="_blank" class="sic" aria-label="Facebook">FB</a>
+            <a href="https://www.threads.com/@rentfreely.life" target="_blank" class="sic" aria-label="Threads">🧵</a>
+            <a href="https://lin.ee/xLs83C2" target="_blank" class="sic" aria-label="LINE">LINE</a>
+          </div>
+        </div>
+        <div>
+          <div class="fct">免費工具</div>
+          <div class="fls">
+            <a href="/#tools">租金試算器</a>
+            <a href="/#tools">押金試算器</a>
+            <a href="/#tools">修繕責任判定</a>
+            <a href="/#tools">入住點交清單</a>
+            <a href="/#tools">公證規費試算</a>
+            <a href="/#tools">裁判書查詢</a>
+          </div>
+        </div>
+        <div>
+          <div class="fct">深度文章</div>
+          <div class="fls">
+            <a href="/articles/?cat=landlord">房東專區</a>
+            <a href="/articles/?cat=tenant">房客專區</a>
+            <a href="/articles/?cat=rules">租賃規範知識</a>
+            <a href="/#policy">政府政策資訊</a>
+            <a href="/#faq">FAQ 專區</a>
+          </div>
+        </div>
+        <div>
+          <div class="fct">關於平台</div>
+          <div class="fls">
+            <a href="https://lin.ee/xLs83C2" target="_blank">廠商合作洽詢</a>
+            <a href="/privacy/">隱私政策</a>
+            <a href="/disclaimer/">免責聲明</a>
+            <a href="https://lin.ee/xLs83C2" target="_blank">聯絡我們</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="fbot">
+      <div>© 2026 租事無憂團隊 rentfreely.life · All Rights Reserved · guan0402guan@gmail.com</div>
+      <div style="font-size:11px;opacity:.4;max-width:440px;text-align:right">本站為純中立租屋知識媒體，不提供不動產仲介、訴訟及金融服務。所有內容僅供參考，實際規定以政府主管機關公告為準。｜<a href="/privacy/" style="text-decoration:underline">隱私政策</a>｜<a href="/disclaimer/" style="text-decoration:underline">免責聲明</a></div>
+    </div>
+  </div>
+</footer>
+<div class="fl2">
+  <a href="https://lin.ee/xLs83C2" target="_blank" class="flb"><div class="ldot"></div>💬 加入 LINE</a>
+</div>
+<script>
+
+function scrollTop(){window.scrollTo({top:0,behavior:'smooth'})}
+function scrollTo2(id){const el=document.getElementById(id);if(el)el.scrollIntoView({behavior:'smooth'})}
+function toggleMN(){document.getElementById('mn').classList.toggle('op')}
+function closeMN(){document.getElementById('mn').classList.remove('op')}
+function openTool(id){
+  document.querySelectorAll('.tpanel').forEach(p=>p.classList.remove('act'));
+  const p=document.getElementById('panel-'+id);
+  if(p){p.classList.add('act');setTimeout(()=>p.scrollIntoView({behavior:'smooth',block:'nearest'}),60)}
+  if(id==='checklist')renderCL('t');
+}
+function closeTool(){document.querySelectorAll('.tpanel').forEach(p=>p.classList.remove('act'))}
+function fmt(n){return'NT$'+Math.round(n).toLocaleString('zh-TW')}
+function calcR(){
+  const m=parseFloat(document.getElementById('r-m').value)||0;
+  const s=document.getElementById('r-s').value,e=document.getElementById('r-e').value;
+  const md=document.getElementById('r-md').value;
+  if(!m||!s)return;
+  const sd=new Date(s);
+  const dim=md==='30'?30:new Date(sd.getFullYear(),sd.getMonth()+1,0).getDate();
+  const dr=m/dim;
+  let items=[{l:'月租金',v:fmt(m)},{l:md==='30'?'固定計費天數':'當月天數',v:dim+' 天'},{l:'每日租金',v:fmt(dr)}];
+  let res=m,lbl='本月應繳租金';
+  if(e){const ed=new Date(e);const dy=Math.max(0,Math.round((ed-sd)/864e5)+1);res=dr*dy;lbl=`共 ${dy} 天應繳金額`;items.push({l:'入退租天數',v:dy+' 天'});}
+  else{const rm=dim-sd.getDate()+1;res=dr*rm;lbl=`入住月份（共 ${rm} 天）`;items.push({l:'本月剩餘天數',v:rm+' 天'});}
+  document.getElementById('r-res').style.display='block';
+  document.getElementById('r-n').textContent=fmt(res);
+  document.getElementById('r-l').textContent=lbl;
+  document.getElementById('r-i').innerHTML=items.map(i=>`<div class="ri"><span>${i.l}</span><span class="v">${i.v}</span></div>`).join('');
+}
+function calcD(){
+  const r=parseFloat(document.getElementById('d-r').value)||0,a=parseFloat(document.getElementById('d-a').value)||0,dm=parseFloat(document.getElementById('d-d').value)||0;
+  if(!r||!a)return;
+  const lg=r*2,ov=a>lg,rf=Math.max(0,a-dm);
+  document.getElementById('d-res').style.display='block';
+  document.getElementById('d-st').innerHTML=`<div class="pill ${ov?'pdn':'pok'}" style="font-size:14px;padding:8px 20px">${ov?'🔴 押金超過上限（月租 × 2）！':'🟢 押金符合規範'}</div>`;
+  document.getElementById('d-i').innerHTML=[{l:'月租金',v:fmt(r)},{l:'房東要求押金',v:fmt(a)},{l:'上限（月租 × 2）',v:fmt(lg)},{l:ov?'超收金額':'與上限差距',v:fmt(Math.abs(a-lg))},{l:'預估可退押金',v:fmt(rf)}].map(i=>`<div class="ri"><span>${i.l}</span><span class="v">${i.v}</span></div>`).join('');
+}
+const rp={};
+function rpS(q,v,ev){
+  rp['q'+q]=v;
+  document.querySelectorAll(`#rp-${q} .qo`).forEach(o=>o.classList.remove('sel'));
+  if(ev&&ev.target)ev.target.classList.add('sel');
+  setTimeout(()=>{
+    if(q<3){document.getElementById('rp-'+q).classList.remove('act');document.getElementById('rp-'+(q+1)).classList.add('act');document.getElementById('rp-b').style.width=((q+1)*25)+'%';}
+    else{document.getElementById('rp-3').classList.remove('act');document.getElementById('rp-r').classList.add('act');document.getElementById('rp-b').style.width='100%';showRP();}
+  },260);
+}
+function showRP(){
+  const{q1,q2,q3}=rp;let who='房東',adv='';
+  if(q2==='flt'){who='房客（您）';adv='建議主動與房東溝通修繕方式，並保留所有費用單據。';}
+  else if(q1==='pipe'){adv='結構性修繕屬房東責任。若持續拖延，您可依約主張相應權利。';}
+  else if(q1==='wall'&&q2==='nat'){adv='油漆壁紙自然耗損屬正常使用，非房客責任。請書面通知房東修繕。';}
+  else if(q2==='pre'){adv='入住前已有損壞，請提出入住時拍攝的照片作為佐證。';}
+  if(q3==='no')adv='⚠️ 請立即以書面（LINE、簡訊）通知房東，保留溝通紀錄。'+(adv?'<br>'+adv:'');
+  else if(q3==='vb')adv='建議改用 LINE 等可留存的方式再次通知。'+(adv?'<br>'+adv:'');
+  document.getElementById('rp-rb').innerHTML=`<div class="rn" style="font-size:22px">修繕責任：${who}</div><div class="rl2" style="margin-top:4px">依租賃規範及一般契約原則判定</div><div style="margin-top:12px;font-size:14px;color:var(--tx)">${adv||'建議留存現場照片，並以書面通知對方。'}</div>`;
+}
+function resetRP(){Object.keys(rp).forEach(k=>delete rp[k]);document.querySelectorAll('.qs').forEach(s=>s.classList.remove('act'));document.getElementById('rp-1').classList.add('act');document.getElementById('rp-b').style.width='25%';document.querySelectorAll('.qo').forEach(o=>o.classList.remove('sel'));}
+function copyLtr(){const t=`催告修繕通知書
+
+房東您好，
+依租賃契約及住宅租賃相關規範，出租方負有保持租賃物合於約定使用狀態之義務。
+
+現發現下列損壞需要修繕：
+【請填入損壞說明及位置】
+
+敬請於接獲本通知後 7 日內安排修繕。若逾期未處理，本人將依約行使相應權利。
+
+承租人：___
+日期：${new Date().toLocaleDateString('zh-TW')}
+
+（請截圖存檔）`;navigator.clipboard.writeText(t).then(()=>alert('✅ 催告範本已複製！請貼至 LINE 或 Email 傳送給房東。')).catch(()=>alert('請手動選取文字複製。'));}
+const CL={
+  t:[{g:'結構安全',i:['牆面是否有裂縫、壁癌、潮濕痕跡','門窗是否能正常開關、密封良好','地板是否有翹起、破損、異音','天花板是否有漏水或水痕']},{g:'水電瓦斯',i:['各插座通電是否正常','水龍頭出水量及排水順暢','熱水器正常運作、水溫穩定','瓦斯管線無異味或洩漏']},{g:'家電設備',i:['冰箱冷藏冷凍功能正常','冷氣製冷效果與遙控器','洗衣機運轉排水正常','其他家電均已當面測試']},{g:'記錄存證',i:['全室錄影（含日期）','既有損傷特寫拍照','當日水電表讀數拍照','照片當天傳給房東確認']}],
+  l:[{g:'鑰匙與文件',i:['交付全套鑰匙及備份','交付磁扣、停車遙控等','記錄當日水電讀數','提供管委會聯絡方式']},{g:'設備說明',i:['當面展示家電正常使用','說明冷氣濾網清洗方式','確認家具清單與實物相符','標示電路斷路器位置']},{g:'安全說明',i:['告知緊急逃生路線','確認住警器功能正常','說明門禁或智慧鎖操作','留下緊急聯絡電話']},{g:'書面確認',i:['雙方簽署點交記錄','拍照存證全室現況','確認押金金額及收據','確認租金繳納方式']}]
+};
+const clS={};let cCL='t';
+function renderCL(tb){cCL=tb;const d=CL[tb];let h='',tot=0,dn=0;d.forEach((g,gi)=>{h+=`<div class="clg"><div class="clgt">${g.g}</div>`;g.i.forEach((it,ii)=>{const k=`${tb}-${gi}-${ii}`,ck=!!clS[k];tot++;if(ck)dn++;h+=`<div class="cli ${ck?'ck':''}" onclick="tCL('${k}')"><div class="clb">${ck?'✓':''}</div><div class="clt2">${it}</div></div>`;});h+='</div>';});document.getElementById('cl-c').innerHTML=h;document.getElementById('cl-f').style.width=tot?(dn/tot*100)+'%':'0%';document.getElementById('cl-l').textContent=`已完成 ${dn} / ${tot} 項`;}
+function swCL(tb,el){document.querySelectorAll('.cltb').forEach(t=>t.classList.remove('act'));el.classList.add('act');renderCL(tb);}
+function tCL(k){clS[k]=!clS[k];renderCL(cCL);}
+function calcN(){
+  const r=parseFloat(document.getElementById('n-r').value)||0,mo=parseFloat(document.getElementById('n-m').value)||12,dp=parseFloat(document.getElementById('n-d').value)||0,ty=document.getElementById('n-t').value;
+  if(!r)return;
+  const tot=r*mo+dp;let f=0;
+  if(tot<=200000)f=1000;else if(tot<=500000)f=2000;else if(tot<=1000000)f=3000;else if(tot<=2000000)f=4000;else f=4000+Math.ceil((tot-2000000)/1000000)*1000;
+  if(ty==='e')f=Math.round(f*1.5);
+  document.getElementById('n-res').style.display='block';
+  document.getElementById('n-n').textContent=fmt(f);
+  document.getElementById('n-i').innerHTML=[{l:'租約總價值',v:fmt(tot)},{l:'公證類型',v:ty==='e'?'逕受強制執行':'一般公證'},{l:'必備文件',v:'雙方身分證、租約正本'},{l:'提醒',v:'實際費用以公證處核定為準'}].map(i=>`<div class="ri"><span>${i.l}</span><span class="v">${i.v}</span></div>`).join('');
+}
+function goJ(){const nm=document.getElementById('j-nm').value.trim(),ty=document.getElementById('j-t').value,q=[nm,ty].filter(Boolean).join(' ');window.open('https://judgment.judicial.gov.tw/FJUD/default.aspx?searchWord='+encodeURIComponent(q),'_blank');}
+
+</script>
+<script>
+
+/* ── Policy cards ── */
+const POLICIES=[
+  {ic:'🏠',tag:'房客補貼',name:'300億元中央擴大租金補貼',desc:'行政院自111年7月起推動的「300億元中央擴大租金補貼專案」，115年（2026年）持續辦理並擴大至75萬戶，全年隨到隨辦，符合資格者每月最高可領取數千元至上萬元補貼。',bullets:['資格：年滿18歲、本人及配偶無自有住宅、所得低於當地最低生活費3倍','補貼金額：依地區與家庭組成每月約2,000～8,000元，加碼後最高更高','加碼：單身青年1.2倍、新婚1.3倍、育兒最高1.8倍、弱勢加碼','申請：全年受理、隨到隨辦，線上申請最方便，舊戶自動帶入','房東不得因申請補貼漲租或解約（禁止條款無效，違者可罰）','▼ 詳細資格、金額與流程，請展開下方完整攻略'],link:'https://has.nlma.gov.tw/house300e/'},
+  {ic:'🏢',tag:'房東優惠',name:'公益出租人稅務減免',desc:'房東將房屋出租給領有租金補貼的房客，即自動取得公益出租人資格，享有多項稅負優惠。',bullets:['資格：房客領有租金補貼即自動認定，無需另行申請','綜所稅：每屋每月租金收入 1.5 萬元以內免稅','房屋稅：適用自住稅率 1.2%（一般出租 2.4%）','地價稅：適用自用稅率千分之 2（一般千分之 10）','政府補貼房客同時回饋房東，雙贏制度'],link:'https://pip.moi.gov.tw/Publicize/Info/B4050'},
+  {ic:'🏗️',tag:'社會住宅',name:'社會住宅申請',desc:'政府興辦的只租不售住宅，租金約市價 7 至 85 折，弱勢身分另享額外折扣，提供安穩居住環境。',bullets:['資格：年滿 18 歲、設籍或就業就學於當地、無自有住宅','所得限制：符合各縣市公告標準','申請：國家住都中心及各縣市住宅處網站','候補期間建議同步尋找一般租屋','弱勢戶、身障者、育兒家庭優先配額'],link:'https://pip.moi.gov.tw/Publicize/Info/B5010'},
+  {ic:'📋',tag:'合約規範',name:'住宅租賃定型化契約',desc:'內政部公告的強制基準，全台灣所有住宅租約都必須遵守，任何牴觸條款均直接無效。',bullets:['禁止禁設戶籍、禁申請補貼等限制條款','押金上限兩個月租金，超收可主張返還','電費收取不得超過台電夏季最高級距費率','房東負責結構與設備自然損壞的修繕義務','可至內政部官網下載最新版本作為簽約依據'],link:'https://pip.moi.gov.tw/Publicize/Info/G1020'},
+  {ic:'⚖️',tag:'調解服務',name:'鄉鎮市區調解委員會',desc:'免費、快速的租賃糾紛調解管道，調解成立經法院核定後效力等同確定判決，是九成租屋糾紛的最佳解。申請流程如下：',bullets:['STEP 1 確認管轄：向房東或房客任一方戶籍地，或房屋所在地的鄉鎮市區公所調解委員會提出','STEP 2 填寫聲請書：至公所填寫調解聲請書（現場備有格式），寫明糾紛事實、請求事項與對方姓名地址','STEP 3 檢附資料：租約影本、LINE 對話截圖、照片、繳費記錄等佐證影本','STEP 4 等候通知：委員會排定調解日期（通常 1～2 個月內）並通知雙方到場','STEP 5 進行調解：雙方到場陳述，調解委員居中協調；達成協議即簽署調解書','STEP 6 法院核定：調解書送法院核定後，效力等同確定判決，可直接聲請強制執行','全程免費、無需律師；押金、電費、修繕爭議均適用']},
+  {ic:'🤝',tag:'包租代管',name:'包租代管政策',desc:'政府推動的租屋市場透明化政策，房東委託合格業者代管，享有政策補貼與稅務優惠，房客也受到更規範的保障。',bullets:['業者：向各縣市主管機關登記的合格業者','房東優惠：租金收入免稅額、修繕費補助','房客保障：標準租約、維修快速、糾紛有業者介入','協助房東輔導公益出租人資格認定','小房東省管理精力、合法節稅最佳途徑'],link:'https://pip.moi.gov.tw/Publicize/Info/B5020?mode=Info&PGID=314'},
+  {ic:'👶',tag:'育兒補助',name:'育兒家庭租屋補助',desc:'設有未成年子女的家庭，可在一般租金補貼外申請育兒加碼，政府積極鼓勵友善生育的租屋環境。',bullets:['適用對象：育有未成年子女（未滿18歲）之家庭','加碼金額：租金補貼育有1名子女1.4倍、2名1.6倍、3名以上最高1.8倍','申請方式：於租金補貼申請時系統自動依戶籍資料認定加碼','另可同步申請中央育兒津貼（未滿2歲、2至未滿5歲分屬不同系統）','子女就讀公立幼兒園或托嬰中心者可查詢額外補助'],links:[{label:'未滿2歲請至：衛福部育兒津貼線上申辦',url:'https://twbaby.sfaa.gov.tw/home/apply-online/add'},{label:'2至5歲請至：全國教保資訊網育兒津貼專區',url:'https://www.ece.moe.edu.tw/ch/subsidy/allowance-1/'}]},
+  {ic:'♿',tag:'弱勢補助',name:'弱勢族群租屋優先補助',desc:'低收入戶、中低收入戶、身心障礙者、獨居老人等弱勢族群享有優先申請資格，且補貼加碼最高。',bullets:['經濟弱勢（低收、中低收入戶）：租金補貼加碼至 1.4 倍','社會弱勢（身障、65歲以上長者、原住民等）：加碼至 1.2 倍','優先配額：社會住宅及民間包租代管均保留弱勢名額','政府主動勾稽經濟弱勢戶，未申請者由系統主動找出協助','申請：向戶籍地縣市社會局或住宅主管機關洽詢'],link:'https://www.moi.gov.tw/News_Content.aspx?n=4&sms=9009&s=274022'}];
+document.getElementById('pol-grid').innerHTML=POLICIES.map(p=>{
+  let cta='';
+  if(p.links){cta=p.links.map(l=>`<div class="pol-cta" onclick="window.open('${l.url}','_blank')">🔗 ${l.label} →</div>`).join('');}
+  else if(p.link){cta=`<div class="pol-cta" onclick="window.open('${p.link}','_blank')">🔗 前往官方網站查詢 →</div>`;}
+  return `
+<div class="pol-card">
+  <div class="pol-head">
+    <div class="pol-ic">${p.ic}</div>
+    <div class="pol-meta"><div class="pol-tag">${p.tag}</div><div class="pol-name">${p.name}</div></div>
+  </div>
+  <div class="pol-body">
+    <div class="pol-desc">${p.desc}</div>
+    <div class="pol-bullets">${p.bullets.map(b=>`<div class="pol-b"><strong>${b}</strong></div>`).join('')}</div>
+    ${cta}
+  </div>
+</div>`}).join('');
+/* 將「300億租金補貼」卡片置頂滿版，攻略展開區緊貼其正下方 */
+(function(){
+  const g=document.getElementById('pol-grid'),a=document.getElementById('rent300-wrap');
+  if(g&&a&&g.children.length){
+    g.children[0].style.gridColumn='1 / -1';
+    a.style.gridColumn='1 / -1';
+    a.style.marginTop='0';
+    g.insertBefore(a,g.children[1]);
+  }
+})();
+
+const RULES=[{t:`住宅租賃定型化契約完整解析：應記載與不得記載事項【2026最新版】`,tag:'hot',b:`<h3>什麼是住宅租賃定型化契約？</h3>
+<p>住宅租賃定型化契約是由內政部依《消費者保護法》公告的強制性規範，適用於全台灣所有住宅租賃關係。不論房東使用自擬合約、書局版本還是網路下載的範本，只要租賃標的為住宅，就必須遵守這份規範。</p>
+<p>最重要的觀念是：<strong>違反規範的條款直接無效</strong>，不因房客已簽名而改變。也就是說，就算你已經在含有不合法條款的合約上蓋章，那些條款對你仍然沒有拘束力。</p>
+<h3>應記載事項：合約必須寫清楚的項目</h3>
+<p>一份合法的住宅租約，至少必須包含以下內容：</p>
+<ul>
+<li><strong>租賃標的：</strong>房屋地址、樓層、坪數、附屬設備清單</li>
+<li><strong>租賃期間：</strong>起始日與結束日，或不定期租賃的說明</li>
+<li><strong>租金金額：</strong>每月租金、繳納日期、繳納方式</li>
+<li><strong>押金：</strong>金額（上限兩個月租金）、返還條件與期限</li>
+<li><strong>修繕責任：</strong>哪些由房東負責、哪些由房客負責</li>
+<li><strong>費用分擔：</strong>電費、水費、管理費的計算方式</li>
+<li><strong>提前終止：</strong>雙方各自的終止條件與違約金約定</li>
+<li><strong>優先購買權：</strong>如有出售計畫，房客是否享有優先承買</li>
+</ul>
+<h3>不得記載事項：常見的10大違法條款</h3>
+<p>以下條款寫入合約後，該條款無效，房客不受拘束：</p>
+<ul>
+<li><strong>禁止設戶籍：</strong>設籍是房客的基本權利，不得以合約限制</li>
+<li><strong>禁止申請租金補貼：</strong>申請政府補貼是公民權利，合約不得限制</li>
+<li><strong>要求房客負擔結構修繕：</strong>房屋結構、固定設備的修繕是房東義務</li>
+<li><strong>電費超過台電費率：</strong>收取超過台電最高級距的電費屬違規</li>
+<li><strong>押金超過兩個月：</strong>強制規定，不得以任何名義超收</li>
+<li><strong>房東可隨時進入：</strong>房客有使用權，房東未經通知不得擅入</li>
+<li><strong>拋棄損害賠償請求權：</strong>要求房客放棄一切求償權利的條款</li>
+<li><strong>片面修改合約的權利：</strong>房東不得單方面變更合約內容</li>
+<li><strong>強制指定服務廠商：</strong>修繕廠商選擇不得強制指定特定業者</li>
+<li><strong>顯失公平的違約金：</strong>違約金金額與損害明顯不成比例者</li>
+</ul>
+<h3>如何取得內政部公告版本？</h3>
+<p>內政部官網提供最新版的住宅租賃定型化契約範本，可直接下載使用。建議房東以此為底本，再依個別需求加上雙方協議的特約條款。特約條款同樣不得牴觸定型化規範，否則無效。</p>
+<h3>簽約前的核對步驟</h3>
+<p>拿到合約後，建議依序確認：①必備條款是否齊全；②有無違法條款；③費用計算方式是否明確；④修繕責任是否清楚劃分；⑤押金、違約金金額是否合理。有疑問的條款，簽約前要求修改或刪除，不要等入住後再爭論。</p>`},{t:`租屋押金規定完整指南：上限計算、超收如何主張、退租時怎麼結算`,tag:'hot',b:`<h3>押金的法律定義</h3>
+<p>押金是房客在租賃開始時交給房東的一筆擔保金，目的是擔保房客履行合約義務（按時繳租、維護房屋）。租約結束時，扣除應扣款項後，房東必須返還剩餘金額。押金的法律性質是「擔保金」，不是房東的收入，更不能無故沒收。</p>
+<h3>押金上限是多少？</h3>
+<p>依住宅租賃規範，<strong>押金上限為兩個月租金</strong>。以月租 20,000 元為例，押金最多收 40,000 元。任何超過兩個月租金的金額，都屬違規收取，不論房東以「保證金」「管理費」「清潔保證金」等任何名義收取，性質實質上仍是押金，受相同上限規範。</p>
+<h3>遇到超收押金怎麼辦？</h3>
+<p>如果房東要求超額押金，房客有以下選項：</p>
+<ul>
+<li><strong>事前談判：</strong>拿出計算結果，告知房東上限規定，要求調整為合法金額</li>
+<li><strong>主張抵付租金：</strong>已支付超額押金者，可主張超額部分抵扣租金</li>
+<li><strong>直接請求返還：</strong>向房東書面催告，要求返還超額金額</li>
+<li><strong>申請調解：</strong>協商不成，向鄉鎮市區調解委員會申請免費調解</li>
+</ul>
+<h3>押金應該什麼時候還？</h3>
+<p>押金應於租期屆滿、房客返還房屋後，合理期間內返還。實務慣例多為一至四週。合約有明確約定者從其約定。拖延超過合理期間，房客可先書面催告，再申請調解或提起小額訴訟。</p>
+<h3>退租時押金如何結算？</h3>
+<p>正確的押金結算順序：</p>
+<ol>
+<li>計算欠繳租金（若有）</li>
+<li>計算可舉證的損壞賠償金額（需有點交記錄佐證）</li>
+<li>押金扣除以上金額後，剩餘部分全數返還</li>
+</ol>
+<p>房東不能以「油漆費」「清潔費」等模糊名目扣款，必須逐項列出損壞說明、估價單據，並且能證明損壞是由房客造成（非自然耗損）。入住時的點交照片影片，就是雙方最重要的對照依據。</p>
+<h3>哪些損壞不能從押金扣？</h3>
+<ul>
+<li>油漆自然褪色、牆面輕微汙漬（正常居住造成）</li>
+<li>家具的正常使用磨損</li>
+<li>掛畫的輕微釘孔</li>
+<li>地板正常磨損痕跡</li>
+<li>入住前已存在的損壞（需有拍照存證）</li>
+</ul>
+<p>自然耗損由房東吸收，這是最基本的原則，也是退租糾紛中最常見的爭議點。</p>`},{t:`修繕責任完整劃分：房東哪些一定要修？房客哪些要自己負責？`,tag:'hot',b:`<h3>修繕責任的判斷原則</h3>
+<p>判斷修繕責任的核心原則只有一個：<strong>看損壞的「原因」，不看「位置」</strong>。不是說廁所裡的東西就是房客的責任，或牆壁就是房東的責任。而是要問：這個損壞是怎麼發生的？是正常使用自然耗損，還是有人為因素？</p>
+<h3>房東必須負責的修繕項目</h3>
+<p>房東（出租人）負有「保持租賃物合於約定使用狀態」的義務。具體而言包含：</p>
+<ul>
+<li><strong>結構性問題：</strong>漏水（屋頂、外牆、地下室）、壁癌、樑柱裂縫、地基下沉</li>
+<li><strong>管線系統：</strong>水管老化破裂、電線老化、排汙管堵塞（非房客使用不當所致）</li>
+<li><strong>設備自然故障：</strong>房東原提供的熱水器故障（非人為）、冷氣壓縮機損壞、門鎖老化</li>
+<li><strong>共用設施：</strong>大門、電梯、公共走廊燈光等共用部分</li>
+<li><strong>安全設施：</strong>住宅用火災警報器、逃生設備等安全必備設施</li>
+</ul>
+<h3>房客需要負責的修繕項目</h3>
+<ul>
+<li><strong>人為損壞：</strong>不小心撞壞的牆壁、踢破的門板、打破的窗戶</li>
+<li><strong>使用不當：</strong>浴缸溢水泡壞木地板、大量油脂堵塞水管、過載使用造成電路問題</li>
+<li><strong>未善盡保養：</strong>長期不清洗冷氣濾網導致壓縮機損壞、長期不清潔浴室導致磁磚發霉侵蝕</li>
+<li><strong>輕微日常維護：</strong>燈泡更換、電池更換、門鉸鏈上油等小型保養</li>
+</ul>
+<h3>灰色地帶如何處理？</h3>
+<p>實務上最常爭議的是「到底是自然耗損還是使用不當」。幾個判斷參考：</p>
+<ul>
+<li>冷氣使用五年以上自然故障 → 通常認定自然耗損，房東負責</li>
+<li>冷氣因長期不清洗濾網故障 → 可能認定房客未善盡保養義務，部分費用由房客分擔</li>
+<li>油漆三年後開始剝落 → 正常耗損，房東負責</li>
+<li>油漆被房客用深色標記亂畫 → 人為損壞，房客負責</li>
+</ul>
+<h3>發現問題時的正確處理流程</h3>
+<ol>
+<li>立即拍照影片存證（含日期時間）</li>
+<li>以書面方式通知房東（LINE、簡訊皆可，重點是留有記錄）</li>
+<li>給予合理修繕期限（建議7至14天）</li>
+<li>若房東逾期未處理，可自行修繕並向房東請求費用</li>
+<li>協商不成，申請鄉鎮市區調解</li>
+</ol>
+<p>本站「修繕責任判定」工具可協助你在三個步驟內判斷責任歸屬，並自動產出催告範本，直接使用。</p>`},{t:`租約提前終止完整指南：合法程序、違約金計算、免賠的例外情況`,b:`<h3>提前解約前要知道的事</h3>
+<p>租約是雙方的法律承諾，提前終止必然涉及違約責任。但「違約」不代表「必須付大筆賠償」，只要程序正確、溝通得當，損失可以大幅降低。了解自己的權利和義務，才能在不得不退租時，保護自己的利益。</p>
+<h3>標準提前解約流程</h3>
+<ol>
+<li><strong>確認合約條款：</strong>先看清楚合約對提前解約的規定，包含需提前幾天通知、違約金金額或計算方式</li>
+<li><strong>書面通知：</strong>依合約規定提前（通常30天）以書面方式通知房東，LINE、簡訊或書面皆可，重點是留有記錄</li>
+<li><strong>協商違約金：</strong>配合房東帶看新房客、保持屋況整潔，主動幫忙縮短空置期，都是談判籌碼</li>
+<li><strong>完成退租點交：</strong>依正常退租程序辦理，雙方確認屋況並結算費用</li>
+</ol>
+<h3>違約金的合理範圍</h3>
+<p>合約對違約金有明確約定者，依約定支付。沒有約定或約定金額過高時，法院有權酌減。實務上，<strong>一個月租金是最常見的判決標準</strong>。違約金高達兩個月以上者，在訴訟中通常會被酌減。</p>
+<h3>哪些情況可以免賠？</h3>
+<p>以下情形，房客可以主張解約且不需要支付違約金：</p>
+<ul>
+<li><strong>房東不修繕：</strong>通知後合理期限仍不修繕，嚴重影響居住品質</li>
+<li><strong>房屋有重大瑕疵：</strong>漏水、壁癌嚴重、結構危險等，且房東知情未告知</li>
+<li><strong>房東違反合約：</strong>房東自身違反重要約定（如擅自進入、超收費用）</li>
+<li><strong>隱瞞凶宅事實：</strong>知情未告知房屋曾有非自然死亡事件</li>
+</ul>
+<p>主張免賠的關鍵是要有完整的書面催告記錄，證明你已給予房東改善機會但對方未回應。沒有書面催告就直接走人，很難主張免責。</p>
+<h3>降低損失的實用技巧</h3>
+<ul>
+<li>盡早通知：提前通知時間越長，房東空置損失越小，協商空間越大</li>
+<li>主動招租：協助尋找替代房客，直接幫房東解決最大的痛點</li>
+<li>配合帶看：讓潛在房客可以進來看房，展現誠意</li>
+<li>維持屋況：保持房屋整潔美觀，縮短招租時間</li>
+</ul>
+<p>房東真正在意的是「空置損失」，不是違約金本身。能讓房子快速找到下一個房客，通常就有最大的談判籌碼。</p>`},{t:`租約公證完整指南：公證費用、流程、逕受強制執行的威力`,tag:'fav',b:`<h3>為什麼租約需要公證？</h3>
+<p>很多人覺得公證很麻煩、沒必要，但真正遇到糾紛時才知道，公證和沒公證的差距，就是「打官司一年」和「立刻執行」的差距。特別是「逕受強制執行」公證，是房東和房客雙方都值得投資的保障。</p>
+<h3>公證的種類</h3>
+<ul>
+<li><strong>一般公證：</strong>讓租約具有公信力，日後若有爭議，公證書可作為重要證據</li>
+<li><strong>逕受強制執行公證（俗稱強執公證）：</strong>最實用的類型，讓當事人在特定條件下可直接聲請強制執行，不用另外提起訴訟</li>
+</ul>
+<h3>逕受強制執行公證的具體效力</h3>
+<p>辦理強執公證後，合約中可以約定：</p>
+<ul>
+<li>房客欠租 → 房東可直接聲請強制執行（扣押薪資、財產），不用打官司</li>
+<li>租約屆期房客不搬 → 房東可聲請強制遷移執行</li>
+<li>房東不還押金 → 房客同樣可聲請強制執行</li>
+</ul>
+<p>一般訴訟從起訴到判決確定，往往需要六個月至一年以上；有強執公證者，通常數週內就能完成執行程序。</p>
+<h3>公證費用怎麼算？</h3>
+<p>公證費用依司法院規定，以「租約總價值」為計算基礎。租約總價值 = 月租金 × 租約月數 + 押金金額。費用區間大致如下：</p>
+<ul>
+<li>20萬以下：約1,000元</li>
+<li>20萬至50萬：約2,000元</li>
+<li>50萬至100萬：約3,000元</li>
+<li>逕受強制執行公證：費用加成約1.5倍</li>
+</ul>
+<p>以月租2萬、押金4萬、租期一年為例，總價值約28萬，一般公證約2,000元，強執公證約3,000元。費用實務上常由雙方協商各半負擔。</p>
+<h3>公證辦理流程</h3>
+<ol>
+<li>準備文件：雙方身分證、租約正本（建議一式三份）、押金收據</li>
+<li>前往公證處：法院內的公證處或民間公證人事務所均可</li>
+<li>現場確認條款：公證人會確認合約內容，可當場補充或修改</li>
+<li>雙方簽名蓋章：完成公證，各取一份公證書</li>
+</ol>
+<p>大多數情況下當天即可完成，全程約一至兩小時。本站的「公證規費試算」工具可先估算你的公證費用。</p>`},{t:`2026年租金補貼申請完整攻略：資格條件、補貼金額、申請步驟`,tag:'new',b:`<h3>租金補貼是什麼？</h3>
+<p>住宅租金補貼是內政部每年定期開放申請的政府補助計畫，目的是減輕租屋族的住房負擔。符合資格者，政府每月直接撥款補助一部分租金，補貼期間通常為一年，期滿可再審核續領。</p>
+<h3>申請資格</h3>
+<p>一般申請資格（各縣市可能有微調）：</p>
+<ul>
+<li><strong>國籍：</strong>中華民國國籍</li>
+<li><strong>年齡：</strong>滿18歲（或已成年）</li>
+<li><strong>住宅條件：</strong>本人及配偶均無自有住宅</li>
+<li><strong>所得條件：</strong>家庭年所得低於各縣市公告標準（以所得最低四成為目標）</li>
+<li><strong>財產條件：</strong>家庭財產低於各縣市公告標準</li>
+<li><strong>租賃事實：</strong>實際租屋且有合法租約</li>
+</ul>
+<h3>補貼金額</h3>
+<p>補貼金額依縣市、身分、租金高低有所不同，大致範圍：</p>
+<ul>
+<li>一般戶：每月約3,500元至6,000元</li>
+<li>初入職場青年（40歲以下）：另有加碼</li>
+<li>新婚家庭、育有子女：另有加碼</li>
+<li>身心障礙、低收入、中低收入戶：每月最高可達8,000元</li>
+</ul>
+<h3>申請流程</h3>
+<ol>
+<li>準備文件：身分證、戶籍謄本、租約、最近一期所得資料、存摺封面</li>
+<li>線上申請：前往「內政部住宅補貼申請系統」填寫申請表</li>
+<li>等候審核：通常需一至兩個月審核期</li>
+<li>核定通知：審核通過後收到核定函</li>
+<li>補貼撥款：直接撥入申請人帳戶，每月固定入帳</li>
+</ol>
+<h3>房東能拒絕嗎？</h3>
+<p>不能。住宅租賃規範明確規定：合約禁止房客申請補貼的條款無效；房東不得因房客申請補貼而調漲租金或終止租約。違者房客可向主管機關檢舉。</p>
+<h3>補貼申請常見問題</h3>
+<ul>
+<li><strong>Q：房東不給我申請怎麼辦？</strong>房東無權拒絕，可向縣市住宅主管機關申訴</li>
+<li><strong>Q：租金比補貼上限高可以申請嗎？</strong>可以，但補貼金額以規定上限為準</li>
+<li><strong>Q：租約沒有公證可以申請嗎？</strong>可以，但租約需符合規範格式，有房東簽章</li>
+<li><strong>Q：補貼會讓房東知道我的所得嗎？</strong>不會，只會通知房東有租金補貼申請</li>
+</ul>`},{t:`公益出租人制度完整解析：資格認定、三大稅務優惠、常見迷思澄清`,tag:'new',b:`<h3>公益出租人是什麼？</h3>
+<p>公益出租人是政府推動的租屋市場良性循環機制。當房東將房屋出租給領有政府租金補貼的房客時，該房東自動取得公益出租人資格，享有多項稅務減免。這個制度的設計邏輯是：政府補貼房客的同時，也同步回饋配合政策的房東，讓好的租屋供給增加。</p>
+<h3>如何取得公益出租人資格？</h3>
+<p>取得方式比多數人想像的簡單：<strong>只要你的房客持有政府核發的租金補貼資格，你就自動成為公益出租人，無需另外申請，無需填寫任何表格</strong>。資格由政府主動認定，年度申報所得稅時直接適用優惠稅率。</p>
+<h3>三大稅務優惠</h3>
+<ul>
+<li><strong>綜合所得稅減免：</strong>每屋每月租金收入1.5萬元以內，免計入綜合所得。以月租2萬元為例，其中1.5萬免稅，只有5,000元需申報。全年最多可享18萬元免稅額。</li>
+<li><strong>房屋稅優惠：</strong>適用自住稅率1.2%，而非一般出租的2.4%。以房屋稅評定價值100萬元計算，每年可省12,000元。</li>
+<li><strong>地價稅優惠：</strong>適用自用住宅稅率千分之2，而非一般出租的千分之10。地價稅節省幅度更大，依地段而異。</li>
+</ul>
+<h3>常見迷思澄清</h3>
+<ul>
+<li><strong>迷思一：「我不想被政府知道我在收租金」</strong>現實是，租賃所得本來就應申報，房客報稅列舉租金支出或申請補貼，都會揭露租賃關係。成為公益出租人反而讓你合法繳更少稅，比隱匿更划算。</li>
+<li><strong>迷思二：「讓房客申請補貼很麻煩」</strong>房東幾乎不需要做任何事，只需配合簽署標準租約格式，其餘流程房客自行處理。</li>
+<li><strong>迷思三：「補貼房客代表房客沒錢、素質差」</strong>申請補貼的房客通常是年輕上班族、新婚夫妻等，是政策鼓勵的穩定租屋族群。</li>
+<li><strong>迷思四：「享有公益出租人資格就不能漲租」</strong>到期續約時仍可依市場協商租金，公益出租人身分不影響正常租金調整。</li>
+</ul>`},{t:`租屋糾紛調解完整指南：申請流程、準備文件、調解成功率`,tag:'fav',b:`<h3>為什麼選調解而不是提告？</h3>
+<p>發生租屋糾紛，很多人第一個念頭是「去告他」，但訴訟不是解決租屋糾紛的最佳途徑。調解的優點遠超過多數人的認識：<strong>完全免費、比訴訟快5至10倍、效力等同確定判決、可直接聲請強制執行</strong>。九成以上的租屋糾紛，在調解階段就能解決。</p>
+<h3>調解委員會vs其他管道比較</h3>
+<ul>
+<li><strong>鄉鎮市區調解委員會：</strong>免費、1至2個月、效力最強（最推薦）</li>
+<li><strong>縣市地政局租賃爭議調處：</strong>免費、專業性高、適合複雜案件</li>
+<li><strong>消費者保護熱線申訴：</strong>適合定型化契約爭議，壓力較輕</li>
+<li><strong>小額訴訟：</strong>10萬元以下、免律師，費用低但比調解慢</li>
+<li><strong>一般民事訴訟：</strong>最慢、最貴，作為最後手段</li>
+</ul>
+<h3>申請調解的流程</h3>
+<ol>
+<li><strong>確認管轄：</strong>向房客或房東任一方的戶籍所在地，或糾紛發生地（房屋所在地）的鄉鎮市區公所調解委員會提出</li>
+<li><strong>填寫聲請書：</strong>說明糾紛事實、請求事項、對方身分資料。調解委員會提供格式，填寫不難</li>
+<li><strong>繳交文件：</strong>租約影本、相關通訊記錄、照片等佐證資料（影印本即可）</li>
+<li><strong>等候通知：</strong>調解委員會通知雙方調解日期，通常排定在1至2個月內</li>
+<li><strong>出席調解：</strong>雙方到場說明立場，調解委員居中協調</li>
+<li><strong>調解成立：</strong>達成協議後簽署調解書，送法院核定後生效</li>
+</ol>
+<h3>如何提高調解成功率？</h3>
+<ul>
+<li><strong>證據完整：</strong>整理清楚的時間軸、照片、LINE記錄</li>
+<li><strong>請求明確：</strong>清楚表達你要求什麼（還押金XX元、賠償修繕費XX元）</li>
+<li><strong>態度理性：</strong>調解成立需要雙方合意，態度強硬反而不易達成</li>
+<li><strong>有退讓空間：</strong>設定底線但保留協商彈性，全有全無心態不利調解</li>
+</ul>
+<h3>調解不成怎麼辦？</h3>
+<p>調解不成立（對方不出席或雙方無法達成協議），調解委員會會出具調解不成立證明書。你可以此繼續向法院提起訴訟。10萬元以下可使用小額訴訟程序，程序簡便、費用低，可以自行提起，不需委任律師。</p>`},{t:`租屋保證人制度：連帶保證vs一般保證、責任範圍、自保方式`,b:`<h3>保證人在租屋中的角色</h3>
+<p>部分房東在簽租約時要求房客提供保證人，作為房客履行義務的額外保障。保證人的法律責任依保證性質不同而有很大差異。在擔任保證人前，一定要搞清楚自己究竟要負擔什麼責任。</p>
+<h3>連帶保證人vs一般保證人</h3>
+<ul>
+<li><strong>連帶保證人：</strong>與房客負「同等」責任。房東可以不先向房客催討，直接向保證人要求全額賠償。這是對保證人最不利的保證方式。</li>
+<li><strong>一般保證人：</strong>有「先訴抗辯權」，房東必須先對房客提起訴訟或強制執行無果後，才能向保證人求償。對保證人的保護較多。</li>
+</ul>
+<h3>擔任保證人前必須確認的事項</h3>
+<ul>
+<li><strong>保證性質：</strong>合約上寫的是「連帶保證人」還是「保證人」？兩者責任差異極大</li>
+<li><strong>責任上限：</strong>保證金額是否有上限？無上限的保證風險極高</li>
+<li><strong>保證期間：</strong>只保證到原租約到期，還是包含續約期間？</li>
+<li><strong>通知義務：</strong>若房客違約，房東是否有義務及時通知保證人？</li>
+</ul>
+<h3>保證人的自保方式</h3>
+<ul>
+<li>簽名前仔細閱讀保證條款，不理解的字眼要求解釋清楚</li>
+<li>要求在合約中載明保證金額上限</li>
+<li>要求載明「一般保證」而非「連帶保證」</li>
+<li>保留合約影本，清楚知道自己的責任範圍</li>
+<li>保持與被保證人的聯繫，了解租賃關係是否正常</li>
+</ul>
+<h3>保證人能免除責任的情況</h3>
+<p>以下情形，保證人可能可以主張免責或減輕責任：</p>
+<ul>
+<li>房東與房客私下修改合約內容，未通知保證人</li>
+<li>租約到期後自動轉為不定期租賃，保證人未同意繼續保證</li>
+<li>房東怠於對房客求償，導致保證人損失擴大</li>
+</ul>
+<p>擔任保證人不應視為「幫忙簽個名」的人情，而是對自己財務的重大承諾。若真的要擔任，確保自己完全了解責任範圍，並取得合約影本。</p>`},{t:`設戶籍是房客的權利：合約禁止條款無效、實務操作完整說明`,b:`<h3>常見誤解的澄清</h3>
+<p>「我的租約寫不能設戶籍，所以我不能設。」這個誤解困擾著非常多租屋族。事實是：這個條款在住宅租賃規範下屬於不得記載事項，<strong>即使你已簽名，該條款仍然無效</strong>，不能拘束你。</p>
+<h3>為什麼設戶籍對房客很重要？</h3>
+<ul>
+<li><strong>子女就學：</strong>公立學校入學依戶籍地劃定學區，設籍才能就讀住家附近學校</li>
+<li><strong>租金補貼申請：</strong>部分補貼計畫需要設籍才能申請</li>
+<li><strong>社會福利：</strong>各種政府補助、社會服務依戶籍地申請</li>
+<li><strong>身分認定：</strong>工作、投票、各類証件辦理</li>
+<li><strong>便利性：</strong>各類行政文件往來</li>
+</ul>
+<h3>為什麼房東抗拒設籍？</h3>
+<p>房東拒絕的常見理由：</p>
+<ul>
+<li>擔心房屋稅從自住稅率（1.2%）被調整為出租稅率（2.4%）→ 實際上出租就已失去自住優惠，設不設籍對稅率影響不大</li>
+<li>擔心設籍後房客不走 → 戶籍與居住事實是分開的，租約到期後房客有義務遷出戶籍</li>
+<li>習慣性拒絕 → 沒有充分理由，純粹不了解規定</li>
+</ul>
+<h3>房東拒絕設籍怎麼辦？</h3>
+<ol>
+<li>告知房東「住宅租賃定型化契約不得記載禁止設籍」，提供條文依據</li>
+<li>說明設籍的目的（如子女就學），通常有具體理由更容易溝通</li>
+<li>若仍拒絕，向縣市主管機關申訴或申請調解</li>
+</ol>
+<h3>簽約前的處理建議</h3>
+<p>最好的方式是在簽約前與房東確認，並將「允許設戶籍」明確寫入合約。口頭承諾日後可能各說各話，白紙黑字才是根本保障。若對方堅持禁設籍且拒絕溝通，建議評估是否繼續租賃此物件。</p>`},{t:`租屋裝修改造完整規範：可以做什麼、恢復原狀義務、如何保護自己`,b:`<h3>租屋裝修的基本原則</h3>
+<p>租來的房子不是自己的，任何超出「正常使用」範圍的改動，原則上都需要事先取得房東的書面同意。但「正常使用」和「需要同意的改動」之間，有一條很重要的界線值得搞清楚。</p>
+<h3>不需要特別告知的正常使用</h3>
+<ul>
+<li>掛畫或時鐘的輕微釘孔（幾個釘孔屬正常使用，不是損壞）</li>
+<li>家具的正常擺放（即使留下地板壓痕）</li>
+<li>使用吸盤式、魔鬼氈等不傷牆的掛鉤</li>
+<li>擺放個人物品、書籍、植栽</li>
+<li>使用免鑽孔的置物架（如浴室壓縮棒）</li>
+</ul>
+<h3>需要事先取得房東書面同意的改動</h3>
+<ul>
+<li>重新油漆（特別是非原色系的深色或特殊色）</li>
+<li>安裝系統家具、固定書架（需鎖入牆面）</li>
+<li>更換燈具、插座面板（涉及電路）</li>
+<li>鋪設木地板、地毯（需要黏著劑或固定裝置）</li>
+<li>加裝隔間、拉門、窗簾軌道（若需鑽孔固定）</li>
+<li>更換門鎖（建議換後保留原鎖，退租時可換回）</li>
+<li>在浴室或廚房增加置物架（若需螺絲固定）</li>
+</ul>
+<h3>書面同意的正確做法</h3>
+<p>「我有問過房東，他說可以。」口頭同意日後很容易各說各話。正確做法：</p>
+<ul>
+<li>以LINE或簡訊告知改動內容，請對方回覆確認（留下記錄）</li>
+<li>重大改動建議簽署補充協議，載明改動項目、退租時的處理方式（保留或拆除）</li>
+<li>拍攝改動前後的對比照片</li>
+</ul>
+<h3>恢復原狀義務</h3>
+<p>退租時，原則上需要恢復改動前的狀態。但以下情況可能免除：</p>
+<ul>
+<li>改動有取得書面同意，且協議載明「房東同意保留，不需恢復」</li>
+<li>房東主動表示願意接受改動後的現狀</li>
+<li>改動屬輕微且提升房屋價值（如加裝好的紗窗）</li>
+</ul>
+<h3>常見爭議情境</h3>
+<p>「我把牆壁漆成深藍色，退租時房東要我全部刷白，還要付油漆工資。」這個情況，如果沒有書面同意，房東的要求是合理的。預算估算：一般套房重新油漆工資約5,000至15,000元，是不小的退租成本。簽約前想好，比退租後才後悔好得多。</p>`},{t:`電費超收完整指南：法定上限、計費方式、超收如何主張退費`,tag:'hot',b:`<h3>電費爭議為什麼這麼常見？</h3>
+<p>電費糾紛是租屋族最常遇到、也最容易被忽視的問題。很多人入住後才發現電費「莫名其妙」很高，卻不知道自己有權利主張退還。了解電費的合法計費規則，是保護自己的第一步。</p>
+<h3>電費的法定上限</h3>
+<p>依規定，房東向房客收取的每度電費，<strong>不得超過台電夏季最高級距費率</strong>。台電的計費是累進制，用電越多每度越貴，夏季最高級距（超高用電量）約每度6元多（依年度調整，以台電官方公告為準）。重要的是，這個「上限」是用台電的最高費率，而不是你實際的每度費率——因此房東以固定高單價收費，本身就佔了便宜，再超過上限更是違規。</p>
+<h3>常見的電費計費方式比較</h3>
+<ul>
+<li><strong>獨立電表計費（最公平）：</strong>每戶有獨立電表，直接看台電帳單收費，按實際用量計算，完全透明。有獨立電表的房東只需展示帳單，沒有隱藏空間。</li>
+<li><strong>共用電表平均分攤：</strong>整棟共用一個電表，費用平均分給每戶。問題在於用電多的房客和用電少的房客付一樣的錢，明顯不公平，且房東可能從中謀利。</li>
+<li><strong>固定單價計費：</strong>房東設定每度固定單價（如每度5元），乘以房客用電量。合法前提是單價不超過上限，且有電表讀數佐證。</li>
+</ul>
+<h3>如何確認自己有沒有被超收？</h3>
+<ol>
+<li>查看合約中的電費計費方式說明</li>
+<li>要求房東出示電表讀數記錄或台電帳單</li>
+<li>自行計算：用電量（度）× 單價 = 應付電費</li>
+<li>對比台電夏季最高費率，計算是否超收</li>
+</ol>
+<h3>發現超收後的處理流程</h3>
+<ol>
+<li><strong>蒐集證據：</strong>保留所有電費收據、轉帳記錄、LINE通知截圖</li>
+<li><strong>計算差額：</strong>算出歷月超收總金額</li>
+<li><strong>書面主張：</strong>以LINE或書面通知房東，說明超收事實並要求返還差額</li>
+<li><strong>申請調解：</strong>協商無果，申請鄉鎮市區調解委員會免費調解</li>
+<li><strong>檢舉：</strong>情節嚴重者，可向消費者保護機關或縣市住宅主管機關申訴</li>
+</ol>
+<h3>簽約前的預防方式</h3>
+<p>最好的保護是在簽約前確認清楚，並將計費方式寫入合約：</p>
+<ul>
+<li>問清楚：有沒有獨立電表？一度收多少錢？夏天平均一個月多少？</li>
+<li>寫清楚：合約中載明電費計算方式與每度單價上限</li>
+<li>留下記錄：每次繳費取得收據，記錄電表讀數</li>
+</ul>`},{t:`租屋寵物飼養完整指南：禁養條款效力、如何爭取、違約後果`,b:`<h3>寵物與租屋：一個常見的兩難困境</h3>
+<p>台灣寵物飼養率持續上升，但租屋市場中允許養寵物的物件比例仍然偏低。了解寵物相關條款的效力，以及如何在租屋過程中正確處理寵物問題，對有毛孩的房客來說非常重要。</p>
+<h3>禁養寵物條款的法律效力</h3>
+<p>合約中「不得飼養寵物」的條款是<strong>合法有效的使用限制</strong>。這和禁設戶籍的無效條款不同——飼養寵物不是租客的基本權利，房東有權利依房屋性質（如大樓規約禁止）或個人偏好設定此限制。簽了禁養寵物的合約，就必須遵守。</p>
+<h3>違反禁養規定的後果</h3>
+<ul>
+<li><strong>損壞賠償：</strong>寵物造成的損壞（抓痕、異味、排泄物汙漬）可從押金扣除修繕費用，嚴重時費用可能超過押金</li>
+<li><strong>違約金：</strong>合約若有約定，可依違約金條款求償</li>
+<li><strong>終止租約：</strong>房東可以違反重要約定為由，主張終止租約並要求搬遷</li>
+<li><strong>後續糾紛：</strong>退租時難以主張損壞非己造成，舉證地位明顯不利</li>
+</ul>
+<h3>如何在租屋前爭取養寵物的機會</h3>
+<ul>
+<li><strong>誠實告知：</strong>看房時主動說明有寵物，並說明寵物的種類、大小、習慣</li>
+<li><strong>提供保證：</strong>提議增加押金（如一個月）作為額外保障</li>
+<li><strong>簽署補充協議：</strong>明確約定退租時的清潔標準（如專業除毛、除味）</li>
+<li><strong>提供毛孩資料：</strong>展示寵物的健康證明、接種記錄，降低房東的疑慮</li>
+</ul>
+<h3>寵物友善物件怎麼找？</h3>
+<p>隨著台灣社會對寵物的接受度提高，寵物友善物件也在增加。尋找建議：</p>
+<ul>
+<li>在租屋平台勾選「可養寵物」篩選條件</li>
+<li>獨立物業（透天、公寓）通常比大樓社區更有彈性</li>
+<li>直接與屋主（非仲介）洽談，溝通空間較大</li>
+<li>事先了解社區管委會規約，有些大樓規約本身就禁止寵物</li>
+</ul>
+<h3>已在租屋中想要養寵物怎麼辦？</h3>
+<p>如果已在居住中的租屋合約禁止養寵物，想要養寵物，正確做法是：先以書面詢問房東是否同意，取得書面同意後再簽署補充協議。不要在沒有告知的情況下「先養再說」，被發現的代價通常比想像的高。</p>`},{t:`凶宅告知義務與租到凶宅的救濟方式：完整權利主張指南`,b:`<h3>什麼是凶宅？</h3>
+<p>「凶宅」在台灣實務上通常指在房屋的「專有部分」（即租屋的室內空間，不含公共走廊、停車場等）內，發生過非自然死亡事件的房屋。包含自殺、他殺、意外（如浴室跌倒）等。</p>
+<h3>房東的告知義務</h3>
+<p>出租人（房東）負有誠實告知義務，必須在簽約前告知其所知悉的重要事項，包含「房屋曾發生非自然死亡事件」。故意隱瞞此事實，屬不誠信的隱匿行為，可能影響合約效力並產生賠償責任。</p>
+<h3>租到凶宅後的救濟選項</h3>
+<ul>
+<li><strong>撤銷合約：</strong>主張房東隱瞞重要事實，意思表示有瑕疵，請求撤銷租約並返還已付租金與押金</li>
+<li><strong>主張減少租金：</strong>若不想搬遷，可主張因凶宅性質導致房屋價值減損，要求降低租金</li>
+<li><strong>損害賠償：</strong>若因此遭受具體損失（如搬遷費用、差額租金），可向房東請求賠償</li>
+</ul>
+<h3>舉證責任的問題</h3>
+<p>實務上，要主張凶宅權利，需要能舉證「房東確實知情且故意隱瞞」，這是最困難的部分。可以利用的資料：</p>
+<ul>
+<li>裁判書查詢：搜尋房屋地址相關的刑事案件記錄</li>
+<li>新聞報導：搜尋地址相關的社會新聞</li>
+<li>鄰居、管理員的陳述</li>
+<li>租金明顯低於行情（通常凶宅租金偏低）</li>
+</ul>
+<h3>如何事前預防？</h3>
+<ul>
+<li>簽約前使用本站「裁判書查詢助手」搜尋地址關鍵字</li>
+<li>詢問管理員、里長、鄰居關於房屋歷史</li>
+<li>觀察租金是否明顯低於同區行情三成以上</li>
+<li>在合約中加入「房東保證房屋無凶宅事實」的聲明條款</li>
+</ul>
+<h3>時效問題</h3>
+<p>主張撤銷或損害賠償有時效限制（通常從知悉之日起算），發現疑似凶宅情況應盡速蒐集資料並尋求協助，不宜拖延。</p>`},{t:`二房東轉租完整指南：合法授權辨識、詐騙手法、房客保護方式`,b:`<h3>什麼是二房東？</h3>
+<p>二房東是指先向原房東（或建設公司）承租房屋，再轉租給一般房客的中間人。二房東制度本身並不違法，但必須建立在「原房東明確書面授權」的基礎上。沒有授權的二房東轉租，就是典型的租屋詐騙或違約行為。</p>
+<h3>合法二房東與租屋詐騙的差異</h3>
+<ul>
+<li><strong>合法二房東：</strong>有原房東簽署的書面授權轉租，轉租期不超過原租約，承租人可核對相關文件</li>
+<li><strong>違法二房東：</strong>自行轉租未取得授權，或根本沒有實際承租原房東的房屋（純詐騙）</li>
+</ul>
+<h3>簽約前必查三件事</h3>
+<ol>
+<li><strong>原租約影本：</strong>要求對方出示與原房東的租約，確認是否包含「同意轉租」的授權條款，並核對對方身分與租約上的承租人姓名一致</li>
+<li><strong>原房東聯繫：</strong>如可能，直接聯繫原房東確認轉租事宜（可以「想確認物件細節」為由詢問）</li>
+<li><strong>土地登記謄本：</strong>向地政事務所申請或線上查詢，確認房屋所有權人，與對方聲稱一致</li>
+</ol>
+<h3>常見的租屋詐騙手法</h3>
+<ul>
+<li>聲稱自己是房東或受房東授權，但無法提供任何書面文件</li>
+<li>物件租金明顯低於行情，以此吸引求租者</li>
+<li>要求先付一至三個月押金，才帶去看房或交鑰匙</li>
+<li>以房東在國外、委託代管等理由解釋無法見面</li>
+<li>催促立刻決定，聲稱「另有多人要搶租」</li>
+</ul>
+<h3>如果遭遇詐騙怎麼辦？</h3>
+<ul>
+<li>保留所有匯款記錄、聊天記錄、對方身分資料</li>
+<li>立即向警察局報案（詐欺罪）</li>
+<li>向165反詐騙專線諮詢</li>
+<li>若有LINE帳號，向LINE客服舉報</li>
+</ul>
+<p>遭遇租屋詐騙追回金額的難度很高，最重要的是「付款前做好查驗」。見到真實的人、看到真實的房子、確認真實的所有權後再付款，是最基本的自保原則。</p>`},{t:`退租大型廢棄物處理：清運責任、免費清運申請、押金爭議預防`,b:`<h3>退租清運責任的基本原則</h3>
+<p>退租時，房客有義務清除所有個人物品及垃圾，並將房屋恢復至「基本可使用」的狀態。這包含個人家具、雜物、自行購買的各類物品，以及一般生活垃圾。房東原本提供的家具與設備，不可任意丟棄，屬房東財產。</p>
+<h3>大型廢棄物免費清運管道</h3>
+<p>很多租屋族不知道，各縣市環保局都提供大型廢棄物免費清運服務。只要提前預約，就能免費請清潔隊到指定地點收取：</p>
+<ul>
+<li><strong>預約方式：</strong>致電各縣市清潔隊或環保局，或上縣市官網線上預約</li>
+<li><strong>提前時間：</strong>通常需提前3至7個工作天預約</li>
+<li><strong>放置規定：</strong>於指定時間將大型廢棄物放至指定地點（通常是門口或指定收集點）</li>
+<li><strong>可收取物品：</strong>床墊、沙發、桌椅、冰箱（需先聯繫環保局，家電另有回收規定）</li>
+</ul>
+<h3>需要特別處理的物品</h3>
+<ul>
+<li><strong>廢家電（冰箱、洗衣機、冷氣）：</strong>需依廢棄物清理規定，可聯繫環保局安排「廢家電回收」，或找二手電器行回收（有時還能換點小錢）</li>
+<li><strong>廢機油、化學品：</strong>不可隨意丟棄，需依有害廢棄物規定處理</li>
+<li><strong>建材（如拆除後的隔間）：</strong>屬廢棄建材，需自行委託廢棄物清運業者處理，費用自負</li>
+</ul>
+<h3>常見的押金糾紛情境與預防</h3>
+<p>「你留了這麼多東西，清運費要從押金扣。」這是退租最常見的糾紛之一。預防方式：</p>
+<ul>
+<li>退租前一週開始清運，不要留到最後一天</li>
+<li>大型廢棄物提前預約免費清運，點交前確認已清除</li>
+<li>拍照記錄清運後的屋況</li>
+<li>點交時確認無遺留物品</li>
+</ul>
+<h3>如果房東主張清運費不合理怎麼辦？</h3>
+<p>房東從押金扣除清運費，必須提供費用單據。若你有完整的退租清空記錄（照片影片），而房東無法舉證確有遺留物，扣款主張就站不住腳。點交時的全程錄影，是保護自己最有效的方式。</p>`},{t:`租賃爭議常見判決趨勢分析：五大類型爭議，法院怎麼判？`,tag:'fav',b:`<h3>了解判決趨勢的重要性</h3>
+<p>知道「類似的案子法院怎麼判」，不只是法律知識，更是談判的底氣。當你在跟房東協商時，心裡清楚「這樣的爭議對方去告也贏不了」，才能從容面對。以下整理近年租賃爭議的主要判決趨勢。</p>
+<h3>一、押金超收爭議</h3>
+<p>判決趨勢：<strong>幾乎一律判決返還超額押金</strong>。押金上限兩個月是強制規定，法院態度一致。實務建議：超收押金不用訴訟，申請調解就夠了，成功率極高。</p>
+<h3>二、電費超收爭議</h3>
+<p>判決趨勢：<strong>確認超收事實後，判決返還差額加法定利息</strong>。關鍵是要有電表讀數記錄和繳費明細，能計算出超收金額。法院對電費超收的認定標準是「超過台電最高費率」。</p>
+<h3>三、違約金過高爭議</h3>
+<p>判決趨勢：<strong>法院常依民法第252條酌減顯失公平的違約金</strong>。常見酌減結果：三個月租金的違約金，酌減為一個月；以押金全額作為違約金的約定，幾乎都被認定過高而酌減。實務標準：一個月租金通常被認為合理，超過兩個月就有被酌減的風險。</p>
+<h3>四、修繕費用歸屬爭議</h3>
+<p>判決趨勢：<strong>誰的舉證完整誰贏，証據戰為主</strong>。房東主張房客損壞，需舉證損壞是房客造成且非自然耗損；房客主張非自己造成，需有入住時的照片佐證。沒有點交記錄的案件，法院依舉證責任分配，往往各打五十大板。</p>
+<h3>五、退租清潔費爭議</h3>
+<p>判決趨勢：<strong>自然耗損不得求償，法院態度明確</strong>。油漆褪色、輕微磨損、正常使用的牆面痕跡，不得向房客收取清潔或粉刷費用。例外：若有明顯污損（如抽菸留下的焦油漬）、違約飼養寵物造成的異味或抓痕，則可能認定房客需負擔費用。</p>
+<h3>給房東的提醒</h3>
+<p>從判決趨勢可以看出，法院對「超收」和「不合理扣款」的態度相當一致。誠實計費、合理約定、完整點交，才是長久之道。</p>
+<h3>給房客的提醒</h3>
+<p>舉證完整的一方幾乎都能贏得主要的爭點。入住時的點交照片影片、所有通訊記錄、繳費收據，請務必完整保存至少五年。這些記錄，就是你最強的保護。</p>`},{t:`社會住宅申請完整指南：資格條件、抽籤流程、如何提高中籤機率`,tag:'new',b:`<h3>什麼是社會住宅？</h3>
+    <p>社會住宅是由政府或政府委託機構興辦的「只租不售」住宅，以低於市場行情的租金出租給符合資格的民眾。台灣社會住宅的推動主要由國家住宅及都市更新中心（住都中心）與各縣市政府負責，近年供給量持續增加中。</p>
+<h3>申請資格（以一般戶為主）</h3>
+<ul>
+<li>年滿18歲（或已成年）</li>
+<li>設籍、就學或就業於申請縣市</li>
+<li>本人及配偶名下無自有住宅</li>
+<li>家庭年所得低於各縣市公告標準</li>
+<li>家庭不動產總價值低於公告上限</li>
+</ul>
+<h3>優先資格（可加權抽籤）</h3>
+<ul>
+<li>弱勢族群：低收入戶、中低收入戶、身心障礙者</li>
+<li>特定身分：單親家庭、原住民、新住民</li>
+<li>育兒家庭：設籍縣市並育有未成年子女</li>
+<li>青年族群：部分縣市提供青年專案（40歲以下另有名額）</li>
+</ul>
+<h3>租金水準</h3>
+<p>社會住宅租金依設定所得對象分層：</p>
+<ul>
+<li>低所得戶：市場租金約7折</li>
+<li>中低所得戶：約8折</li>
+<li>一般戶：約85折</li>
+<li>弱勢身分另有補貼，實際負擔更低</li>
+</ul>
+<h3>申請流程</h3>
+<ol>
+<li>關注各案開放公告（住都中心官網、縣市政府住宅處）</li>
+<li>線上填寫申請表，上傳所需文件</li>
+<li>資格審查（通常需2至4週）</li>
+<li>資格通過者進行公開抽籤</li>
+<li>中籤者接受通知，完成簽約入住程序</li>
+</ol>
+<h3>如何提高中籤機率？</h3>
+<ul>
+<li>多關注不同縣市、不同方案的申請機會，不只盯著熱門案件</li>
+<li>確認自己是否符合優先資格條件，優先資格有加權抽籤機制</li>
+<li>準備文件完整，避免因文件問題未通過資格審查</li>
+<li>了解各案的戶型與地點條件，選擇競爭較低的戶型</li>
+</ul>
+<h3>入住後的注意事項</h3>
+<p>社會住宅通常有定期資格審查（每一至兩年），若所得財產狀況改善超過標準，可能需要遷出。租約期間一般為一至三年，期滿可申請續租但需重新審查資格。</p>`},{t:`租屋仲介服務費規範：收費上限、服務內容、查詢合法仲介方法`,b:`<h3>透過仲介租屋的費用規範</h3>
+<p>台灣房屋仲介業有明確的服務費上限規定，但很多房客不清楚自己的權利，導致被收取超額服務費而不自知。了解收費規範，是保護自己的第一步。</p>
+<h3>服務費上限規定</h3>
+<ul>
+<li><strong>房東：</strong>最高收取一個月租金作為服務費</li>
+<li><strong>房客：</strong>最高收取半個月租金作為服務費</li>
+<li><strong>合計：</strong>雙方服務費合計不得超過一個半月租金</li>
+</ul>
+<p>注意：這個上限不因服務項目多少而改變。有些仲介以「代辦費」「行政費」等名義額外收費，超過上限的部分仍屬違規。</p>
+<h3>仲介應提供的標準服務</h3>
+<ul>
+<li>查證房屋所有權人身分，確認出租方有出租權利</li>
+<li>提供不動產說明書（需記載重要房屋資訊）</li>
+<li>協助雙方簽署租約</li>
+<li>辦理點交（確認房屋狀況）</li>
+<li>若有公證需求，協助安排</li>
+</ul>
+<h3>如何查詢仲介是否合法？</h3>
+<ul>
+<li>至內政部地政司全球資訊網「不動產仲介業」查詢頁面，輸入公司名稱或負責人姓名</li>
+<li>確認「不動產經紀業許可證書」是否在有效期限內</li>
+<li>個別業務員應持有「不動產經紀人」或「不動產經紀營業員」執照</li>
+</ul>
+<h3>常見的仲介費爭議情境</h3>
+<ul>
+<li><strong>帶看後直接收費：</strong>只帶你看房就收服務費，未協助簽約，不合理</li>
+<li><strong>收費後不辦理後續：</strong>付了服務費，但仲介消失不協助後續點交或公證</li>
+<li><strong>超額收費：</strong>以各種名義收取超過上限的費用</li>
+</ul>
+<h3>遇到超額收費怎麼辦？</h3>
+<ul>
+<li>先書面（LINE）要求退還超額部分，說明法規依據</li>
+<li>向縣市不動產仲介業主管機關（地政局）申訴</li>
+<li>向消費者保護機關申訴</li>
+<li>申請調解或提起小額訴訟（10萬元以下）</li>
+</ul>`},{t:`租賃文件保存指南：保存多久、保存什麼、如何建立完整的租賃記錄檔`,tag:'fav',b:`<h3>為什麼要保存租賃文件？</h3>
+<p>「都退租了，文件留著幹嘛？」這個想法害了不少人。租賃結束後，押金糾紛、稅務問題、損壞賠償爭議，可能在幾個月甚至幾年後才浮現。完整的文件記錄是你最重要的保護，而且幾乎不佔空間——一個手機資料夾就夠了。</p>
+<h3>建議保存至少5年的文件類型</h3>
+<ul>
+<li><strong>租約正本：</strong>整份合約，包含所有補充條款</li>
+<li><strong>押金收付記錄：</strong>支付押金的收據、轉帳明細截圖、退還押金的入帳紀錄</li>
+<li><strong>點交記錄：</strong>入住和退租時的照片影片（保留原始檔，含時間資訊）</li>
+<li><strong>通訊記錄：</strong>所有LINE、簡訊、Email往來截圖，特別是修繕通知、費用爭議等重要溝通</li>
+<li><strong>繳租證明：</strong>每月租金繳納的轉帳記錄或收據</li>
+<li><strong>費用單據：</strong>電費、水費、管理費等各項費用繳納記錄</li>
+</ul>
+<h3>為什麼是5年？</h3>
+<p>民事請求權一般時效為15年，但租賃相關的小額爭議和稅務問題，實務上5年內的舉證能力最為關鍵。5年後的爭議較少發生，加上稅務申報通常以5年為主要查核期，因此5年是合理的保存下限。</p>
+<h3>建立租賃記錄檔的方法</h3>
+<ol>
+<li><strong>建立雲端資料夾：</strong>在Google雲端或iCloud建立「[地址]租賃記錄」資料夾</li>
+<li><strong>分類子資料夾：</strong>「合約」「押金」「點交照片」「月費記錄」「通訊截圖」</li>
+<li><strong>即時上傳：</strong>每次有新文件立即上傳，不要等到「之後再整理」</li>
+<li><strong>本機備份：</strong>重要照片影片在手機本機也保留一份</li>
+<li><strong>重要文件紙本：</strong>租約正本、押金收據等建議實體保存一份</li>
+</ol>
+<h3>特別重要的「時間戳」觀念</h3>
+<p>照片和影片的「時間戳」（拍攝時間）是法律爭議中最有力的佐證。請注意：</p>
+<ul>
+<li>不要修改或編輯原始照片（修改後時間戳可能改變）</li>
+<li>保留原始檔案，不只是截圖</li>
+<li>如果有疑問，在照片中拍入有日期的報紙或手機螢幕（顯示時間）作為額外佐證</li>
+</ul>
+<h3>退租後應立即保存的最後一批記錄</h3>
+<ul>
+<li>點交當天全程錄影（含雙方互動過程）</li>
+<li>點交單雙方簽名版本的拍照</li>
+<li>押金退還入帳截圖</li>
+<li>戶籍遷出記錄</li>
+</ul>
+<p>退租後立刻建立「完整的退租記錄檔」，確認一切都有存檔後，才算真正完成這段租賃關係。</p>`}];
+const LANDLORD=[{t:`第一次出租房子完整 SOP：從定價到簽約，房東必看的出租準備流程`,tag:'fav',b:`<h3>出租前的心態準備</h3>
+<p>很多人第一次出租房子，最大的問題不是不知道流程，而是不知道自己哪些事「做了會有麻煩」。出租房屋之後，房客對該空間享有完整的使用權，房東必須尊重這一點，才能建立健康的租賃關係。</p>
+<h3>第一步：屋況整備</h3>
+<p>出租前的屋況整備，決定你能吸引到什麼樣的房客，也決定日後糾紛發生的機率。建議檢查：</p>
+<ul>
+<li><strong>安全項目：</strong>電線有無老化、熱水器是否正常、消防住警器是否安裝</li>
+<li><strong>設備功能：</strong>每樣提供的家電逐一測試，確認正常運作</li>
+<li><strong>漏水防水：</strong>重點檢查浴室、廚房、外牆，有問題提前修好</li>
+<li><strong>清潔整理：</strong>深度清潔，讓物件以最佳狀態呈現</li>
+</ul>
+<h3>第二步：合理定價</h3>
+<p>定價過高會讓房子長期空置，定價過低會損失收益，且可能吸引不穩定的房客。建議做法：</p>
+<ul>
+<li>至少比較10個以上附近類似物件的行情</li>
+<li>考慮你的物件相對優勢（地段、裝潢、附設備）</li>
+<li>建議定在市場均價的95%至105%之間</li>
+<li>新出租或換新房客時，可比現有市場行情低5%，縮短招租時間</li>
+</ul>
+<h3>第三步：有效刊登招租</h3>
+<p>好的招租廣告，能大幅提高詢問品質，減少無效帶看：</p>
+<ul>
+<li><strong>照片：</strong>自然光拍攝，至少8至12張，涵蓋所有空間</li>
+<li><strong>資訊透明：</strong>清楚標示坪數、樓層、電費計算方式、管理費內容</li>
+<li><strong>誠實呈現：</strong>若有缺點（如西曬、低樓層），提前說明，減少進場後的失望</li>
+<li><strong>刊登平台：</strong>591、好房網等主流平台同步刊登</li>
+</ul>
+<h3>第四步：篩選房客</h3>
+<p>好房客是房東最重要的資產。篩選不是歧視，是合理的風險管理：</p>
+<ul>
+<li>核對身分證（確認是本人）</li>
+<li>了解工作性質和收入水準（確認有租金負擔能力）</li>
+<li>觀察看房態度（認真詢問細節的人通常更愛惜房子）</li>
+<li>使用本站裁判書查詢助手，確認有無租賃訴訟記錄</li>
+</ul>
+<h3>第五步：簽約與點交</h3>
+<p>使用內政部公告的定型化契約版本為底本，再加入雙方特約條款。簽約後立即辦理點交，全程錄影，逐項確認設備狀況，雙方簽署點交單。本站的「入住點交清單」工具可直接使用，完整且符合實務需求。</p>`},{t:`房東必看：住宅租約必備條款與常見違法地雷，避免簽出無效合約`,tag:'hot',b:`<h3>為什麼合約這麼重要？</h3>
+<p>一份好的租約是房東最重要的保障。很多房東自擬合約，加入各種看似有利的條款，卻不知道這些條款在法律上根本無效。更糟的是，以為有保障，遇到糾紛才發現合約幫不上忙。</p>
+<h3>租約必備的核心條款</h3>
+<ul>
+<li><strong>租賃標的：</strong>房屋地址、樓層、坪數、附屬設備清單（越詳細越好）</li>
+<li><strong>租賃期間：</strong>明確的起始和結束日期</li>
+<li><strong>租金：</strong>金額、繳納日期、繳納方式（轉帳帳號）</li>
+<li><strong>押金：</strong>金額（不超過兩個月）、返還條件</li>
+<li><strong>費用計算：</strong>電費（每度單價或計算方式）、水費、管理費分攤方式</li>
+<li><strong>修繕責任：</strong>哪些由房東負責、哪些由房客負責，越清楚越好</li>
+<li><strong>終止條款：</strong>雙方各自的提前終止條件、通知期限、違約金</li>
+<li><strong>使用限制：</strong>禁止轉租、吸菸、飼養寵物等特定使用限制（合法限制）</li>
+</ul>
+<h3>常見的違法條款（寫了也無效）</h3>
+<ul>
+<li>「不得申報租金補貼」→ 無效，申請補貼是房客的權利</li>
+<li>「不得設戶籍」→ 無效，設籍是房客的權利</li>
+<li>「房客自行負擔所有修繕」→ 結構性修繕義務不得轉嫁</li>
+<li>「房東可隨時終止租約」→ 無合法事由不得任意終止</li>
+<li>「押金全部沒收作為違約金」→ 顯失公平，可能被酌減</li>
+<li>「房客放棄一切損害賠償請求權」→ 無效</li>
+</ul>
+<h3>特約條款的正確寫法</h3>
+<p>在不牴觸定型化規範的前提下，房東可以加入有效的特約：</p>
+<ul>
+<li>「禁止轉租，違者房東得終止租約並沒收押金」→ 合法，但沒收押金部分可能被酌減</li>
+<li>「禁止飼養任何寵物」→ 合法的使用限制</li>
+<li>「提前終止，需提前30天通知並賠付一個月租金」→ 合理的違約金約定</li>
+<li>「每半年房東得事先通知後進行設備檢查」→ 合理的定期檢查約定（需提前24小時）</li>
+</ul>
+<h3>建議使用內政部版本</h3>
+<p>與其花時間篩選自擬合約的地雷，不如直接以內政部公告的標準住宅租賃契約書為底本，需要特約的部分在特約條款欄位填寫。這樣既合規，也有完整的保障框架。</p>`},{t:`押金管理完全手冊：收多少合法、如何開立收據、退租時怎麼扣款才不敗訴`,tag:'hot',b:`<h3>押金的正確認知</h3>
+<p>很多房東把押金視為「最後一個月的保障」或「破壞賠償的保險」，這個認知是正確的——但前提是扣款要有依據。押金不是房東的收入，是代為保管的擔保金，扣款必須說得清楚，剩餘金額必須返還。</p>
+<h3>押金金額：收多少最恰當？</h3>
+<p>上限是兩個月租金，但收多少由你決定：</p>
+<ul>
+<li><strong>一個月押金：</strong>對房客負擔較輕，吸引力較高，但保障相對薄</li>
+<li><strong>兩個月押金：</strong>最常見的選擇，兼顧保障與吸引力</li>
+<li><strong>按狀況調整：</strong>允許養寵物、分租等高風險情況，建議收滿兩個月</li>
+</ul>
+<h3>押金收據的正確開立方式</h3>
+<p>收取押金時必須開立收據，收據應載明：</p>
+<ul>
+<li>房屋地址</li>
+<li>押金金額（數字及中文）</li>
+<li>收取日期</li>
+<li>出租人（房東）姓名與簽章</li>
+</ul>
+<h3>退租時押金扣款的合法依據</h3>
+<p>可以從押金扣除的項目：</p>
+<ul>
+<li>欠繳租金（有明確金額）</li>
+<li>可舉證的損壞修繕費（需有估價單和損壞照片）</li>
+<li>合約明定的清潔費（如約定退租需專業清潔）</li>
+<li>合約明定的違約金（如提前解約）</li>
+</ul>
+<p>不可扣除的項目：</p>
+<ul>
+<li>自然耗損的修繕費用</li>
+<li>沒有依據的模糊費用（「整理費」「管理費」等）</li>
+<li>入住前就已存在的損壞</li>
+</ul>
+<h3>最常見的押金敗訴原因</h3>
+<p>房東在押金糾紛中最常敗訴的情況：</p>
+<ul>
+<li>沒有入住點交記錄，無法證明損壞是房客造成</li>
+<li>以油漆費、清潔費等自然耗損項目扣款</li>
+<li>扣款沒有單據（沒有估價單或收據）</li>
+<li>全額沒收押金，遠超過實際損害</li>
+</ul>
+<h3>退租押金結算的正確程序</h3>
+<ol>
+<li>點交當天雙方確認屋況，有損壞立即拍照</li>
+<li>取得損壞修繕的估價單（至少兩家估價）</li>
+<li>書面列出扣款明細，逐項說明</li>
+<li>押金扣除後，剩餘金額於合理期間內（通常兩週）返還</li>
+<li>保留所有扣款單據至少五年</li>
+</ol>`},{t:`包租代管是什麼？費用、服務內容、稅務優惠、適合哪種房東`,tag:'new',b:`<h3>包租代管的基本概念</h3>
+<p>包租代管是由政府推動的租屋市場機制，鼓勵房東委託合格業者管理出租事務，同時為房客提供更規範的租賃環境。對於沒有時間管理出租物件、或不熟悉租賃事務的房東，包租代管是值得評估的選項。</p>
+<h3>兩種模式的差異</h3>
+<ul>
+<li><strong>包租：</strong>業者直接承租你的房屋，再轉租給一般房客。業者保證你每月固定收到租金，即使物件空置也照付（業者承擔空置風險）。你的收益相對穩定，但比自租少。</li>
+<li><strong>代管：</strong>房屋仍由你自行出租，業者代為處理招租、收租、修繕協調等事務，收取管理費（通常為租金的8%至12%）。你收益較高，但業者不承擔空置風險。</li>
+</ul>
+<h3>委託代管能享有的稅務優惠</h3>
+<p>透過合格包租代管業者出租，房東可享有公益出租人待遇：</p>
+<ul>
+<li>綜合所得稅：每屋每月租金1.5萬元以內免稅</li>
+<li>房屋稅：適用自住稅率1.2%（非出租2.4%）</li>
+<li>地價稅：適用自用稅率（大幅低於一般出租稅率）</li>
+</ul>
+<h3>如何選擇合格的包租代管業者？</h3>
+<ul>
+<li>確認業者具備政府核可的包租代管資格（向縣市住宅主管機關查詢）</li>
+<li>了解服務合約的管理費計算方式、服務範圍、終止條件</li>
+<li>詢問業者管理物件的數量和評價</li>
+<li>確認修繕處理流程和響應時間</li>
+</ul>
+<h3>包租代管適合哪種房東？</h3>
+<ul>
+<li>在外地（包含海外）有出租物件的房東</li>
+<li>持有多間物件、無法逐一管理的房東</li>
+<li>不熟悉租賃規範、擔心法律風險的初次出租者</li>
+<li>不想直接面對房客糾紛的房東</li>
+<li>希望節稅並同時維持合規的房東</li>
+</ul>
+<h3>包租代管的潛在缺點</h3>
+<ul>
+<li>收益會被管理費壓縮（代管約扣10%、包租可能更多）</li>
+<li>對物件的管理方式較少直接控制</li>
+<li>選到不良業者反而帶來更多麻煩</li>
+</ul>`},{t:`電費合法收費完整指南：每度多少錢合法、如何開立明細、常見糾紛處理`,tag:'hot',b:`<h3>電費是最常見的租屋糾紛來源之一</h3>
+<p>電費問題之所以這麼常出現糾紛，是因為很多房東不了解規定，而房客也不知道自己的權利。雙方在不清楚規範的情況下簽約，入住後才因電費高低開始爭執。事先搞清楚規定，才能讓雙方都安心。</p>
+<h3>電費收費上限規定</h3>
+<p>房東向房客收取的每度電費，<strong>不得超過台電當期夏季最高級距費率</strong>（約每度6元多，每年可能隨台電費率調整）。</p>
+<p>台電的電費是累進計費，用電量越多每度越貴。夏季（6至9月）因冷氣用量大，費率較高。房東只能收台電實際費率，不得以任何理由超過此上限。</p>
+<h3>不同計費方式的優缺點</h3>
+<ul>
+<li><strong>獨立電表：</strong>最公平透明。每戶有自己的電表，台電直接帳單，房東按帳單收費。推薦方式，幾乎沒有爭議空間。</li>
+<li><strong>固定單價計費：</strong>房東設定每度固定單價（需在上限內），月底讀取電表計算費用。需提供電表讀數記錄，否則無法核對。</li>
+<li><strong>平均分攤：</strong>整棟共用電表，費用平均分攤。問題最多，用電多的人和少的人付一樣，容易引發爭議。</li>
+</ul>
+<h3>如何開立合法的電費明細</h3>
+<p>每月向房客收取電費時，建議提供明細（LINE截圖也可）：</p>
+<ul>
+<li>本月電表讀數（期初與期末）</li>
+<li>用電度數（期末 - 期初）</li>
+<li>每度單價</li>
+<li>應付電費金額</li>
+</ul>
+<h3>夏季電費為何特別貴？如何向房客說明？</h3>
+<p>台電夏季費率較高，加上冷氣用電量增加，夏季電費往往是平時的2至3倍。建議在簽約時就先告知夏季電費可能的範圍，讓房客有心理準備，避免夏天帳單一來引發爭執。</p>
+<h3>如果房客質疑電費怎麼辦？</h3>
+<ol>
+<li>立即提供電表讀數記錄和計算明細</li>
+<li>說明計費方式和單價的合法依據</li>
+<li>如有疑問，可邀請房客一起確認電表讀數</li>
+<li>若仍有爭議，主動提議依台電帳單重新計算差額</li>
+</ol>
+<p>透明計費的房東，幾乎不會遇到電費糾紛。問題通常出在「說不清楚」而不是真的超收。</p>`},{t:`房客欠租完整處理手冊：催繳流程、終止租約、收回房屋的合法步驟`,tag:'hot',b:`<h3>欠租是房東最頭痛的問題之一</h3>
+<p>遇到欠租的房客，很多房東的直覺反應是換鎖、斷水斷電，或自己去把東西搬出來。但這些「自力救濟」的做法，反而可能讓你從受害的一方變成被告的一方。正確的處理流程雖然看起來「慢」，但才是真正能解決問題的方式。</p>
+<h3>欠租的認定標準</h3>
+<p>依住宅租賃規範，當房客積欠租金達<strong>「兩個月租額」</strong>時，房東在催告後仍未繳清，即可主張終止租約。「兩個月租額」的計算方式：月租金乘以二，不是欠了兩個月以上，而是欠款金額達到兩個月租金的總額。</p>
+<h3>合法催繳與終止流程</h3>
+<ol>
+<li><strong>第一步：書面催告</strong><br>以LINE、簡訊或存證信函，明確告知：「已積欠租金共XX元，請於X日前（建議給7至10天）繳清，逾期本人將依約終止租賃關係。」保留發送記錄。</li>
+<li><strong>第二步：確認期限</strong><br>等候催告期限屆至，給房客合理的繳款時間。</li>
+<li><strong>第三步：書面終止</strong><br>期限到期仍未繳清，以書面通知「依合約第X條，本人正式終止租賃關係，請於X日前返還房屋」。</li>
+<li><strong>第四步：要求返還房屋</strong><br>協商搬遷期限，給房客合理的時間（通常7至14天）搬遷。</li>
+<li><strong>第五步：強制執行（如有公證）</strong><br>若租約有辦理逕受強制執行公證，且已依公證書約定的條件，可向法院聲請強制執行（直接執行遷移，無需另起訴訟）。</li>
+<li><strong>第六步：訴訟（無公證）</strong><br>無公證者，需向法院提起「遷讓房屋」訴訟，取得勝訴判決後聲請強制執行。</li>
+</ol>
+<h3>絕對不能做的事</h3>
+<ul>
+<li>私自換鎖（侵入住居罪風險）</li>
+<li>斷水斷電（可能涉及強制罪）</li>
+<li>強行進入搬走房客物品（侵占、毀損罪風險）</li>
+<li>口頭恐嚇或騷擾房客（恐嚇罪風險）</li>
+</ul>
+<p>以上行為可能讓你承擔刑事責任，且嚴重影響你在民事訴訟中的立場。</p>
+<h3>為什麼強執公證這麼重要？</h3>
+<p>沒有公證的房東，遇到欠租不搬的房客，從提告到強制執行，往往需要六個月至一年以上。有公證的房東，可以在數週內完成強制執行。公證費用幾千元，一次就省下一年的訴訟費用和時間。</p>`},{t:`房東如何合法調漲租金：時機選擇、漲幅建議、溝通技巧與注意事項`,b:`<h3>調漲租金的基本原則</h3>
+<p>很多房東猶豫是否調漲租金，要不是怕失去好房客，要不是不確定什麼時候可以調。其實，調漲租金是完全正當的，只要在正確的時機用對的方式提出，對房東和房客都是可以接受的結果。</p>
+<h3>可以調漲的時機</h3>
+<ul>
+<li><strong>租約到期時：</strong>原租約屆期，雙方協商新租金，這是最合法且最自然的調漲時機</li>
+<li><strong>續約前協商：</strong>提前一至兩個月告知調漲意向，讓房客有評估時間</li>
+<li><strong>重大設備更新後：</strong>如新裝冷氣、翻新浴室，可在下次續約時反映設備提升</li>
+</ul>
+<h3>不能調漲的情況</h3>
+<ul>
+<li>租約有效期間內：有明確約定租金者，期間不得單方調漲</li>
+<li>房客申請租金補貼後：不得因此漲租</li>
+<li>短期內頻繁調漲：雖然法律沒有明確禁止，但可能引發爭議和房客流失</li>
+</ul>
+<h3>合理的漲幅建議</h3>
+<ul>
+<li>對表現良好的長租房客：低於市場調漲幅度（如市場漲5%，給3%），以示珍惜</li>
+<li>對一般房客：參考周邊同類物件行情調整</li>
+<li>漲幅過大（超過20%）：幾乎必然導致房客搬遷，空置加整理成本通常超過調漲的總收益</li>
+</ul>
+<h3>如何與房客溝通調漲</h3>
+<ol>
+<li><strong>提前通知：</strong>至少提前一至兩個月，讓房客有時間評估是否繼續承租</li>
+<li><strong>說明理由：</strong>如稅費增加、周邊行情上漲、設備更新，有具體說明更容易被接受</li>
+<li><strong>留有彈性：</strong>「如果你願意簽長一點（如兩年），我可以少漲一些」這類條件交換，對雙方都有利</li>
+<li><strong>書面確認：</strong>達成新租金協議後，簽署新合約或補充協議，確保有書面記錄</li>
+</ol>
+<h3>換算：調漲vs空置的損益比較</h3>
+<p>以月租2萬、好房客住了兩年為例：</p>
+<ul>
+<li>調漲2,000元（10%），房客接受 → 年增收24,000元</li>
+<li>調漲5,000元（25%），房客搬遷 → 空置1個月（2萬）＋找新房客廣告費（2,000）＋打掃整理（1,000）= 損失23,000元，幾乎等於一年的漲幅收益</li>
+</ul>
+<p>好的房客，是值得用合理讓步來留住的資產。</p>`},{t:`房東進入出租房屋的界線：合法通知程序與擅自進入的法律風險`,b:`<h3>為什麼這是常見的爭議點？</h3>
+<p>很多房東有一種心理：「房子是我的，我當然可以進去看。」但租賃關係成立後，房客對該空間享有完整的使用權，這是法律保障的居住安全，不因所有權歸屬而改變。了解正確的入室程序，是避免刑事糾紛的重要基礎。</p>
+<h3>法律框架：房客的使用權</h3>
+<p>租約成立後，房客對租賃物有使用收益的權利（《民法》第421條）。房東未經房客同意，擅自進入租賃房屋，可能構成《刑法》第306條「無故侵入住居罪」，處一年以下有期徒刑或拘役。</p>
+<h3>合法進入的正確程序</h3>
+<ul>
+<li><strong>提前告知：</strong>至少提前24小時通知房客，說明入室目的和預計時間</li>
+<li><strong>獲得確認：</strong>等候房客回覆確認（不是單方面通知就算完成）</li>
+<li><strong>依約定時間：</strong>在雙方約定的時間進行，不得提早或臨時更改</li>
+<li><strong>告知後入室：</strong>即使有鑰匙，也需要等房客確認</li>
+</ul>
+<h3>緊急情況的處理方式</h3>
+<p>以下緊急情況，房東可能需要在未事先取得同意的情況下進入：</p>
+<ul>
+<li>漏水危及鄰居（需要立即處置）</li>
+<li>房客疑似發生意外（長時間無法聯繫）</li>
+<li>煙霧或火警</li>
+</ul>
+<p>即便是緊急情況，建議先電話聯繫房客，無法聯繫再入室，事後立即通知房客並說明原因。</p>
+<h3>如何在合約中約定定期檢查？</h3>
+<p>可以在合約的特約條款加入「定期設備檢查」的約定，例如：「每半年得由出租人提前24小時以上通知，進行設備狀況確認，時間以雙方合意為準。」這樣的約定讓定期檢查有了合法依據，也讓房客事先知情並同意。</p>
+<h3>不得安裝監視器的原則</h3>
+<p>房東不得在租賃空間內安裝攝影監視設備（特別是房間、浴室等私人空間），即使是公共走廊的監視器，也不得對準房客的房門內部。違者可能涉及《刑法》妨害秘密罪，且可能讓房客取得立即解約的正當理由。</p>`},{t:`租約到期續租或收回房屋：房東的法定程序、時限與常見錯誤`,b:`<h3>租約到期的處理是房東最容易犯錯的環節</h3>
+<p>很多房東以為「租約到期了，房客自然要走」，但實際上，如果沒有依程序處理，租約可能自動變成不定期租賃，房東反而更難收回房屋。了解正確的程序，才能保護自己的權益。</p>
+<h3>租約到期前的必要動作</h3>
+<p>租約到期前，房東應主動決定並採取行動：</p>
+<ul>
+<li><strong>到期前2個月：</strong>確認是否要繼續出租或收回房屋，開始與房客溝通</li>
+<li><strong>到期前1個月：</strong>正式以書面通知房客（不論是否繼續出租，都要告知決定）</li>
+<li><strong>通知方式：</strong>LINE、簡訊、存證信函均可，重點是留有記錄</li>
+</ul>
+<h3>續租的正確流程</h3>
+<ul>
+<li>雙方協商新租金（若有調整）</li>
+<li>簽署新合約或「租約續約補充協議」</li>
+<li>確認新合約期間、租金、其他條件</li>
+<li>若要維持逕受強制執行效力，建議重新辦理公證（原公證效力是否延伸依公證書內容而定）</li>
+</ul>
+<h3>不續租的正確流程</h3>
+<ul>
+<li>到期前1個月以書面通知房客不續租</li>
+<li>確認房客的搬遷計畫和點交時間</li>
+<li>提前安排下一個租賃的招租（可在房客搬遷前1至2週開始帶看）</li>
+<li>如房客願意配合帶看，維持良好合作關係，對雙方都有利</li>
+</ul>
+<h3>什麼是默示續租？為什麼要避免？</h3>
+<p>租約到期後，如果：</p>
+<ul>
+<li>房東未通知不續租</li>
+<li>房客繼續居住</li>
+<li>房東繼續收受租金</li>
+</ul>
+<p>則法律上視為雙方同意繼續租賃，租約自動變成「不定期租賃」。不定期租賃的問題在於：房東如果想收回房屋，必須提前一段時間通知（依法不少於一個月），且不能隨意終止，必須符合法定事由。這比重新簽一份有固定期限的租約更難控制。</p>
+<h3>常見錯誤：房東讓租約自動到期然後不處理</h3>
+<p>最常見的錯誤情境：租約到期，房東心想「反正到期了」，既沒有通知房客，也沒有要求搬遷，繼續收著租金。結果變成不定期租賃，幾年後才想收回，才發現沒那麼容易。</p>`},{t:`房東報稅完整指南：租金收入如何申報、節稅方式、公益出租人優惠計算`,tag:'new',b:`<h3>租金收入的稅務申報義務</h3>
+<p>收取租金屬於「租賃所得」，必須在每年5月的綜合所得稅申報期間申報。很多房東以為「不報就沒事」，但房客申報租金支出、申請租金補貼，都會讓租賃事實浮現。未申報的後果是被查到後補稅加罰款，得不償失。</p>
+<h3>租賃所得的計算方式</h3>
+<p>有兩種申報方式，擇一選用：</p>
+<ul>
+<li><strong>標準扣除法（免附單據）：</strong>租金收入 × 57% = 租賃所得（等於可扣除43%必要費用）。適合沒有留存修繕單據的房東。</li>
+<li><strong>實際費用列舉法（需附單據）：</strong>租金收入 - 實際費用 = 租賃所得。實際費用包含：修繕費（附收據）、折舊費、地價稅、房屋稅、管理費、貸款利息（若有）。單據齊全且費用較高時，此法可能更省稅。</li>
+</ul>
+<h3>公益出租人的申報優惠</h3>
+<p>房客領有租金補貼者，房東享有公益出租人免稅額：<strong>每屋每月租金收入1.5萬元以內，全數免計入綜合所得</strong>。</p>
+<p>計算範例：月租2萬、享公益出租人資格</p>
+<ul>
+<li>免稅部分：1.5萬 × 12個月 = 18萬</li>
+<li>需申報部分：（2萬 - 1.5萬）× 12個月 = 6萬</li>
+<li>實際課稅所得（標準扣除）：6萬 × 57% = 3.42萬</li>
+<li>若稅率20%，全年所得稅（租金部分）：約6,840元</li>
+<li>比較：無公益出租人資格，全年課稅所得（20萬 × 57%）= 11.4萬，稅額約22,800元</li>
+</ul>
+<h3>常見的節稅誤區</h3>
+<ul>
+<li><strong>錯誤：隱匿租金不報。</strong>房客申報、申請補貼都會揭露，被查到補稅加罰，得不償失。</li>
+<li><strong>錯誤：以裝潢費全額扣除。</strong>裝潢費屬資本支出，需依規定折舊年限分年攤提，不能一次扣除。</li>
+<li><strong>錯誤：忽略公益出租人申請。</strong>符合條件卻未申報，白白少了節稅機會。</li>
+</ul>
+<h3>房屋稅和地價稅的影響</h3>
+<p>一般出租的房屋：</p>
+<ul>
+<li>房屋稅：非自住用途適用2.4%（各縣市略有差異）</li>
+<li>地價稅：非自用住宅千分之10至50不等</li>
+</ul>
+<p>公益出租人：</p>
+<ul>
+<li>房屋稅：適用自住稅率1.2%</li>
+<li>地價稅：適用自用住宅千分之2</li>
+</ul>
+<p>以一間房屋稅評定現值100萬的房屋為例，一般出租每年房屋稅約24,000元，公益出租人約12,000元，每年省12,000元。加上地價稅的節省，成為公益出租人的稅務效益相當可觀。</p>`},{t:`篩選好房客完整指南：如何查驗背景、面談觀察、合法與歧視的界線`,b:`<h3>好房客的重要性</h3>
+<p>「房子好不好租不重要，重要的是租給對的人。」這句話對有出租經驗的房東來說，是深刻的體會。一個好房客，按時繳租、愛惜房屋、溝通順暢，讓你幾年都不需要操心。一個問題房客，可能讓你損失幾個月的租金、付出數倍的管理時間，甚至引發法律糾紛。</p>
+<h3>合法且合理的查驗項目</h3>
+<ul>
+<li><strong>身分核對：</strong>要求本人攜帶身分證，當面確認照片與本人一致</li>
+<li><strong>工作收入：</strong>了解職業性質，確認有穩定收入。月租金建議不超過月收入的三分之一</li>
+<li><strong>緊急聯絡人：</strong>留存姓名與電話，作為必要時的聯繫管道</li>
+<li><strong>租賃記錄查詢：</strong>使用本站裁判書查詢助手，搜尋有無租賃相關訴訟記錄（欠租、遷讓等）</li>
+</ul>
+<h3>面談時的觀察重點</h3>
+<ul>
+<li><strong>對屋況的關注度：</strong>認真詢問設備狀況、管線細節的房客，通常是真的想長租、想好好住的人</li>
+<li><strong>對合約的態度：</strong>願意仔細看合約並提問，代表他理性、謹慎；不看就簽，反而要小心</li>
+<li><strong>準時：</strong>看房準時到達是一個小細節，但反映時間觀念</li>
+<li><strong>溝通方式：</strong>禮貌、清楚、理性，是良好租賃關係的基礎</li>
+</ul>
+<h3>不能作為拒租理由的因素（歧視性拒租）</h3>
+<p>以下因素不能作為拒租的依據，否則可能涉及歧視：</p>
+<ul>
+<li>性別（包含性別認同）</li>
+<li>婚姻狀況（已婚/未婚/離婚）</li>
+<li>有無子女</li>
+<li>國籍或種族</li>
+<li>宗教信仰</li>
+<li>身心障礙狀況</li>
+</ul>
+<h3>其他注意事項</h3>
+<ul>
+<li>不得要求提供存摺明細、薪資單等過度個資（只需確認有穩定收入）</li>
+<li>不得以性別、年齡等理由設定限制性廣告（如「限女性」「限年輕人」）</li>
+<li>同等條件的多位申請者，以先來先得為原則，不能以歧視性理由挑選</li>
+</ul>`},{t:`違約金條款設計指南：金額怎麼設合理、法院如何認定、範例條文寫法`,b:`<h3>違約金條款的重要性</h3>
+<p>違約金條款是租約中最容易被忽視、也最容易出問題的部分。寫得太籠統，發生糾紛時不知道怎麼計算；寫得太高，法院可能酌減；寫得不清楚，反而讓房東陷入舉證困境。好的違約金條款，要清楚、合理、可執行。</p>
+<h3>違約金的合理金額範圍</h3>
+<p>根據近年的法院判決趨勢：</p>
+<ul>
+<li><strong>一個月租金：</strong>最常見、最安全的設定，法院通常不會酌減</li>
+<li><strong>一個半月至兩個月：</strong>法院有酌減案例，但提前越多月提出解約的情況，法院較可能維持</li>
+<li><strong>超過兩個月：</strong>很高的機率被法院認定顯失公平而酌減</li>
+<li><strong>沒收全部押金：</strong>幾乎都被認定過高，法院通常酌減為一個月租金</li>
+</ul>
+<h3>違約情形的明確列舉</h3>
+<p>好的違約金條款應明確列舉「哪些情形算違約」：</p>
+<ul>
+<li>提前終止租約：承租人提前解約，需提前30天通知，並賠付出租人一個月租金</li>
+<li>積欠租金：積欠達兩個月租額，房東得終止租約，房客另賠付違約金一個月租金</li>
+<li>擅自轉租：未經出租人書面同意轉租，視為重大違約，賠付違約金一個月租金</li>
+<li>重大損壞：故意造成重大損壞，超過押金範圍者另行賠償</li>
+</ul>
+<h3>雙向違約金的好處</h3>
+<p>只有房客違約才需賠償的單向條款，在法院眼中可能被視為「顯失公平」。建議設計雙向條款：</p>
+<p>「出租人如提前終止租約（非因承租人違約），應賠付承租人一個月租金。」</p>
+<p>雙向條款表現公平，實際上不太可能輪到房東賠，但讓整份合約更站得住腳。</p>
+<h3>違約金與押金扣除的關係</h3>
+<p>違約金可以從押金扣除，但押金扣除後仍不足時，需另行向房客請求。結算順序：</p>
+<ol>
+<li>押金扣除欠租</li>
+<li>扣除可舉證的損壞賠償</li>
+<li>扣除違約金</li>
+<li>剩餘金額返還房客</li>
+<li>押金不足以支應時，超出部分另行請求</li>
+</ol>`},{t:`房東修繕義務完整指南：哪些非修不可、修繕時限、房客自行修繕的處理`,tag:'hot',b:`<h3>修繕義務的法律基礎</h3>
+<p>依《民法》第429條，出租人（房東）負有「保持租賃物合於約定使用狀態」的義務。這是一個持續性的義務，不是只在簽約時有效，而是租賃期間內持續存在。換句話說，只要房客通知有影響正常使用的問題，房東就有修繕的法律義務。</p>
+<h3>房東必須負責修繕的項目</h3>
+<ul>
+<li><strong>結構安全：</strong>漏水（屋頂、外牆、窗戶密封失效）、壁癌、地基下沉、樑柱裂縫</li>
+<li><strong>水電管線：</strong>水管老化破裂、電線老化、排汙管堵塞（非人為造成）</li>
+<li><strong>原提供設備的自然故障：</strong>熱水器、冷氣壓縮機損壞、門鎖老化無法正常使用、窗戶無法關閉</li>
+<li><strong>安全設施：</strong>消防住警器、瓦斯自動切斷裝置等安全必備設施</li>
+</ul>
+<h3>收到修繕通知後應有的回應時限</h3>
+<ul>
+<li><strong>緊急情況（漏水、水管破裂、電路問題）：</strong>24小時內響應，48小時內安排處理</li>
+<li><strong>一般故障（冷氣不冷、熱水器不穩定）：</strong>48至72小時內響應，一週內完成修繕</li>
+<li><strong>非緊急事項（門鉸鏈歪斜、窗戶難開）：</strong>一週內響應，兩週內完成</li>
+</ul>
+<h3>拖延修繕的法律後果</h3>
+<p>房客催告後超過合理期限（通常7至14天）仍未修繕，房客有以下權利：</p>
+<ul>
+<li>自行修繕，費用向房東請求返還</li>
+<li>依損害程度主張減少租金</li>
+<li>若損壞嚴重影響居住（如嚴重漏水、電路危險），主張解除租約且不付違約金</li>
+</ul>
+<h3>如何建立高效的修繕回應機制</h3>
+<ul>
+<li><strong>建立固定廠商名單：</strong>認識可信賴的水電師傅、冷氣師傅，遇到問題能快速聯繫</li>
+<li><strong>設定緊急聯繫方式：</strong>告知房客遇到緊急狀況（漏水、電路問題）的聯繫管道和預計響應時間</li>
+<li><strong>每年定期保養：</strong>主動安排設備保養，預防突發故障</li>
+<li><strong>修繕記錄留存：</strong>每次修繕都留存記錄（報價單、完工照片），對日後的押金結算有幫助</li>
+</ul>
+<h3>房東自行聯繫廠商 vs 委由房客處理</h3>
+<p>建議：優先自行聯繫廠商。讓房客自行找廠商，再由房東支付，費用透明度較低，也較難核對合理性。自行聯繫還能確保廠商品質，避免後續的施工品質爭議。</p>`},{t:`房客提前解約時的求償計算：押金扣法、合理賠償範圍、常見爭議處理`,b:`<h3>提前解約不等於可以全扣押金</h3>
+<p>很多房東以為房客提前解約就可以把押金全部留下，這個認知是錯誤的。押金的功能是擔保租約的整體履行，不是違約賠償的專屬工具。提前解約的賠償有其合理範圍，超出合理範圍的扣款，在調解或訴訟中幾乎都會被要求返還。</p>
+<h3>提前解約可以求償的項目</h3>
+<ul>
+<li><strong>違約金：</strong>合約明定的提前解約違約金，實務安全範圍是一個月租金</li>
+<li><strong>欠繳租金：</strong>到搬遷日前尚未繳清的租金</li>
+<li><strong>實際損壞：</strong>可舉證由房客造成且超出自然耗損的損壞修繕費</li>
+</ul>
+<h3>不能求償的項目</h3>
+<ul>
+<li>自然耗損的修繕費（油漆、輕微磨損）</li>
+<li>入住前已存在的損壞</li>
+<li>沒有合約依據的各種「費用」</li>
+<li>超過實際損失的懲罰性扣款</li>
+</ul>
+<h3>如何計算合理的求償金額</h3>
+<p>步驟一：確認違約金金額（合約約定的一個月租金）</p>
+<p>步驟二：清算欠租（如有）</p>
+<p>步驟三：確認損壞修繕費（需有估價單和入住對照照片）</p>
+<p>步驟四：加總三項，從押金扣除</p>
+<p>步驟五：剩餘押金必須返還</p>
+<h3>協商比對抗更划算的邏輯</h3>
+<p>房客想提前解約，通常是因為工作、家庭等不可抗力因素。態度好、配合帶看的房客，幫你縮短空置期的價值，可能超過違約金金額。建議：</p>
+<ul>
+<li>聽完房客提前解約的原因，判斷是否有協商空間</li>
+<li>如果房客願意配合找替代房客，可以考慮減少違約金作為交換</li>
+<li>雙方白紙黑字確認解約日期和結算方式，避免後續爭議</li>
+</ul>
+<h3>強制扣留押金的法律風險</h3>
+<p>無合法依據強行扣留押金，房客可申請調解或提起小額訴訟要求返還。法院判決幾乎都會要求返還超額扣款，且可能附帶遲延利息。輕鬆解決，比較符合雙方長期利益。</p>`},{t:`入住點交的完整程序：如何建立無懈可擊的交屋記錄，徹底預防退租糾紛`,tag:'fav',b:`<h3>點交記錄是押金糾紛的最終裁判</h3>
+<p>幾乎所有的退租押金糾紛，最後都回到同一個問題：入住時有沒有做好點交記錄？有完整記錄的一方，在調解和訴訟中幾乎都佔優勢。這個環節花一個小時，可以省去日後可能長達數月的糾紛煩惱。</p>
+<h3>點交前的準備工作</h3>
+<ul>
+<li>確認所有設備都能正常運作（在房客入住前逐項測試）</li>
+<li>完成清潔整理</li>
+<li>準備好點交清單（本站工具直接使用）</li>
+<li>備妥鑰匙全套（含備份）、磁扣、停車遙控等</li>
+<li>確認水電表讀數</li>
+</ul>
+<h3>點交當天的正確流程</h3>
+<ol>
+<li><strong>開始前確認：</strong>請房客到場，開始前告知「我們今天全程錄影，請一起確認。」</li>
+<li><strong>全室錄影：</strong>手機全程錄影，從入口開始，逐一走過每個空間，不跳過任何角落</li>
+<li><strong>逐項確認設備：</strong>依點交清單，每樣設備當面測試並說明（熱水器、冷氣、洗衣機等）</li>
+<li><strong>既有損傷特寫：</strong>發現入住前已有的損傷（刮痕、壁癌、裂縫），特寫拍照並在點交單上記錄</li>
+<li><strong>水電表讀數：</strong>拍照記錄當日水電表讀數，雙方確認</li>
+<li><strong>雙方簽署點交單：</strong>點交單載明日期、房屋狀況說明、雙方簽名</li>
+<li><strong>互傳影像記錄：</strong>當天將影片和照片傳給房客，確認雙方各有一份相同的記錄</li>
+</ol>
+<h3>點交單應記錄的內容</h3>
+<ul>
+<li>租賃房屋地址</li>
+<li>點交日期</li>
+<li>設備清單（逐項記錄狀況）</li>
+<li>既有損傷說明（如「臥室牆面右下角有5公分裂縫，入住前已存在」）</li>
+<li>水電表讀數</li>
+<li>鑰匙數量確認</li>
+<li>雙方簽名欄</li>
+</ul>
+<h3>退租時的對照流程</h3>
+<p>退租點交時，同樣的程序再做一次，然後與入住時的記錄對照：</p>
+<ul>
+<li>入住時已有的損傷 → 不得向房客收費</li>
+<li>入住後新增的損壞 → 判斷是自然耗損（不收費）還是人為造成（可求償）</li>
+<li>新舊對照照片清楚的情況下，誰造成的損壞幾乎無從抵賴</li>
+</ul>
+<h3>數位備份的重要性</h3>
+<p>點交影片和照片請務必雲端備份（Google相冊、iCloud等），手機遺失或損壞後仍能取得。建議保存至租約到期後至少五年。</p>`},{t:`公益出租人制度深度解析：申請方式、年度審核、如何最大化稅務優惠`,tag:'new',b:`<h3>公益出租人不需要你做什麼</h3>
+<p>很多房東以為申請公益出租人很麻煩，或需要填寫大量表格。實際上，這個制度的設計極為簡單：<strong>你什麼都不用做，只要你的房客有申請租金補貼，你就自動獲得公益出租人資格</strong>。政府主動通知、主動認定、主動適用優惠稅率。</p>
+<h3>資格認定的觸發條件</h3>
+<ul>
+<li>房客向政府申請租金補貼，且核定通過</li>
+<li>補貼申請的租約上有你的簽名</li>
+<li>補貼核定後，你的資格自動生效</li>
+</ul>
+<h3>三大稅務優惠的詳細計算</h3>
+<p><strong>一、綜合所得稅免稅額</strong></p>
+<p>每屋每月最高1.5萬元租金免稅，全年最高18萬元。</p>
+<p>案例：月租2.2萬元，公益出租人每月免稅1.5萬，應申報金額7,000元 × 57%（標準扣除）= 3,990元需計入所得；非公益出租人，2.2萬 × 57% = 12,540元需計入所得。每月差異8,550元，全年差異102,600元的應稅所得，在邊際稅率20%下，全年省稅約20,520元。</p>
+<p><strong>二、房屋稅優惠</strong></p>
+<p>自住稅率1.2% vs 出租稅率2.4%。以房屋稅評定現值80萬元為例，每年省9,600元。</p>
+<p><strong>三、地價稅優惠</strong></p>
+<p>自用住宅稅率千分之2 vs 一般稅率千分之10（基本稅率，累進更高）。以地價總額100萬元為例，每年省8,000元。</p>
+<h3>稅務申報的實務流程</h3>
+<ul>
+<li>每年五月綜所稅申報：選擇「租賃所得」，確認公益出租人免稅額已自動帶入</li>
+<li>房屋稅：地方稅務機關應自動適用優惠稅率，有疑問主動向稅務局確認</li>
+<li>地價稅：同上，自動適用，可向稅務局確認</li>
+</ul>
+<h3>如何鼓勵房客申請補貼？</h3>
+<ul>
+<li>主動告知房客有租金補貼可申請（很多房客不知道）</li>
+<li>提供符合規範的標準租約格式（補貼申請需要合規租約）</li>
+<li>配合房客提供申請所需的相關資料（如房東身分證影本）</li>
+</ul>
+<h3>常見疑問解答</h3>
+<ul>
+<li><strong>Q：申請了公益出租人，以後我想調漲租金還可以嗎？</strong>可以，到期續約時仍可協商租金，公益出租人身分不影響正常調漲。</li>
+<li><strong>Q：房客補貼停止後，我的公益出租人身分呢？</strong>依年度核定，若該年度房客有補貼，該年度享有優惠；下一年度若房客未再申請，需重新確認。</li>
+</ul>`},{t:`出租房屋年度維護完整手冊：保養項目、時程安排、小投資大效益的維護策略`,b:`<h3>維護vs急修：數字告訴你答案</h3>
+<p>一台使用5年的冷氣，每半年清洗濾網（費用約500至800元），正常可以再用5至8年。若長期不清洗，壓縮機可能在7至8年就損壞，更換費用約15,000至25,000元。一次急修的費用，相當於15至25次的定期保養費。</p>
+<h3>年度維護時程表</h3>
+<p><strong>每半年（建議春季和秋季）：</strong></p>
+<ul>
+<li>冷氣濾網清洗（房客可自行清洗，但房東定期確認更佳）</li>
+<li>排水孔清潔（浴室、廚房、陽台）</li>
+<li>門鉸鏈、窗戶軌道上油</li>
+<li>確認廚房、浴室矽利康無裂縫或霉斑</li>
+</ul>
+<p><strong>每年（建議梅雨季前）：</strong></p>
+<ul>
+<li>屋頂防水狀況視察（有空屋頂者）</li>
+<li>外牆、窗框密封膠確認</li>
+<li>熱水器安全閥測試、燃燒效率確認</li>
+<li>住宅用火災警報器電池更換（或測試）</li>
+<li>電路跳電保護開關測試</li>
+</ul>
+<p><strong>每兩至三年：</strong></p>
+<ul>
+<li>全室矽利康更新（廚房、浴室、窗邊）</li>
+<li>水龍頭、蓮蓬頭墊圈和濾網更換</li>
+<li>冷氣室外機清洗（深度保養）</li>
+<li>排汙管路專業疏通</li>
+</ul>
+<h3>維護記錄的重要性</h3>
+<p>每次維護後留存記錄（照片、廠商單據），這份記錄的用處：</p>
+<ul>
+<li>日後若發生設備糾紛，可證明有善盡保養義務</li>
+<li>了解設備使用年限，提前規劃更換預算</li>
+<li>向房客說明保養結果，建立信任關係</li>
+</ul>
+<h3>如何安排維護事宜不打擾房客？</h3>
+<ul>
+<li>固定在每半年的固定時段（如春節後、中秋後）統一排程</li>
+<li>提前一週以上通知房客，確認時間</li>
+<li>維護時間控制在合理範圍（不超過兩至三小時）</li>
+<li>維護後告知完成情況，讓房客安心</li>
+</ul>
+<h3>主動維護對出租收益的影響</h3>
+<p>設備維護良好的物件，房客滿意度高，續租率高，空置期短。以避免一次兩個月的空置期為例（2萬月租），省下的40,000元，相當於80次的冷氣清洗費。良好的維護，是隱形的租金優化。</p>`},{t:`好房東養成完整指南：長期出租的口碑經營、糾紛預防、提升持有報酬率`,tag:'fav',b:`<h3>好房東的定義</h3>
+<p>好房東不是什麼都不管、完全配合房客的「佛系房東」，也不是斤斤計較、每個細節都爭的「強硬房東」。好房東是：<strong>在合理範圍內負責、快速回應、誠信透明，讓房客覺得被尊重、住得安心</strong>。</p>
+<h3>好房東的四個核心習慣</h3>
+<ul>
+<li><strong>快速響應修繕：</strong>收到修繕通知，24至48小時內回應，一週內處理完畢。房客最怕的不是問題本身，而是房東已讀不回。快速的回應，就算問題暫時無法立刻修好，也能大幅提升房客對你的信任。</li>
+<li><strong>費用透明：</strong>電費、水費、管理費，每項都有依據、有明細。收費說得清楚，就算金額不低，房客也比較能接受。費用模糊，才是糾紛的根源。</li>
+<li><strong>尊重隱私：</strong>不突擊進入、不在LINE上發送超過必要的訊息、不過問房客的生活細節。租賃是商業關係，保持專業距離，對雙方都好。</li>
+<li><strong>退租乾脆：</strong>押金結算清楚、返還迅速、不拖泥帶水。最後的一個環節做好，比整個租賃期間的所有努力更讓房客記得你。</li>
+</ul>
+<h3>好房東的長期報酬優勢</h3>
+<p>數字說話：</p>
+<ul>
+<li>好房客住滿三年 vs 普通關係每年換房客</li>
+<li>三年空置成本：換房客三次 × 空置一個月 = 三個月租金損失</li>
+<li>三年整理成本：三次整理 × 5,000元 = 15,000元</li>
+<li>三年招租成本：三次廣告 × 2,000元 = 6,000元</li>
+<li>總額：三個月租金 + 21,000元，這是省下的成本，不是額外收入</li>
+</ul>
+<p>長租好房客，是最直接的報酬率提升策略。</p>
+<h3>口碑的力量：好房客介紹好房客</h3>
+<p>優質房東的物件，常常不需要上網刊登廣告。舊房客介紹新房客，是最好的信任背書。這種口耳相傳的招租，比廣告更有效率，也讓你對新房客的質量有更高的把握。</p>
+<h3>如何在糾紛前就解決問題？</h3>
+<ul>
+<li>入住前：詳細的點交記錄，讓期望管理到位</li>
+<li>入住後：定期確認房屋狀況（每半年一次設備保養，順帶了解居住情況）</li>
+<li>費用問題：出問題立刻溝通，不要等到積累成大糾紛</li>
+<li>退租前：提前兩個月討論，讓雙方都有充分準備</li>
+</ul>
+<p>大多數租賃糾紛都是「溝通不足」造成的。主動、及時、誠實的溝通，是預防糾紛最有效的工具。</p>`},{t:`長租 vs 短租策略比較：如何選擇最適合你的出租模式`,b:`<h3>選擇出租策略的關鍵考量</h3>
+<p>並不是所有物件都適合同一種出租策略。長租（一年以上定期租約）和短租（月租、季租）各有其優缺點，適合不同的房東需求和物件特性。了解兩者差異，才能選擇最大化收益的策略。</p>
+<h3>長租的優點與缺點</h3>
+<ul>
+<li><strong>優點：</strong>收入穩定可預期、管理成本低（不用頻繁整理和招租）、空置率低、房客關係穩定、適用定型化契約保障強</li>
+<li><strong>缺點：</strong>租金調整彈性低（合約期間不能調漲）、遇到問題房客處理流程長、物件無法快速收回</li>
+</ul>
+<h3>短租的優點與缺點</h3>
+<ul>
+<li><strong>優點：</strong>租金單價可能較高、彈性大（物件可隨時收回或自用）</li>
+<li><strong>缺點：</strong>換租頻繁帶來高整理和招租成本、空置風險高（房客隨時可不續）、稅務和規範較複雜</li>
+</ul>
+<h3>不同物件類型的策略建議</h3>
+<ul>
+<li><strong>市中心小套房：</strong>長租為主，租金平穩，換租成本高</li>
+<li><strong>度假或特色物件：</strong>可考慮短租，但需了解相關平台規範和稅務</li>
+<li><strong>多房間物件（分租）：</strong>以長租為主，每間個別管理，降低全面空置風險</li>
+</ul>
+<h3>實務建議：大多數個人房東適合長租</h3>
+<p>對沒有專職管理資源的個人房東，長租的穩定性遠比帳面上較高的短租單價更有實際價值。一個穩定繳租兩年的好房客，帶來的整體效益，往往超過同期間三次短租換房客的累計收益。</p>`},{t:`老屋出租前的安全改善清單：必做項目、費用預算、改善後提升出租競爭力`,b:`<h3>老屋出租的風險</h3>
+<p>30年以上的老屋出租，安全改善不只是保護房客，也是保護房東自己。安全事故發生後，房東可能面臨侵權損害賠償責任，且後悔莫及。這些改善費用，是責任的下限，也是良心的下限。</p>
+<h3>必做的安全改善項目</h3>
+<ul>
+<li><strong>電線老化更新：</strong>超過20年的電線老化可能引發漏電或火災風險。更換費用依坪數約3萬至8萬元，但安全效益無可取代。至少更換電路開關保護裝置（無熔絲開關）。</li>
+<li><strong>住宅用火災警報器：</strong>規範要求住宅必須安裝。每個房間一個，費用每個約500至1,500元，是最低成本的安全投資。</li>
+<li><strong>熱水器位置與通風：</strong>確認熱水器安裝位置有足夠通風，一氧化碳中毒是密閉空間熱水器事故的主要原因。如熱水器超過10年，建議更換。</li>
+<li><strong>滲漏水修繕：</strong>外牆滲水、浴室防水層老化，出租前必須修復。帶著漏水問題出租，不只影響居住品質，也留下無窮後患。</li>
+</ul>
+<h3>改善預算規劃</h3>
+<ul>
+<li>住警器安裝：每間約500至1,500元，兩房一廳約4,000元</li>
+<li>浴室防水更新：約3萬至6萬元（依坪數）</li>
+<li>熱水器更換：約1.5萬至3萬元</li>
+<li>電線更新（全室）：約4萬至10萬元</li>
+</ul>
+<h3>改善後對出租競爭力的影響</h3>
+<p>安全改善後的老屋，可以誠實對潛在房客說：「這棟房子雖然老，但電線是新的、防水是做好的、設備都有更新。」這樣的誠實，比掩蓋問題更能吸引願意長住的好房客。</p>`}];
+const TENANT=[{t:`第一次租屋完整教學：從看房到搬入，每個步驟不踩雷`,tag:'fav',b:`<h3>租屋新手最常犯的錯誤</h3>
+<p>第一次租屋，最大的問題往往不是找不到房子，而是「太急」。因為急著搬入，跳過重要的查驗步驟，入住後才發現各種問題，但此時已經簽了合約、付了押金，處理起來費時費力。</p>
+<h3>第一步：搜尋物件</h3>
+<ul>
+<li><strong>主流平台：</strong>591租屋網、好房網、樂屋網，同步搜尋不同平台</li>
+<li><strong>篩選條件：</strong>先設定預算（建議不超過月收入三分之一）、地點、坪數等基本條件</li>
+<li><strong>識別詐騙：</strong>租金明顯低於行情三成以上、要求先付款再看房、房東在國外無法見面，都是詐騙警訊</li>
+</ul>
+<h3>第二步：看房的正確方式</h3>
+<p>看房不是去參觀，是去查驗。帶著清單，逐項確認：</p>
+<ul>
+<li>水壓：打開所有水龍頭和蓮蓬頭同時使用，觀察水壓是否夠</li>
+<li>漏水痕跡：仔細看牆角、天花板、窗框有無水漬或壁癌</li>
+<li>隔音：關窗聽車聲，敲牆聽是否是空心牆（隔音差）</li>
+<li>手機訊號：在室內各角落確認</li>
+<li>日照與通風：注意窗戶方位和遮蔽物</li>
+<li>白天晚上各看一次，感受不同時段的環境</li>
+</ul>
+<h3>第三步：確認費用結構</h3>
+<p>看完房，在決定租之前，把所有費用問清楚：</p>
+<ul>
+<li>月租金、電費（一度多少）、水費（怎麼計算）</li>
+<li>管理費（含哪些，不含哪些）</li>
+<li>網路費（含不含）</li>
+<li>押金（幾個月）</li>
+<li>其他可能的費用（停車費、垃圾費等）</li>
+</ul>
+<h3>第四步：合約審閱</h3>
+<p>合約不是拿來簽的，是拿來看的。重點確認：修繕責任分配、電費計算方式、提前終止條件、押金返還規定。發現有違法條款（禁設戶籍、禁申請補貼），直接告知房東要求刪除或更改。</p>
+<h3>第五步：入住點交</h3>
+<p>入住當天最重要的事：全程錄影，逐一記錄屋況，照片影片當天傳給房東確認。這30分鐘，是未來退租時最重要的保險。</p>`},{t:`押金被扣怎麼要回來：追討押金的完整流程與必備證據`,tag:'hot',b:`<h3>押金糾紛為什麼這麼常見？</h3>
+<p>押金糾紛是租屋族最常遇到的困境。房東扣了押金，說「這裡壞掉」「那裡要整理」，但說不出具體依據；房客認為是正常使用，但手上沒有入住時的照片，說不清楚。這種「各說各話」的局面，是九成押金糾紛的共同特徵。</p>
+<h3>先了解哪些扣款是不合法的</h3>
+<ul>
+<li><strong>自然耗損：</strong>油漆褪色、地板輕微磨損、家具正常使用痕跡，房東不得以此扣款</li>
+<li><strong>入住前已有的損壞：</strong>若有入住時的照片佐證，入住前損壞不能向你收費</li>
+<li><strong>模糊的費用名目：</strong>「整理費」「清理費」等沒有具體依據的費用，可以拒絕</li>
+<li><strong>超過實際費用的扣款：</strong>房東需提供修繕或清潔的單據，沒有單據的扣款難以成立</li>
+</ul>
+<h3>追討押金的四步驟</h3>
+<ol>
+<li><strong>要求扣款明細：</strong>書面要求房東提供每項扣款的說明、估價單或發票</li>
+<li><strong>提出異議：</strong>針對不合理的扣款項目，書面（LINE即可，留記錄）提出異議，說明理由（如「油漆褪色屬自然耗損，依規範不得扣款」）</li>
+<li><strong>書面催告：</strong>設定還款期限（如10天），說明「如逾期未返還，將申請調解」</li>
+<li><strong>申請調解：</strong>向房屋所在地或你戶籍地的鄉鎮市區調解委員會申請，免費、有效，通常1至2個月內解決</li>
+</ol>
+<h3>你的最強武器：入住時的照片影片</h3>
+<p>如果你有完整的入住點交影像記錄，追討押金的勝算極高。房東主張的損壞，只要在入住影像中可以找到，就是入住前已有，不能向你求償。沒有記錄的情況，雙方各說各話，舉證就更困難。</p>
+<h3>調解 vs 小額訴訟</h3>
+<ul>
+<li><strong>調解：</strong>免費、快速（1至2個月）、效力等同判決，是首選</li>
+<li><strong>小額訴訟：</strong>10萬元以下，費用低廉，程序簡便，可自行提起（不需律師）</li>
+<li><strong>一般訴訟：</strong>金額較大時的選項，但耗時且成本高，謹慎評估</li>
+</ul>`},{t:`電費被超收怎麼辦：合法上限、計算方式、追討差額完整流程`,tag:'hot',b:`<h3>你可能正在被超收電費而不知道</h3>
+<p>台灣分租套房的電費糾紛，是最常見、也最容易被忽視的租屋問題之一。很多房客每個月乖乖繳電費，卻不知道房東可能收取了高於法定上限的金額。了解你的權利，才能保護自己。</p>
+<h3>電費的法定上限</h3>
+<p>依規定，房東向房客收取的每度電費，<strong>不得超過台電當期夏季最高級距費率</strong>（約每度6元多，以台電官方公告為準）。</p>
+<p>重要觀念：這個上限是台電的「最高費率」，而不是你家每度實際多少錢。台電是累進計費，用電少的用戶每度費率較低。房東以固定高單價（如5元）收費，在上限內合法，但若超過上限就違規。</p>
+<h3>如何確認自己有沒有被超收</h3>
+<ol>
+<li><strong>看合約：</strong>合約上是否有載明電費計費方式和單價？</li>
+<li><strong>要求帳單：</strong>請房東出示台電電費帳單或電表讀數記錄</li>
+<li><strong>計算：</strong>自己的用電度數 × 房東收取單價，對比台電夏季最高費率</li>
+<li><strong>對照：</strong>若單價超過台電最高費率，即屬超收</li>
+</ol>
+<h3>追討超收電費的步驟</h3>
+<ol>
+<li><strong>蒐集證據：</strong>所有電費繳費記錄（轉帳截圖、收據），換算出每度單價</li>
+<li><strong>計算總超收金額：</strong>（你付的單價 - 法定上限）× 歷月總度數 = 總超收金額</li>
+<li><strong>書面主張：</strong>LINE或書面通知房東，說明超收事實並要求返還差額（附計算明細）</li>
+<li><strong>申請調解：</strong>協商不成，申請調解，超收事證明確幾乎都能成功追回</li>
+</ol>
+<h3>如何預防被超收電費</h3>
+<p>最有效的預防：簽約前問清楚，寫進合約：</p>
+<ul>
+<li>有沒有獨立電表？</li>
+<li>電費一度收多少？（確認不超過台電夏季最高費率）</li>
+<li>夏天平均一個月電費大概多少？</li>
+<li>要求合約載明電費計算方式</li>
+</ul>`},{t:`房東不修繕怎麼辦：催告程序、自行修繕求償、減租與解約的完整權利`,tag:'hot',b:`<h3>面對不修繕的房東，先搞清楚你有什麼權利</h3>
+<p>熱水器壞了、冷氣故障、牆壁漏水，通知了房東一週沒有下文——這是台灣租屋族非常普遍的困境。很多人不知道該怎麼辦，只能繼續忍耐或自己出錢修。但你其實有明確的權利，只要流程走對，不需要花你自己的錢，也不需要忍氣吞聲。</p>
+<h3>哪些修繕是房東的責任？</h3>
+<ul>
+<li>結構性問題：漏水、壁癌、管線老化破裂</li>
+<li>房東提供的設備自然故障：熱水器、冷氣、冰箱、洗衣機（非人為損壞）</li>
+<li>門鎖老化無法正常使用</li>
+<li>電路問題（非房客用電不當造成）</li>
+</ul>
+<h3>正確的催告流程（非常重要）</h3>
+<p>「催告」是啟動你後續權利的關鍵步驟，不能省略：</p>
+<ol>
+<li><strong>書面通知（LINE即可）：</strong>「[日期] 發現[問題描述]，此屬房東修繕範圍，請於[X日前，建議7至14天]安排修繕，否則本人將依約行使相應權利。」</li>
+<li><strong>截圖存檔：</strong>將LINE訊息截圖，確保有時間戳記錄</li>
+<li><strong>等候期限：</strong>給房東合理的時間回應和安排</li>
+</ol>
+<h3>期限過後房東仍未處理，你的選項</h3>
+<ul>
+<li><strong>自行修繕求償：</strong>自行委託廠商修繕，保留報價單和收據，向房東請求費用返還（或從租金扣抵，但先確認合約允許）</li>
+<li><strong>主張減少租金：</strong>損壞嚴重影響使用，可主張按損害比例減少租金（需有催告記錄）</li>
+<li><strong>申請調解：</strong>要求房東支付修繕費用，鄉鎮市區調解委員會免費處理</li>
+<li><strong>解除租約：</strong>修繕嚴重影響居住（如嚴重漏水、無熱水）且催告後逾期未處理，可主張解除租約，且不需要支付違約金</li>
+</ul>
+<h3>最常見的錯誤：跳過催告直接扣租金</h3>
+<p>有些房客直接從房租扣除修繕費用，沒有先走催告流程。問題是：房東可能反過來主張你「欠租」，引發另一個糾紛。正確順序是：催告 → 自行修繕 → 請求費用返還（或提起調解）。</p>`},{t:`租屋提前解約完整指南：如何降低違約金、協商技巧、哪些情況可以免賠`,b:`<h3>提前解約前先評估損失</h3>
+<p>工作異動、家庭狀況改變、找到更好的住所——提前解約的原因有很多。在決定提前走之前，先了解可能的損失，才能做出最有利的決策。</p>
+<h3>違約金的基本認知</h3>
+<ul>
+<li>合約有約定違約金，依約定支付（通常一個月租金）</li>
+<li>合約沒有約定，以實際損失為基準協商</li>
+<li>違約金過高（如三個月租金），法院有權酌減</li>
+</ul>
+<h3>降低違約金的協商策略</h3>
+<ol>
+<li><strong>越早通知越有利：</strong>提前三個月通知，比提前一個月通知更容易爭取到減免</li>
+<li><strong>主動找替代房客：</strong>「我已經幫你找好下一個房客，可以無縫接軌」是最強的協商籌碼</li>
+<li><strong>配合帶看：</strong>讓你的朋友或找到的新房客可以進來看房，展現誠意</li>
+<li><strong>維持屋況：</strong>保持房屋整潔，讓房東可以立刻招租，降低他的損失</li>
+</ol>
+<h3>哪些情況可以主張免賠？</h3>
+<ul>
+<li><strong>房東不修繕：</strong>催告後逾期未修，嚴重影響居住品質，可解約且免違約金</li>
+<li><strong>房屋有重大瑕疵：</strong>嚴重漏水、結構危險等，且房東知情未告知</li>
+<li><strong>房東違約在先：</strong>房東違反合約重要條款（如擅自進入、超收費用不改善）</li>
+<li><strong>凶宅未告知：</strong>入住後發現凶宅事實且房東故意隱瞞</li>
+</ul>
+<p>主張免賠的關鍵：必須有完整的書面催告記錄，證明你給了房東改善機會但對方沒有回應。沒有書面記錄，就算是房東的問題，也很難主張免責。</p>
+<h3>提前解約的正式程序</h3>
+<ol>
+<li>書面通知（依合約規定期限，通常30天前）</li>
+<li>確認解約日期和押金結算方式</li>
+<li>辦理退租點交（全程錄影）</li>
+<li>確認押金扣除項目和返還時間</li>
+</ol>`},{t:`入住第一天的存證教學：全程錄影的正確方式、拍什麼、傳給誰`,tag:'fav',b:`<h3>為什麼入住第一天最重要？</h3>
+<p>退租糾紛的勝負，幾乎都在入住第一天決定了。你那天有沒有拍照，有沒有記錄屋況，決定了你未來在押金爭議中是強勢還是弱勢。這一個小時的投資，值得你認真對待。</p>
+<h3>拍攝前的準備</h3>
+<ul>
+<li>確保手機電量充足（建議超過80%）</li>
+<li>確認儲存空間足夠（影片很大）</li>
+<li>開啟定位和時間戳功能（多數手機相機設定中可開啟）</li>
+<li>準備本站「入住點交清單」，按清單逐項確認</li>
+</ul>
+<h3>全室錄影的正確流程</h3>
+<ol>
+<li><strong>從大門開始：</strong>拍攝大門外側、門鎖狀況、門板是否有損傷</li>
+<li><strong>逐間拍攝：</strong>客廳→廚房→臥室→浴室，每間360度全景錄影，不跳過角落</li>
+<li><strong>重點部位特寫：</strong>牆面、地板、天花板——特別是角落、窗邊、插座旁等容易有水漬的地方</li>
+<li><strong>家電測試錄影：</strong>冷氣開機（拍遙控器和出風口）、熱水器（等熱水出來）、洗衣機（按啟動，聽有沒有異音）</li>
+<li><strong>水電表讀數：</strong>拍攝當天的電表和水表讀數，日後用於費用核對</li>
+</ol>
+<h3>既有損傷的特寫拍攝</h3>
+<p>發現入住前就有的損壞，一定要特寫拍攝，並在拍攝時口頭說明：「這是[位置]的[損壞說明]，是入住前就有的。」這樣影片中有你的說明，時間戳確認是入住當天，就是有力的證據。</p>
+<h3>照片影片的傳送與保存</h3>
+<ul>
+<li><strong>當天傳給房東：</strong>通過LINE傳送全部照片影片，並說「以上是今天入住的屋況記錄，請確認。」等待房東回覆（已讀或確認），截圖存檔。</li>
+<li><strong>雲端備份：</strong>全部影像上傳到雲端儲存（Google相冊、iCloud），確保手機故障也不丟失</li>
+<li><strong>原始檔保存：</strong>不要刪除或修改原始檔，原始檔含有設備資訊和時間資訊，比截圖更有佐證效力</li>
+</ul>
+<h3>雙方簽署點交單</h3>
+<p>點交結束後，請房東在點交單上簽名（本站點交清單工具有對應格式）。點交單可以是列印的紙本，也可以雙方各截圖一份電子版。有簽名的點交記錄，比單純的照片影片更完整。</p>`},{t:`租屋詐騙防範完整指南：識別手法、查驗技巧、遇到詐騙如何處理`,tag:'hot',b:`<h3>租屋詐騙的規模</h3>
+<p>台灣每年有數百件以上的租屋詐騙案例，受害者損失從數萬到數十萬元不等。詐騙手法年年更新，但核心邏輯不變：利用租屋族急著找房的心理，在查驗之前騙取訂金或押金。了解手法，才能在看到它時立刻識別。</p>
+<h3>五大常見詐騙手法</h3>
+<ul>
+<li><strong>低價吸引型：</strong>租金比行情低三成以上，以「急租」「工作轉移」等理由解釋。正常物件不會無緣無故低到這個程度，越便宜越要小心。</li>
+<li><strong>海外房東型：</strong>聲稱房東在國外工作，只能用通訊軟體聯繫，要求先匯款才安排看房或交鑰匙。正常出租幾乎不會這樣運作。</li>
+<li><strong>先付款後看房型：</strong>要求付訂金「保留房源」才能安排看房。正規的看房流程是先看房、確認要租、再談簽約付款。</li>
+<li><strong>無法出示證明型：</strong>無法提供房屋所有權相關文件，或身分核對含糊其辭。任何要租屋給你的人，都應該能清楚說明自己的身分和出租依據。</li>
+<li><strong>催促決定型：</strong>「今天不決定明天就租出去了」「另外三個人也在等」——用時間壓力讓你跳過查驗。越催越要放慢腳步。</li>
+</ul>
+<h3>查驗的正確程序</h3>
+<ol>
+<li><strong>確認身分：</strong>要求房東（或代理人）提供身分證，核對姓名</li>
+<li><strong>確認所有權：</strong>查詢土地登記謄本（地政事務所或線上申請），確認房屋所有人與對方聲稱一致</li>
+<li><strong>見面看房：</strong>付任何錢之前，一定要親自進入房屋看過</li>
+<li><strong>取得收據：</strong>所有款項（訂金、押金）支付時，要求書面收據，載明金額、日期、收款人簽名</li>
+</ol>
+<h3>遇到疑似詐騙時的處理</h3>
+<ul>
+<li><strong>已付款：</strong>立即向警察局報案（詐欺罪），保存所有通訊記錄、匯款記錄、對方資料</li>
+<li><strong>尚未付款：</strong>直接中止交易，不必解釋，切斷聯繫</li>
+<li><strong>可疑情況：</strong>向165反詐騙專線（24小時）諮詢</li>
+</ul>
+<h3>租屋市場的安全原則</h3>
+<p>再心動的物件，也不值得跳過查驗。見面看房、核對身分、確認所有權、留存記錄，這四步驟做完，騙過你的難度就大幅提升。急著搶房，是詐騙者最好的幫手。</p>`},{t:`租約陷阱條款識別指南：哪些簽了也無效、哪些需要特別注意`,tag:'fav',b:`<h3>簽名不等於全部有效</h3>
+<p>很多房客以為「我已經簽名了，所以合約上的條款都有效」。這個認知是錯誤的。依住宅租賃規範，違反定型化契約不得記載事項的條款，就算房客已簽名，仍然無效，不能拘束房客。了解哪些條款無效，才能在需要時主張自己的權利。</p>
+<h3>無效條款（簽了也不算）</h3>
+<ul>
+<li><strong>「不得申報租金補貼」：</strong>申請補貼是房客的權利，不得以合約限制</li>
+<li><strong>「不得設立戶籍」：</strong>設籍是房客的權利，此條款依規範無效</li>
+<li><strong>「房客自行負擔所有修繕費用」：</strong>結構性修繕義務不得轉嫁，此條款無效</li>
+<li><strong>「房東可隨時進入房間」：</strong>未經通知的擅入權，與房客的使用收益權相牴觸，無效</li>
+<li><strong>「放棄一切損害賠償請求權」：</strong>強迫房客放棄求償權的條款無效</li>
+<li><strong>「房東可單方面修改合約條款」：</strong>合約修改需雙方同意，單方面修改條款無效</li>
+</ul>
+<h3>合法但需特別注意的條款</h3>
+<ul>
+<li><strong>電費計算方式不明確：</strong>合約只寫「依台電標準收費」，沒有說清楚如何計算，入住後容易有爭議。要求具體寫明：有無獨立電表、每度收費上限。</li>
+<li><strong>押金返還條件不明確：</strong>沒有說清楚在什麼條件下扣、什麼條件下全返還，給了房東模糊操作的空間</li>
+<li><strong>違約金過高：</strong>合約合法，但金額超過兩個月租金，法院可能酌減</li>
+<li><strong>模糊的「恢復原狀」義務：</strong>要求退租「恢復原狀」但沒有說清楚標準，容易被要求做超出合理範圍的整理</li>
+</ul>
+<h3>簽約前的檢核流程</h3>
+<ol>
+<li>通讀整份合約，不要只看租金和押金</li>
+<li>把不理解的條款要求房東解釋清楚</li>
+<li>對照無效條款清單，確認有無違規</li>
+<li>費用相關條款（電費、水費、管理費）要求明確載明計算方式</li>
+<li>口頭承諾要求寫入合約，不接受「我說可以就是可以」</li>
+</ol>
+<h3>發現無效條款怎麼辦？</h3>
+<p>在簽約前：直接告知房東該條款違反定型化規範，要求刪除或修改。大多數房東並不清楚規定，態度理性說明通常能溝通。已經簽約：依規範，無效條款對你沒有拘束力，遇到房東以無效條款主張時，告知其法律依據即可。</p>`},{t:`退租流程完整指南：30天倒數準備、點交技巧、押金全額退回的關鍵`,tag:'fav',b:`<h3>退租比入住更需要準備</h3>
+<p>很多人把心力放在入住前，卻沒有好好準備退租。但其實退租才是最容易發生糾紛的環節——押金能不能全額拿回，完全取決於退租這幾週的準備是否充分。</p>
+<h3>退租倒數時程表</h3>
+<p><strong>D-30（退租前30天）：</strong></p>
+<ul>
+<li>依合約規定時限，書面通知房東退租日期（LINE截圖存檔）</li>
+<li>確認押金返還方式（匯款帳號、還款期限）</li>
+<li>開始確認屋況，評估是否有需要修補的地方</li>
+</ul>
+<p><strong>D-14（退租前14天）：</strong></p>
+<ul>
+<li>預約專業清潔（如需要）</li>
+<li>開始搬運物品，不要等到最後一天</li>
+<li>大型廢棄物預約免費清運</li>
+</ul>
+<p><strong>D-7（退租前7天）：</strong></p>
+<ul>
+<li>進行基礎清潔（不是恢復如新，而是基本可使用狀態）</li>
+<li>確認點交時間（與房東約定）</li>
+<li>整理所有鑰匙、磁扣、遙控器</li>
+</ul>
+<p><strong>D-Day（點交當天）：</strong></p>
+<ul>
+<li>全程錄影點交</li>
+<li>抄錄水電表讀數（拍照）</li>
+<li>交還所有鑰匙</li>
+<li>確認繳清水電費和租金</li>
+<li>雙方簽署點交單</li>
+</ul>
+<p><strong>D+7（退租後7天）：</strong></p>
+<ul>
+<li>辦理戶籍遷出（如已設籍）</li>
+<li>更改各類帳單寄送地址</li>
+<li>確認押金入帳</li>
+</ul>
+<h3>退租清潔的合理標準</h3>
+<p>退租清潔不是要讓房子恢復到「全新」狀態，而是「基本可使用的清潔狀態」：</p>
+<ul>
+<li>地板清掃、拖地</li>
+<li>廚房清潔（爐台、油煙機、水槽）</li>
+<li>浴室清潔（馬桶、洗手台、浴室）</li>
+<li>垃圾清除</li>
+<li>個人物品全數帶走</li>
+</ul>
+<p>自然耗損（油漆褪色、輕微刮痕）不需要由你修復，更不能成為扣押金的依據。</p>
+<h3>如何對應退租時的扣款要求</h3>
+<p>房東提出扣款時：</p>
+<ol>
+<li>要求房東列出完整的扣款明細（每項說明+估價單）</li>
+<li>對照入住時的照片影片，判斷哪些損壞是入住前已有或自然耗損</li>
+<li>有理據的扣款可接受，無依據的扣款書面提出異議</li>
+<li>協商不成，申請調解</li>
+</ol>`},{t:`2026年租金補貼完整申請教學：哪裡申請、需要什麼文件、常見退件原因與解決`,tag:'new',b:`<h3>租金補貼是什麼？</h3>
+<p>住宅租金補貼是政府減輕租屋族負擔的重要政策，符合資格者每月最高可領取數千元的補助，直接減少每月的實際租金支出。很多人因為不了解申請流程，或誤以為申請很麻煩，而錯過了這筆實質的政府補助。</p>
+<h3>2026年申請時間</h3>
+<p>中央住宅租金補貼通常每年4至7月開放申請，各縣市加碼方案時間可能略有差異。建議：</p>
+<ul>
+<li>提前訂閱「內政部住宅補貼申請系統」的開放通知</li>
+<li>確認各縣市住宅主管機關的公告</li>
+<li>錯過申請期間則需等待下一年度</li>
+</ul>
+<h3>基本申請資格</h3>
+<ul>
+<li>中華民國國籍</li>
+<li>實際租屋（有合法租約）</li>
+<li>本人及配偶名下無自有住宅</li>
+<li>家庭年所得低於各縣市公告標準</li>
+<li>家庭不動產總價值低於公告上限</li>
+</ul>
+<h3>需要準備的文件清單</h3>
+<ul>
+<li>中華民國身分證（正反面）</li>
+<li>戶口名簿或全戶戶籍謄本（3個月內）</li>
+<li>租賃契約書（需有房東簽章、符合規範格式）</li>
+<li>最近一期房屋租金繳納證明（轉帳記錄或收據）</li>
+<li>存摺封面影本（補貼匯款帳戶）</li>
+<li>申請人最近一年的綜合所得稅申報資料</li>
+</ul>
+<h3>常見退件原因與解決方式</h3>
+<ul>
+<li><strong>租約格式不符：</strong>租約缺少房東身分證號、地址資訊等必要欄位→解決：補簽符合規範的租約格式</li>
+<li><strong>租金超過補貼上限：</strong>申請地區有租金上限規定，超過者不予補貼→解決：查詢所在縣市的租金補貼上限</li>
+<li><strong>所得超過標準：</strong>家庭所得超過申請年度公告標準→解決：確認使用的是「前一年度所得」，有特殊情況（如失業）可申請專案</li>
+<li><strong>戶籍與實際居住不符：</strong>戶籍地與租賃地不在同一縣市，需說明就業或就學事實</li>
+</ul>
+<h3>房東不配合申請怎麼辦？</h3>
+<p>依規定，房東不得拒絕房客申請補貼，合約中禁止申請的條款無效。若房東威脅因此漲租或解約，可向縣市住宅主管機關申訴，房東的行為違反規定。</p>`},{t:`漏水問題完整處理手冊：責任判斷、催告流程、嚴重時如何解約`,tag:'hot',b:`<h3>漏水是最常見的租屋困擾之一</h3>
+<p>台灣的氣候和老屋比例，讓漏水成為最頻繁出現的租屋問題。遇到漏水，如果處理方式不對，不只修不好，還可能在退租時被追責。了解正確的處理流程，才能保護自己。</p>
+<h3>漏水責任的判斷</h3>
+<ul>
+<li><strong>房東負責的漏水：</strong>屋頂漏水、外牆滲水、樓上住戶的廢水管破裂、房屋本身防水層老化失效——這些都是結構性漏水，屬房東責任</li>
+<li><strong>房客可能需負責的情況：</strong>自己裝了浴缸而溢水、自行改裝的水管破裂、因使用不當造成的水漬</li>
+</ul>
+<h3>發現漏水後的緊急處理</h3>
+<ol>
+<li><strong>立即拍照錄影：</strong>記錄漏水位置、範圍、嚴重程度。如果天花板有水滴，讓水繼續滴不要先擦，等拍完才處理</li>
+<li><strong>防止損失擴大：</strong>移開可能被水漬損壞的物品（電子設備、衣物、重要文件）</li>
+<li><strong>書面通知房東：</strong>LINE傳送照片影片並說明「[位置]發現漏水，請於[X日前]安排處理。」留下時間戳記錄</li>
+</ol>
+<h3>催告期限與後續選項</h3>
+<ul>
+<li><strong>緊急漏水（危及安全或財物）：</strong>要求24至48小時內響應</li>
+<li><strong>一般漏水：</strong>給7至14天修繕期限</li>
+<li><strong>逾期未修：</strong>可自行找水電師傅修繕，費用向房東請求；或主張因漏水影響居住品質，比例減少租金</li>
+<li><strong>嚴重漏水：</strong>影響正常居住（如天花板持續漏水、房間無法使用），可主張解除租約且不付違約金。關鍵是有催告記錄且逾期未處理。</li>
+</ul>
+<h3>漏水賠償財物損失</h3>
+<p>若漏水導致你的財物損壞（電腦、衣物、床墊等），可向房東主張賠償：</p>
+<ul>
+<li>保留損壞物品的照片</li>
+<li>取得物品損壞的估價或購買記錄</li>
+<li>書面向房東主張賠償</li>
+<li>協商不成申請調解</li>
+</ul>
+<h3>預防勝於治療</h3>
+<p>看房時重點檢查：天花板（特別是頂樓和角落）、牆壁（有無水漬）、窗框（密封是否完整）。有漏水歷史的房屋，要求房東說明是否已修繕完成，最好能問到上一個房客的狀況。</p>`},{t:`分租套房電費完整指南：計算方式比較、如何確認有沒有被超收`,b:`<h3>分租套房的電費為什麼這麼複雜？</h3>
+<p>住在分租套房，電費糾紛比獨立租屋更常見。主要原因是計費方式多樣、缺乏透明度，加上部分房東習慣性超收，而房客不知道如何核對。</p>
+<h3>三種主要計費方式</h3>
+<ul>
+<li><strong>獨立電表（最推薦）：</strong>每間套房有獨立電表，台電直接計費或房東按表收費。用多少付多少，幾乎無糾紛空間。看房時確認有無獨立電表，是最重要的問題之一。</li>
+<li><strong>固定單價計費：</strong>房東設定每度固定單價，月底讀取房間電表計費。合法前提是單價不超過台電夏季最高級距費率，且有電表讀數記錄。</li>
+<li><strong>平均分攤：</strong>整棟共用一個電表，費用平均分配。問題最多：用電少的人補貼用電多的人，無法核對個人用電量，房東可能從中謀取差額。</li>
+</ul>
+<h3>簽約前必問的四個問題</h3>
+<ul>
+<li>有沒有獨立電表？</li>
+<li>電費一度收多少錢？（確認是否在台電最高費率內）</li>
+<li>夏天冷氣開很多的情況下，平均一個月大概多少？</li>
+<li>可以讓我看一下最近三個月的電費帳單嗎？</li>
+</ul>
+<h3>如何核對有沒有被超收</h3>
+<ol>
+<li>紀錄每個月電表讀數（期初和期末）</li>
+<li>計算本月用電量（度數）</li>
+<li>計算實際單價 = 你繳的電費 ÷ 用電度數</li>
+<li>對比台電夏季最高費率，若超過即屬超收</li>
+</ol>
+<h3>發現超收怎麼辦</h3>
+<ul>
+<li>保留所有繳費記錄（轉帳截圖或收據）</li>
+<li>計算總超收金額</li>
+<li>書面（LINE）要求房東說明計費依據，並主張返還差額</li>
+<li>協商不成申請調解</li>
+</ul>
+<h3>公共用電的處理</h3>
+<p>走廊、洗衣機、共用空調等公共用電，不應包含在你的室內用電計費中。若房東將公共用電的費用轉嫁到每戶，需在合約中明確說明計算方式，否則屬未約定的費用，房客可拒絕支付。</p>`},{t:`房東要求搬走合法嗎？租約期間的居住保障與應對方式`,b:`<h3>「買賣不破租賃」是你的基本保障</h3>
+<p>「房子要賣了，你能不能提前搬走？」「我親戚要來住，你先找別的地方。」——這些要求，在租約期間內都沒有法律依據。了解你的居住權保障，才能在遭到不合理要求時，理性地保護自己。</p>
+<h3>租約期間內，房東能以什麼理由終止？</h3>
+<p>法定終止事由（需符合才能合法終止）：</p>
+<ul>
+<li>房客積欠兩個月租額，書面催告後仍未繳清</li>
+<li>房客未經同意擅自轉租</li>
+<li>房客故意損壞房屋，情節重大</li>
+<li>房客有其他重大違約行為</li>
+</ul>
+<p>以上情形以外，房東無法在租約期間內合法要求房客提前搬遷。</p>
+<h3>常見的不合法要求與應對</h3>
+<ul>
+<li><strong>「我要賣房，你要配合提前搬」：</strong>買賣不破租賃——房屋出售後，新房東必須繼承原租約，你有權住到合約到期。可以告知此原則，拒絕提前搬遷。</li>
+<li><strong>「親戚要住，你能不能走」：</strong>無法律依據，你可以拒絕。若房東口頭施壓，回應「我理解您的狀況，但我的租約到[日期]，依合約我有住到期滿的權利。」</li>
+<li><strong>「你不走我就換鎖」：</strong>擅自換鎖是違法行為（可能構成強制罪、毀損罪），你可以報警，並要求房東賠償。</li>
+<li><strong>「我不收你的租金，讓你住是我好意」：</strong>房東拒收租金，你應將租金存入公存（存入法院提存所），留存記錄，保護自己「已繳租」的立場。</li>
+</ul>
+<h3>遇到不合理壓力時的處理原則</h3>
+<ol>
+<li>保持理性，不要被情緒影響決定</li>
+<li>所有溝通留存書面記錄</li>
+<li>明確說明自己的合法立場（租約到期才搬遷）</li>
+<li>若有騷擾、恐嚇等行為，保存記錄後報警處理</li>
+<li>申請調解確認雙方權利義務</li>
+</ol>
+<h3>願意提前搬遷的條件</h3>
+<p>如果房東的理由讓你願意考慮提前搬遷（如提供搬遷補貼），這是你的選擇，不是義務。任何提前搬遷的協議，務必書面確認：搬遷日期、押金全額返還時間、任何補償金額。</p>`},{t:`合租室友協議完整指南：如何保護自己、常見糾紛預防、替換室友的程序`,b:`<h3>合租的法律關係比想像複雜</h3>
+<p>和朋友合租，感覺輕鬆，但法律關係其實比一個人租複雜得多。因為涉及多人的財務分擔、多方的權利義務，以及當其中一人出現狀況時的連帶影響。事前協議清楚，才能在問題發生時保護自己。</p>
+<h3>合租的法律形式</h3>
+<ul>
+<li><strong>所有人共同列名：</strong>全部合租人都列在租約上，各自對房東負責（通常是連帶責任）。優點是每個人都有正式的承租人地位；缺點是任一人欠租，其他人可能需要連帶承擔。</li>
+<li><strong>一人代表承租：</strong>由一人簽租約，其他人與代表人另簽內部分擔協議。優點是對房東關係簡單；缺點是其他人在法律上沒有直接租賃地位，代表人跑路時其他人受影響。</li>
+</ul>
+<h3>入住前必須書面約定的事項</h3>
+<ul>
+<li><strong>租金分擔：</strong>每人分擔金額、繳款日期、繳給誰（代表人）</li>
+<li><strong>押金分擔：</strong>每人出多少押金，退租時如何退還</li>
+<li><strong>有人提前退出時：</strong>押金怎麼算？剩下的人要補差額嗎？誰負責找替補？</li>
+<li><strong>公共費用分攤：</strong>電費、水費、網路、衛生紙等公共耗材的分攤方式</li>
+<li><strong>公共空間使用規則：</strong>客廳、廚房、浴室的使用時間和清潔分工</li>
+</ul>
+<h3>室友提前退出的標準程序</h3>
+<ol>
+<li>提前30天書面通知其他室友和代表人</li>
+<li>尋找替換室友（通常由退出者負責找，或由剩餘室友接受）</li>
+<li>押金結算：退出室友的押金份額，由新室友補入或由其他室友墊付</li>
+<li>向房東確認新室友接入的方式（有些房東要求重新簽約）</li>
+</ol>
+<h3>室友不繳費用怎麼辦？</h3>
+<ul>
+<li>書面催告（LINE即可），設定繳費期限</li>
+<li>若有書面分擔協議，可依協議主張</li>
+<li>協商不成，可申請調解</li>
+<li>金額在10萬元以下，可提起小額訴訟</li>
+</ul>
+<h3>最常見的教訓</h3>
+<p>「我跟他是好朋友，不用寫那麼清楚」——這句話在合租糾紛發生之前幾乎人人都說過，但能讓友誼維持的，往往恰恰是那份事先說清楚的書面協議。</p>`},{t:`看房必問的15個問題：問完才決定租不租`,tag:'fav',b:`<h3>為什麼要帶著問題去看房？</h3>
+<p>看房不是去參觀，是去蒐集決策所需的資訊。很多人看房時被裝潢吸引，問題沒問清楚就決定租，入住後才發現電費驚人、修繕沒人管、隔壁鄰居半夜放音樂。帶著這份清單去看房，確保每個重要問題都有答案。</p>
+<h3>費用類問題</h3>
+<ul>
+<li><strong>問題1：電費怎麼收？一度多少錢？</strong>這是最容易被超收的項目，必問。同時問夏天平均一個月大概多少。</li>
+<li><strong>問題2：管理費含哪些？不含哪些？</strong>有些管理費包含水費、網路，有些完全不含，務必問清楚。</li>
+<li><strong>問題3：水費、網路費、瓦斯費怎麼算？</strong>各項費用分開確認，避免簽約後才知道有意外費用。</li>
+<li><strong>問題4：停車位費用？垃圾費？</strong>依物件情況詢問。</li>
+</ul>
+<h3>屋況類問題</h3>
+<ul>
+<li><strong>問題5：熱水器幾年了？冷氣幾年了？</strong>設備年齡決定未來可能的故障率，超過10年要多留意。</li>
+<li><strong>問題6：這間房子有沒有漏水的歷史？上次什麼時候漏？怎麼解決的？</strong>房東若支支吾吾，就是有問題。</li>
+<li><strong>問題7：修繕需要找誰？平均多久能處理？</strong>了解房東的修繕效率，是判斷住起來舒不舒服的重要指標。</li>
+</ul>
+<h3>權利類問題</h3>
+<ul>
+<li><strong>問題8：可以設戶籍嗎？</strong>雖然是你的權利，但先確認避免後續摩擦。</li>
+<li><strong>問題9：可以申請租金補貼嗎？</strong>同上，確認房東態度。</li>
+<li><strong>問題10：提前解約需要提前幾天通知？違約金怎麼算？</strong>了解最壞情況的成本。</li>
+</ul>
+<h3>生活類問題</h3>
+<ul>
+<li><strong>問題11：垃圾怎麼倒？哪天幾點？</strong>聽起來小事，但若跟上班時間衝突，會是每天的困擾。</li>
+<li><strong>問題12：隔壁鄰居是什麼組成？上下樓呢？</strong>了解生活環境，避免入住後才發現住在喧囂環境中。</li>
+<li><strong>問題13：有沒有禁止的使用規定？（吸菸、樂器、寵物等）</strong>提前確認，避免後續糾紛。</li>
+<li><strong>問題14：可不可以裝鉤子、輕微裝飾？</strong>了解使用彈性。</li>
+<li><strong>問題15：有沒有可以聯繫前任房客的管道？</strong>最真實的評價來自住過的人。房東若拒絕，或許有原因。</li>
+</ul>
+<h3>觀察房東的回應方式</h3>
+<p>問題的答案固然重要，房東的回應方式也是判斷依據。回答清楚、態度誠實的房東，入住後通常也好溝通。吞吞吐吐、不耐煩，或對問題輕描淡寫的，要多留意。</p>`},{t:`租屋糾紛解決全指南：調解、申訴、訴訟的選擇依據與費用比較`,b:`<h3>糾紛不等於撕破臉</h3>
+<p>很多人遇到租屋糾紛，要不是忍著不講、要不是直接開戰。其實在這兩個極端之間，有很多效率高、成本低的解決管道。選對管道，才能以最小的成本拿回應有的權利。</p>
+<h3>五種解決管道的比較</h3>
+<ul>
+<li><strong>直接協商：</strong>最快、零費用。書面提出訴求，態度理性，先給對方解決機會。重點：全程書面留存。</li>
+<li><strong>鄉鎮市區調解委員會：</strong>免費、1至2個月、效力同確定判決。九成租屋糾紛的最佳解。向任一方戶籍地或房屋所在地調解委員會申請。</li>
+<li><strong>縣市地政局租賃爭議調處：</strong>免費、專業性高，適合涉及定型化契約的複雜爭議。向房屋所在縣市地政局申請。</li>
+<li><strong>小額訴訟：</strong>適用10萬元以下請求，費用低廉（按請求金額約1%），程序簡便，可自行提起，不需律師。</li>
+<li><strong>一般民事訴訟：</strong>適合大金額或複雜案件，但耗時（6個月至一年以上）且律師費可觀，作為最後手段。</li>
+</ul>
+<h3>根據糾紛類型選擇管道</h3>
+<ul>
+<li><strong>押金糾紛（3至10萬以下）：</strong>調解委員會 → 若不成，小額訴訟</li>
+<li><strong>電費超收（金額較小）：</strong>直接協商 → 調解委員會</li>
+<li><strong>修繕費用（爭議較複雜）：</strong>地政局調處 → 調解委員會</li>
+<li><strong>要求遷讓房屋（房東驅逐糾紛）：</strong>調解委員會 → 確認自己的合法居住權</li>
+</ul>
+<h3>申請調解的準備工作</h3>
+<ul>
+<li>整理爭議事實的時間軸（何時發生、何時通知、對方如何回應）</li>
+<li>整理相關文件：租約、繳費記錄、通訊截圖、照片</li>
+<li>明確的請求金額（我要求返還押金XX元、電費差額XX元）</li>
+<li>填寫聲請書（調解委員會提供格式）</li>
+</ul>
+<h3>調解時的注意事項</h3>
+<ul>
+<li>態度理性，陳述事實為主</li>
+<li>有彈性但有底線：設定不可退讓的最低接受條件</li>
+<li>達成協議後，要求在調解書上載明所有細節（金額、期限、方式）</li>
+<li>調解書送請法院核定後，效力等同確定判決</li>
+</ul>`},{t:`設備維護與租屋責任：冷氣、熱水器、家電的維修歸屬完整解析`,b:`<h3>設備問題是租屋中最頻繁的糾紛來源</h3>
+<p>冷氣壞了，到底誰出修理費？熱水器出問題，是自然損壞還是使用不當？這些問題幾乎每個租屋族都遇過，但很多人不清楚判斷原則，只能憑感覺或對方態度決定要不要出錢。</p>
+<h3>判斷原則：原因而不是位置</h3>
+<p>判斷設備問題責任的核心原則：看損壞「原因」，而不是看設備「位置」或「誰使用」。</p>
+<ul>
+<li>自然老化損壞 → 房東責任</li>
+<li>人為不當使用損壞 → 房客責任</li>
+<li>未善盡日常保養造成損壞 → 房客可能部分負責</li>
+</ul>
+<h3>各類設備的責任分配</h3>
+<ul>
+<li><strong>冷氣：</strong>房東提供的冷氣，壓縮機老化損壞（房東修）；因長期不清洗濾網造成的損壞（房客可能需分擔清洗保養的疏失）；冷氣機架鬆脫（房東修，結構安全問題）</li>
+<li><strong>熱水器：</strong>自然老化無法點火（房東修）；點火頭積碳（定期保養，房客疏失可能分擔）；因超過使用年限（10年以上）的全面故障（房東應更換）</li>
+<li><strong>洗衣機：</strong>滾筒軸承磨損老化（房東修）；因過載放入太多衣物造成損壞（房客負責）</li>
+<li><strong>冰箱：</strong>壓縮機老化（房東修）；冰箱門封條老化（房東修）</li>
+</ul>
+<h3>房客的日常保養義務</h3>
+<p>以下是房客合理的日常保養義務：</p>
+<ul>
+<li>冷氣濾網清洗（每1至3個月，視使用量）</li>
+<li>排水孔清潔（防止堵塞）</li>
+<li>洗衣機槽清洗（定期）</li>
+<li>冰箱除霜（若非無霜冰箱）</li>
+</ul>
+<h3>設備有問題的正確處理流程</h3>
+<ol>
+<li>發現問題立即拍照記錄（時間戳）</li>
+<li>書面通知房東，說明問題症狀（避免主觀判斷責任）</li>
+<li>請房東確認責任歸屬並安排修繕</li>
+<li>如有疑義，建議請師傅評估並提供書面說明（「壓縮機老化屬自然損壞」等）</li>
+</ol>
+<h3>自己不確定責任時怎麼辦？</h3>
+<p>本站「修繕責任判定」工具，三個步驟內幫你判斷責任歸屬，並提供催告範本，可以直接使用。</p>`},{t:`租屋退清潔費、油漆費爭議完整解析：哪些錢不用付、如何對抗不合理扣款`,tag:'hot',b:`<h3>退租時最容易被坑的兩筆費用</h3>
+<p>退租時，房東最常提出的兩項費用是「油漆費」和「清潔費」。很多房客因為不了解規定，或急著結束租賃關係，就接受了不合理的扣款。但其實，這兩項費用有很明確的合法與非法界線。</p>
+<h3>油漆費：哪些情況不用付</h3>
+<p>「自然耗損」原則：長期居住後，牆面油漆自然褪色、略微泛黃、有輕微生活痕跡，這些屬於正常居住的自然耗損，<strong>不得向房客收費</strong>。</p>
+<p>不需要付油漆費的情況：</p>
+<ul>
+<li>油漆顏色自然褪色（居住3至5年後）</li>
+<li>牆面輕微的生活痕跡（沙發靠背的輕微壓痕等）</li>
+<li>正常使用造成的輕微貼紙殘膠（若已清除完大部分）</li>
+</ul>
+<p>需要付油漆費的情況：</p>
+<ul>
+<li>故意塗畫（例如讓小孩在牆上亂畫）</li>
+<li>重大汙漬（如煙草油漬、大面積霉斑——但需確認是否入住前已有）</li>
+<li>合約明確約定退租需刷白，且入住時確實是粉刷後的狀態</li>
+</ul>
+<h3>清潔費：合理的請求標準</h3>
+<p>房客退租時有義務維持基本清潔狀態，但「基本清潔」不等於「全新」：</p>
+<ul>
+<li>需要做的：地板清掃拖地、廚房爐台和水槽清潔、浴室清潔、垃圾清除</li>
+<li>不需要做的：窗框細縫的深層清潔、浴室磁磚美縫劑更換、家電的內部深度清潔</li>
+</ul>
+<p>若房東要求「專業清潔費用」，需有合約依據（合約載明退租需進行專業清潔），否則一般清潔狀態已履行義務。</p>
+<h3>對抗不合理扣款的方式</h3>
+<ol>
+<li><strong>提出入住對照：</strong>找出入住時的照片影片，對比退租時的屋況，若入住時已有類似狀態，就是自然耗損</li>
+<li><strong>書面異議：</strong>針對每項不合理扣款，書面說明「依住宅租賃規範，自然耗損不得扣款，此項目屬自然耗損」</li>
+<li><strong>要求估價單：</strong>要求房東提供每項扣款的具體估價單，沒有依據的費用難以成立</li>
+<li><strong>申請調解：</strong>協商不成，調解委員會對此類爭議的處理非常有效</li>
+</ol>
+<h3>如何在退租前減少這類糾紛？</h3>
+<ul>
+<li>退租前自行做好基本清潔（廚房、浴室、地板）</li>
+<li>點交當天全程錄影，對照入住時記錄</li>
+<li>有明顯損壞（非自然耗損）考慮自行修復，避免房東估價過高</li>
+</ul>`},{t:`轉租、換室友、分租的程序：哪些情況需要房東同意、違規後果`,b:`<h3>轉租不等於自由處置</h3>
+<p>你租的房子，有時候情況改變，想讓朋友接手，或想找人一起分擔費用。但在沒有了解清楚規定前，任何改變承租狀態的行為，都可能造成重大違約，讓你面臨立刻終止租約的風險。</p>
+<h3>三種常見的轉讓形式</h3>
+<ul>
+<li><strong>轉租：</strong>你把整個租約讓給別人，自己搬走，對方接手你的承租人地位</li>
+<li><strong>分租：</strong>你繼續住，但將房屋的一部分空間出租給其他人（如一間臥室租給朋友）</li>
+<li><strong>換室友：</strong>原合租中的一人離開，換另一人進來承接其位置</li>
+</ul>
+<h3>三種形式都需要房東書面同意</h3>
+<p>無論哪種形式，都必須取得房東的書面同意，否則屬於「擅自轉租」，是重大違約行為。</p>
+<h3>違規轉租的後果</h3>
+<ul>
+<li>房東可以以此為由終止租約，要求你立即搬遷</li>
+<li>依合約違約金條款賠償</li>
+<li>若造成損失（如轉租對象損壞房屋），你對房東仍負責</li>
+</ul>
+<h3>如何合法處理轉租需求？</h3>
+<ol>
+<li><strong>提前告知：</strong>誠實說明情況，不要等到新室友已經搬進來才說</li>
+<li><strong>提供新人資料：</strong>說明新室友的基本資訊（工作、背景），幫房東判斷</li>
+<li><strong>簽署書面同意：</strong>取得房東書面同意轉租，或重新簽署一份新承租人的合約</li>
+</ol>
+<h3>房東一般會同意轉租嗎？</h3>
+<p>大多數房東關心的是「新的承租人靠不靠譜」。只要你提供的新人資訊讓房東有信心，多數情況下房東願意配合。先斬後奏才是讓房東堅定拒絕（或要求你立刻搬遷）的最快方式。</p>
+<h3>租約中的轉租條款</h3>
+<p>有些租約明確禁止任何形式的轉租（合法的使用限制）；有些則允許在房東同意的前提下轉租。簽約前確認合約中的相關條款，了解自己的彈性空間。</p>`},{t:`租屋隱私權完整保障：房東擅入、監視器、個資保護的法律依據與因應方式`,b:`<h3>租屋處就是你的家，隱私權受完整保障</h3>
+<p>很多房客以為因為「不是自己的房子」，所以對房東的各種行為只能忍耐。這個觀念完全錯誤。租賃期間，你對租賃空間享有完整的使用收益權，隱私權和人身安全同樣受法律保護。</p>
+<h3>房東擅自進入的法律問題</h3>
+<p>未經你的同意，房東進入租賃空間，可能構成《刑法》第306條「無故侵入住居罪」，最高可處一年有期徒刑或拘役。這個規定和房屋所有權無關——出租後，房東的進入權受限，房客的居住安全受保障。</p>
+<ul>
+<li><strong>合法的進入：</strong>提前24小時以上通知，取得你的同意確認後，依約定時間進入</li>
+<li><strong>違法的進入：</strong>沒有告知、突然出現、或在你不同意的情況下進入</li>
+</ul>
+<h3>監視器的合法與非法界線</h3>
+<ul>
+<li><strong>非法：</strong>在臥室、浴室、更衣空間等私人區域安裝任何攝影設備——這是刑事犯罪，涉及《刑法》妨害秘密罪，最高三年有期徒刑</li>
+<li><strong>合法但有限制：</strong>大門外側、公共走廊、停車場等公共區域可以安裝監視器，但不得對準你的房門內部或個人活動空間</li>
+</ul>
+<h3>發現疑似針孔攝影機怎麼辦？</h3>
+<ol>
+<li>不要移動或破壞設備（保留證據）</li>
+<li>立即報警（刑事案件，警察有義務受理）</li>
+<li>拍照記錄發現位置和時間</li>
+<li>保存所有與房東的通訊記錄</li>
+</ol>
+<p>此行為構成刑事犯罪，同時賦予你立即解除租約且不付違約金的正當理由。</p>
+<h3>個人資料保護</h3>
+<ul>
+<li>房東不得要求你提供超出租賃所需的個資（如存摺明細、帳戶密碼）</li>
+<li>房東不得扣留你的身分證（任何理由都不行）</li>
+<li>租約上的個人資料，房東只能用於租賃相關目的，不得外洩</li>
+</ul>
+<h3>遇到隱私侵害的因應步驟</h3>
+<ol>
+<li>記錄侵害事實（時間、方式、照片影片）</li>
+<li>書面向房東表達立場，要求停止侵害行為</li>
+<li>情節嚴重者報警處理</li>
+<li>以房東重大違約為由，主張解除租約且不付違約金</li>
+</ol>`}];
+const ARTS={l:LANDLORD,t:TENANT,r:RULES};
+const SLUGS={"l": ["first-time-landlord-sop", "lease-must-have-clauses", "deposit-management-guide", "property-management-explained", "electricity-fee-legal-guide", "tenant-rent-arrears-handling", "rent-increase-legal-guide", "landlord-entry-rules", "lease-renewal-or-repossession", "landlord-tax-filing-guide", "tenant-screening-guide", "penalty-clause-design", "landlord-repair-obligations", "early-termination-compensation", "move-in-inspection-landlord", "public-welfare-landlord-deep-dive", "rental-property-annual-maintenance", "good-landlord-guide", "long-term-vs-short-term-rental", "old-house-safety-checklist"], "t": ["first-time-renting-guide", "get-deposit-back", "electricity-overcharge-refund", "landlord-refuses-repairs", "tenant-early-termination-guide", "move-in-day-evidence", "rental-scam-prevention", "lease-trap-clauses", "move-out-process-guide", "rent-subsidy-application-2026", "water-leak-handling", "shared-room-electricity-fee", "landlord-asks-tenant-to-leave", "roommate-agreement-guide", "15-questions-before-renting", "rental-dispute-resolution-options", "appliance-repair-responsibility", "cleaning-painting-fee-disputes", "sublease-roommate-change-rules", "tenant-privacy-protection"], "r": ["standard-lease-contract-2026", "deposit-rules-complete-guide", "repair-responsibility-division", "lease-early-termination-rules", "lease-notarization-guide", "rent-subsidy-guide-2026", "public-welfare-landlord-explained", "rental-dispute-mediation-guide", "lease-guarantor-rules", "household-registration-rights", "rental-renovation-rules", "electricity-fee-cap-rules", "pet-clause-rules", "stigmatized-property-rules", "second-landlord-sublease-guide", "bulky-waste-disposal-moveout", "rental-court-ruling-trends", "social-housing-application-guide", "rental-agency-fee-rules", "rental-document-retention-guide"]};
+const tagL={hot:'🔥 熱搜',new:'✨ 最新',fav:'⭐ 必讀'};
+function renderArts(z){
+  const list=z==='r'?ARTS.r:ARTS[z];
+  let html=list.map((a,i)=>artRow(a,i,'',z)).join('');
+  if(z!=='r'){html+=`<div style="padding:18px 0 8px;font-size:12px;font-weight:700;color:var(--br);letter-spacing:.05em;border-top:1px solid rgba(139,94,60,.12);margin-top:4px">▼ 延伸閱讀：租賃規範知識</div>`;html+=ARTS.r.map((a,i)=>artRow(a,i,'R','r')).join('');}
+  document.getElementById('arts-'+z).innerHTML=html;
+}
+function artRow(a,i,pfx,cat){
+  const slug=(SLUGS[cat]||[])[i]||'';
+  const pageUrl=slug?(window.location.origin+'/articles/'+slug+'/'):window.location.href;
+  const shareUrl=encodeURIComponent(pageUrl);
+  const shareText=encodeURIComponent('推薦你看這篇：'+a.t+' ｜ 租事無憂');
+  const fbUrl='https://www.facebook.com/sharer/sharer.php?u='+shareUrl;
+  const lineUrl='https://social-plugins.line.me/lineit/share?url='+shareUrl+'&text='+shareText;
+  const threadsUrl='https://www.threads.com/intent/post?text='+shareText+'%20'+shareUrl;
+  return `<div class="aacc">
+    <button class="aab" onclick="tArt(this)">
+      <span class="anum">${pfx}${String(i+1).padStart(2,'0')}</span>
+      <span class="att">${a.t}</span>
+      ${a.tag?`<span class="atag ${a.tag==='hot'?'th':a.tag==='new'?'tn2':'tf'}">${tagL[a.tag]}</span>`:''}
+      <span class="aarw">›</span>
+    </button>
+    <div class="abody">${a.b}
+      ${slug?`<a href="/articles/${slug}/" class="art-perma" style="display:inline-block;margin-top:18px;padding:10px 18px;background:var(--grp);border:1.5px solid rgba(74,103,65,.25);border-radius:10px;font-size:13px;font-weight:700;color:var(--gr);text-decoration:none">📄 開啟獨立文章頁（可分享、可收藏的專屬網址）→</a>`:''}
+      <div class="art-share">
+        <span class="art-share-lbl">分享文章：</span>
+        <a href="${fbUrl}" target="_blank" class="art-share-btn share-fb">👍 Facebook</a>
+        <a href="https://www.instagram.com/rentfreely.life/" target="_blank" class="art-share-btn share-ig">📸 Instagram</a>
+        <a href="${lineUrl}" target="_blank" class="art-share-btn share-line">💬 LINE</a>
+        <a href="${threadsUrl}" target="_blank" class="art-share-btn share-th">🧵 Threads</a>
+      </div>
+    </div>
+  </div>`;
+}
+function tArt(btn){
+  const b=btn.nextElementSibling,o=b.classList.contains('op');
+  btn.closest('.alist').querySelectorAll('.abody.op').forEach(x=>{x.classList.remove('op');x.previousElementSibling.classList.remove('op')});
+  if(!o){b.classList.add('op');btn.classList.add('op');setTimeout(()=>btn.scrollIntoView({behavior:'smooth',block:'nearest'}),60);}
+}
+function toggleZ(z){
+  const d=document.getElementById('drawer-'+z),o=d.classList.contains('op');
+  document.querySelectorAll('.kdrawer').forEach(x=>x.classList.remove('op'));
+  if(!o){
+    d.classList.add('op');
+    if(!document.getElementById('arts-'+z).innerHTML)renderArts(z);
+    setTimeout(()=>d.scrollIntoView({behavior:'smooth',block:'start'}),60);
+  }
+}
+/* ── Reviews ── */
+const RVS=[
+  {tx:'「押金試算器救了我！房東要收三個月押金，我用工具確認超過上限，拿出計算結果談判，房東當場說可以商量。」',n:'陳小姐',r:'台北 租客',bg:'var(--grp)',c:'var(--gr)',ch:'陳'},
+  {tx:'「修繕責任判定超實用，快速確認冷氣故障應由房東負擔，讓我知道怎麼溝通，不用再猜誰對誰錯。」',n:'林先生',r:'新竹 租客',bg:'var(--oal)',c:'var(--br)',ch:'林'},
+  {tx:'「點交清單讓我退租超順利，每項都有記錄，房東沒辦法隨便說我沒點交，押金全額退還！」',n:'張小姐',r:'台中 租客',bg:'rgba(139,94,60,.08)',c:'var(--br)',ch:'張'},
+  {tx:'「身為房東，點交清單真的必要。退租糾紛少了很多，雙方都有記錄可參考，省去很多麻煩。」',n:'王先生',r:'高雄 房東（3 間）',bg:'var(--grp)',c:'var(--grd)',ch:'王'},
+  {tx:'「租金試算器解決月中搬入的計算問題，輸入日期就自動算好，還能截圖給房東，超方便。」',n:'黃先生',r:'台南 租客',bg:'rgba(155,48,48,.08)',c:'var(--dn)',ch:'黃'},
+  {tx:'「裁判書查詢助手讓我查到類似案例，了解自身狀況，知道要準備哪些文件，方向清晰多了。」',n:'李小姐',r:'桃園 租客',bg:'var(--grp)',c:'var(--gr)',ch:'李'}
+];
+document.getElementById('rvmb').innerHTML=RVS.map(v=>`<div class="rvc"><div class="rvs">★★★★★</div><div class="rvt">${v.tx}</div><div class="rva"><div class="rvav" style="background:${v.bg};color:${v.c}">${v.ch}</div><div><div class="rvn">${v.n}</div><div class="rvr">${v.r}</div></div></div></div>`).join('');
+function openRv(){document.getElementById('rvov').classList.add('op');document.body.style.overflow='hidden';}
+function closeRv(){document.getElementById('rvov').classList.remove('op');document.body.style.overflow='';}
+
+/* ── Partners ── */
+const PC=[
+  {ic:'🔧',n:'居家修繕工程',d:'漏水抓漏、防水工程、水電維修、門窗修繕，解決房屋結構與設備問題。'},
+  {ic:'🧹',n:'清潔消毒服務',d:'退租清潔、除霉除蟎、深層消毒，讓點交過程乾淨順利。'},
+  {ic:'🚚',n:'搬運儲存服務',d:'搬家、迷你倉儲、大型物件運送，協助租屋族搬遷過渡。'},
+  {ic:'🔐',n:'智慧門禁安全',d:'智慧電子鎖、視訊門鈴、安全設備，提升出租物件安全價值。'},
+  {ic:'🛋️',n:'輕裝潢與家具',d:'免鑽孔壁掛、系統家具、空間收納，不傷牆面打造理想空間。'},
+  {ic:'⚖️',n:'租賃專業顧問',d:'地政士、公證協辦、租賃管理顧問，協助合規處理各項文件。'},
+  {ic:'🏢',n:'包租代管業者',d:'合格包租代管業者，協助房東省心管理並輔導公益出租人資格。'},
+  {ic:'💡',n:'節能設備服務',d:'獨立電表安裝、節能冷氣，協助房東合法透明計算電費。'},
+  {ic:'🐜',n:'除蟲消毒防治',d:'白蟻、蟑螂、老鼠、蚊蟲等病媒防治，換租空屋除蟲消毒，守護居住衛生。'},
+  {ic:'❄️',n:'冷氣清洗保養',d:'分離式與窗型冷氣深度清洗、定期保養，延長設備壽命、省電又健康。'},
+  {ic:'🎨',n:'油漆粉刷工程',d:'退租修復粉刷、全室改色、防霉批土，快速恢復屋況提升出租賣相。'},
+  {ic:'🔍',n:'驗屋檢測服務',d:'交屋前後屋況檢測、漏水熱像檢查、電路安全評估，點交更有依據。'},
+  {ic:'🗑️',n:'廢棄物清運',d:'退租大型家具清運、裝潢廢棄物處理、遺留物清空，合法快速處理。'},
+  {ic:'🔑',n:'開鎖換鎖服務',d:'24小時緊急開鎖、換租戶換鎖芯、保險箱開啟，居住安全第一道防線。'},
+  {ic:'🛠️',n:'家電維修與租賃',d:'冰箱、洗衣機、熱水器維修，家電租賃買賣，降低房東設備成本。'},
+  {ic:'🛡️',n:'住宅保險服務',d:'住宅火險、地震險、租屋責任險規劃，轉嫁租賃期間的意外風險。'},
+  {ic:'📐',n:'室內設計裝修',d:'出租宅輕裝修、空間規劃、老屋翻新，提升物件價值與租金水準。'},
+  {ic:'🪟',n:'窗簾地板建材',d:'窗簾、木地板、塑膠地磚安裝更換，快速改造出租空間質感。'},
+  {ic:'📡',n:'網路弱電工程',d:'社區網路佈線、WiFi 建置、監視器與對講機安裝，滿足現代租屋需求。'},
+  {ic:'🛋️',n:'二手家具收購',d:'二手家具家電收購與買賣，退租搬遷物品流通，環保又省錢。'}
+];
+document.getElementById('pcat-g').innerHTML=PC.map(p=>`<div class="pcat"><div class="pcath"><div class="pcatic">${p.ic}</div><div class="pcatn">${p.n}</div><div class="pcatc">洽詢中</div></div><div class="pcatb"><div class="pcatd">${p.d}</div><div class="pcata" onclick="window.open('https://lin.ee/xLs83C2','_blank')">✉️ 洽詢合作 →</div></div></div>`).join('');
+function showP(){document.getElementById('pt').style.display='none';document.getElementById('pe').classList.add('op');setTimeout(()=>document.getElementById('pe').scrollIntoView({behavior:'smooth',block:'start'}),60);}
+function hideP(){document.getElementById('pt').style.display='block';document.getElementById('pe').classList.remove('op');document.getElementById('partners').scrollIntoView({behavior:'smooth'});}
+
+/* ── FAQ ── */
+const FAQS=[
+  {q:'房東可以收幾個月押金？',a:'上限是<strong>兩個月租金</strong>。超收部分可主張抵租金或要求返還。'},
+  {q:'退租後押金多久要還？',a:'有約定依約定；無約定則點交完成後<strong>合理期間內返還</strong>（慣例 1～4 週）。拖延不還可書面催告後申請調解。'},
+  {q:'房東說我沒打掃要扣押金，合法嗎？',a:'基本清潔是房客義務，但<strong>自然耗損不得扣款</strong>。房東要扣必須逐項舉證，你入住時的照片是最強保護。'},
+  {q:'押金可以拿來抵最後一個月房租嗎？',a:'<strong>不行，除非房東同意。</strong>押金與租金性質不同，擅自主張抵租屬欠租行為。'},
+  {q:'漏水是房東修還是我修？',a:'<strong>結構性漏水（屋頂、外牆、管線）由房東負責。</strong>你使用不當造成的才由你負擔。發現漏水立即拍照書面通知。'},
+  {q:'冷氣、熱水器壞了算誰的？',a:'房東提供的設備<strong>自然故障由房東修</strong>；你使用不當損壞才由你負擔。日常清洗濾網屬房客保養義務。'},
+  {q:'房東拖著不修，我能自己修再扣租金嗎？',a:'先書面催告給 7～14 天期限。逾期未修可<strong>自行修繕向房東求償</strong>。跳過催告直接扣租有風險。'},
+  {q:'電費一度收 6 元合法嗎？',a:'房東收取電費<strong>不得超過台電夏季最高級距費率</strong>。要求出示計費依據，超收差額可主張返還。'},
+  {q:'合約寫「不得設戶籍」有效嗎？',a:'<strong>無效。</strong>設戶籍是你的權利，此條款違反定型化契約規範，不因簽名而生效。'},
+  {q:'提前解約違約金要付多少？',a:'依合約條款，實務上限約<strong>一個月租金</strong>，過高法院會酌減。提早通知、幫找下一個房客都能降低賠償。'},
+  {q:'房東說房子要賣，我要搬走嗎？',a:'<strong>不用。「買賣不破租賃」：</strong>租約期間房屋易主，新房東須繼承原租約，你有權住到期滿。'},
+  {q:'租金補貼怎麼申請？',a:'每年約 4～7 月於內政部住宅補貼專區線上申請。金額每月約 2,000～8,000 元。<strong>房東不得因此漲租或解約。</strong>'},
+  {q:'房間被裝監視器怎麼辦？',a:'私人空間裝設攝影機<strong>涉及刑責，立即報警。</strong>公共走廊大門房東可合理設置，但不得對準你的房門內部。'},
+  {q:'房客欠租多久可以終止租約？',a:'欠租達<strong>兩個月租額</strong>，書面催告限期繳納，逾期即可終止租約。有辦公證者可直接聲請強制執行，免訴訟。'},
+  {q:'我是房東，可以隨時進去看房子嗎？',a:'<strong>不行。</strong>未經房客同意擅入可能涉及侵入住居。要檢查請提前告知並約時間。'},
+  {q:'房客留下一堆物品跑了怎麼辦？',a:'勿直接丟棄（可能涉侵占毀損）。先存證信函限期清運，逾期後<strong>建議聲請法院處理或拍照公證後處置。</strong>'},
+  {q:'押金被亂扣如何追回？',a:'書面催告 → 申請鄉鎮市區免費調解 → 小額訴訟。<strong>自然耗損不得扣款，房東必須舉證。</strong>入住照片是關鍵。'},
+  {q:'租約要不要公證？費用誰出？',a:'強烈建議辦<strong>逕受強制執行公證</strong>：欠租不搬可直接強制執行，免打官司。費用數千元，實務上雙方各半或協商分擔。'},
+  {q:'室友退租跑了，房東找我要全額租金？',a:'若租約載明連帶責任，房東確實可向任一承租人請求。合租前<strong>先書面約定內部分擔</strong>，日後才有依據追償。'},
+  {q:'搬出時油漆費要付嗎？',a:'<strong>自然耗損（油漆褪色、輕微磨損）不用付。</strong>故意破壞或嚴重髒污才需負擔。房東扣款必須逐項舉證損壞原因。'}
+];
+document.getElementById('fgrid').innerHTML=FAQS.map((f,i)=>`<div class="fitem"><button class="fq" onclick="tFaq(this)"><span class="fqt">${f.q}</span><span class="fico">+</span></button><div class="fa">${f.a}</div></div>`).join('');
+function tFaq(btn){const a=btn.nextElementSibling,o=a.classList.contains('op');document.querySelectorAll('.fq.op').forEach(b=>{b.classList.remove('op');b.nextElementSibling.classList.remove('op')});if(!o){btn.classList.add('op');a.classList.add('op');}}
+
+/* ── Reveal ── */
+const rvEls=document.querySelectorAll('.rv');
+const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('vi')})},{threshold:.07});
+rvEls.forEach(el=>io.observe(el));
+
+/* Policy accordion on mobile */
+(function(){
+  document.querySelectorAll('.pol-head').forEach(function(head){
+    head.addEventListener('click', function(){
+      if(window.innerWidth > 700) return;
+      var card = head.closest('.pol-card');
+      var isOpen = card.classList.contains('open');
+      // Close all
+      document.querySelectorAll('.pol-card.open').forEach(function(c){ c.classList.remove('open'); });
+      if(!isOpen) card.classList.add('open');
+    });
+  });
+})();
+
+
+</script>
+</body>
+</html>
