@@ -26,6 +26,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
+# 新增：強制包含靜態驗證檔案，避免被 Jekyll 忽略
+include:
+  - ads.txt
+
 # Exclude
 exclude:
   - Gemfile
