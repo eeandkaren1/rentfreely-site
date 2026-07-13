@@ -6,7 +6,7 @@ from datetime import datetime
 # ================= 1. 基礎設定 =================
 EXCEL_PATH = r"C:\Users\USER\Desktop\創業資料\租事無憂_上架完整包_已修正\jekyll-site\_data\365天內容行銷資料庫.xlsx"
 SHEET_NAME = "365天日曆"
-ARTICLES_DIR = r"C:\Users\USER\Desktop\創業資料\租事無憂_上架完整包_已修正\jekyll-site\_posts"
+ARTICLES_DIR = r"C:\Users\USER\Desktop\創業資料\租事無憂_上架完整包_已修正\jekyll-site\_articles"  # 注意：必須放 _articles 才會產生獨立網址
 DIFY_API_URL = "http://localhost/v1/workflows/run" 
 DIFY_API_KEY = "app-VLaWmwuWyRmEn6WiPJKZQlO5"
 
@@ -69,13 +69,32 @@ def generate_daily_content(target_day):
         print(f"❌ 呼叫 Dify 失敗：{e}")
         return
 
-    # 寫入檔案
+    # 寫入檔案（自動補上 Jekyll front matter，確保每篇文章都有獨立網址可分享、可被搜尋引擎收錄）
     today_str = datetime.today().strftime('%Y-%m-%d')
+    ai_output = str(ai_output).strip()
+
+    if not ai_output.startswith('---'):
+        slug = f"day-{target_day}-{today_str}"
+        safe_title = str(seo_topic).replace('"', '\\"')
+        desc = safe_title  # 可自行改為文章摘要
+        front_matter = (
+            "---\n"
+            f'title: "{safe_title}"\n'
+            f'description: "{desc}"\n'
+            "category: rules\n"          # 依內容改為 landlord / tenant / rules
+            f"slug: {slug}\n"            # 文章獨立網址：/articles/<slug>/（建議改成英文關鍵字）
+            f"date: {today_str}\n"
+            "tags: [new]\n"
+            "---\n\n"
+        )
+        ai_output = front_matter + ai_output
+
     log_filename = os.path.join(ARTICLES_DIR, f"{today_str}-day{target_day}.md")
     with open(log_filename, "w", encoding="utf-8") as f:
-        f.write(str(ai_output))
-    
+        f.write(ai_output)
+
     print(f"💾 檔案已成功生成：{log_filename}")
+    print("🌐 部署後文章獨立網址：/articles/<front matter 中的 slug>/，會自動加入 sitemap 供搜尋引擎收錄與社群分享")
 
 if __name__ == "__main__":
     generate_daily_content(1)

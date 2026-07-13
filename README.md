@@ -73,3 +73,26 @@ tags: ["租屋", "hot"]
 1. 到 `_config.yml` 把 url 改成正式網址
 2. 在網域商設定 CNAME 指向 Render
 3. Render Dashboard → Custom Domain 綁定網址
+
+## 📄 文章獨立網址（SEO / 社群分享）重要說明
+
+全站 60 篇文章位於 `_articles/`，每篇皆有獨立網址：`https://你的網域/articles/<slug>/`，
+由 Jekyll collection 自動產生頁面、加入 sitemap.xml（jekyll-sitemap）並帶有 OG 分享標籤（jekyll-seo-tag）。
+
+**後續新增文章請務必：**
+1. 將 `.md` 檔放入 `_articles/`（不要放 `_posts/`，`_posts` 不會被網站讀取）。
+2. 檔案開頭必須包含 front matter：
+
+```yaml
+---
+title: "文章標題"
+description: "80~110 字摘要（會成為搜尋結果與社群分享的描述）"
+category: landlord   # landlord / tenant / rules 三選一
+slug: english-url-keywords   # 決定獨立網址 /articles/<slug>/，請用英文小寫與連字號
+date: 2026-07-13
+tags: [new]          # 可選：hot / new / fav
+---
+```
+
+3. 推送部署後，該文章即自動出現在 `/articles/` 列表、擁有獨立可分享網址並被搜尋引擎收錄。
+   `generate_content.py` 已更新為自動輸出至 `_articles/` 並自動補 front matter。

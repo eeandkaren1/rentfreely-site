@@ -2757,15 +2757,18 @@ const TENANT=[{t:`第一次租屋完整教學：從看房到搬入，每個步�
 <li>以房東重大違約為由，主張解除租約且不付違約金</li>
 </ol>`}];
 const ARTS={l:LANDLORD,t:TENANT,r:RULES};
+const SLUGS={"l": ["first-time-landlord-sop", "lease-must-have-clauses", "deposit-management-guide", "property-management-explained", "electricity-fee-legal-guide", "tenant-rent-arrears-handling", "rent-increase-legal-guide", "landlord-entry-rules", "lease-renewal-or-repossession", "landlord-tax-filing-guide", "tenant-screening-guide", "penalty-clause-design", "landlord-repair-obligations", "early-termination-compensation", "move-in-inspection-landlord", "public-welfare-landlord-deep-dive", "rental-property-annual-maintenance", "good-landlord-guide", "long-term-vs-short-term-rental", "old-house-safety-checklist"], "t": ["first-time-renting-guide", "get-deposit-back", "electricity-overcharge-refund", "landlord-refuses-repairs", "tenant-early-termination-guide", "move-in-day-evidence", "rental-scam-prevention", "lease-trap-clauses", "move-out-process-guide", "rent-subsidy-application-2026", "water-leak-handling", "shared-room-electricity-fee", "landlord-asks-tenant-to-leave", "roommate-agreement-guide", "15-questions-before-renting", "rental-dispute-resolution-options", "appliance-repair-responsibility", "cleaning-painting-fee-disputes", "sublease-roommate-change-rules", "tenant-privacy-protection"], "r": ["standard-lease-contract-2026", "deposit-rules-complete-guide", "repair-responsibility-division", "lease-early-termination-rules", "lease-notarization-guide", "rent-subsidy-guide-2026", "public-welfare-landlord-explained", "rental-dispute-mediation-guide", "lease-guarantor-rules", "household-registration-rights", "rental-renovation-rules", "electricity-fee-cap-rules", "pet-clause-rules", "stigmatized-property-rules", "second-landlord-sublease-guide", "bulky-waste-disposal-moveout", "rental-court-ruling-trends", "social-housing-application-guide", "rental-agency-fee-rules", "rental-document-retention-guide"]};
 const tagL={hot:'🔥 熱搜',new:'✨ 最新',fav:'⭐ 必讀'};
 function renderArts(z){
   const list=z==='r'?ARTS.r:ARTS[z];
-  let html=list.map((a,i)=>artRow(a,i,'')).join('');
-  if(z!=='r'){html+=`<div style="padding:18px 0 8px;font-size:12px;font-weight:700;color:var(--br);letter-spacing:.05em;border-top:1px solid rgba(139,94,60,.12);margin-top:4px">▼ 延伸閱讀：租賃規範知識</div>`;html+=ARTS.r.map((a,i)=>artRow(a,i,'R')).join('');}
+  let html=list.map((a,i)=>artRow(a,i,'',z)).join('');
+  if(z!=='r'){html+=`<div style="padding:18px 0 8px;font-size:12px;font-weight:700;color:var(--br);letter-spacing:.05em;border-top:1px solid rgba(139,94,60,.12);margin-top:4px">▼ 延伸閱讀：租賃規範知識</div>`;html+=ARTS.r.map((a,i)=>artRow(a,i,'R','r')).join('');}
   document.getElementById('arts-'+z).innerHTML=html;
 }
-function artRow(a,i,pfx){
-  const shareUrl=encodeURIComponent(window.location.href);
+function artRow(a,i,pfx,cat){
+  const slug=(SLUGS[cat]||[])[i]||'';
+  const pageUrl=slug?(window.location.origin+'/articles/'+slug+'/'):window.location.href;
+  const shareUrl=encodeURIComponent(pageUrl);
   const shareText=encodeURIComponent('推薦你看這篇：'+a.t+' ｜ 租事無憂');
   const fbUrl='https://www.facebook.com/sharer/sharer.php?u='+shareUrl;
   const lineUrl='https://social-plugins.line.me/lineit/share?url='+shareUrl+'&text='+shareText;
@@ -2778,6 +2781,7 @@ function artRow(a,i,pfx){
       <span class="aarw">›</span>
     </button>
     <div class="abody">${a.b}
+      ${slug?`<a href="/articles/${slug}/" class="art-perma" style="display:inline-block;margin-top:18px;padding:10px 18px;background:var(--grp);border:1.5px solid rgba(74,103,65,.25);border-radius:10px;font-size:13px;font-weight:700;color:var(--gr);text-decoration:none">📄 開啟獨立文章頁（可分享、可收藏的專屬網址）→</a>`:''}
       <div class="art-share">
         <span class="art-share-lbl">分享文章：</span>
         <a href="${fbUrl}" target="_blank" class="art-share-btn share-fb">👍 Facebook</a>
