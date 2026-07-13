@@ -509,6 +509,8 @@ footer{background:#131B18;color:rgba(248,244,238,.52)}
         <div class="clt"><div class="cltb act" onclick="swCL('t',this)">🏠 房客自保清單</div><div class="cltb" onclick="swCL('l',this)">🔑 房東點交清單</div></div>
         <div id="cl-c"></div>
         <div class="clp"><div class="clpb"><div class="clpf" id="cl-f" style="width:0%"></div></div><div class="clpl" id="cl-l">已完成 0 / 0 項</div></div>
+        <div style="display:flex;gap:10px;margin-top:14px;flex-wrap:wrap"><button class="btn bp" onclick="dlCL()">📄 下載點交報告 PDF</button><button class="btn bo" onclick="rsCL()">↺ 重置勾選</button></div>
+        <div style="font-size:11.5px;color:var(--txm);opacity:.7;margin-top:8px">報告含勾選狀態、雙方簽名欄與日期，可存成 PDF 或直接列印，作為點交存證文件。</div>
       </div>
       <div class="tpanel" id="panel-notary">
         <div class="ph"><div class="pt2">📜 公證規費試算</div><button class="pc" onclick="closeTool()">✕</button></div>
@@ -909,6 +911,67 @@ const clS={};let cCL='t';
 function renderCL(tb){cCL=tb;const d=CL[tb];let h='',tot=0,dn=0;d.forEach((g,gi)=>{h+=`<div class="clg"><div class="clgt">${g.g}</div>`;g.i.forEach((it,ii)=>{const k=`${tb}-${gi}-${ii}`,ck=!!clS[k];tot++;if(ck)dn++;h+=`<div class="cli ${ck?'ck':''}" onclick="tCL('${k}')"><div class="clb">${ck?'✓':''}</div><div class="clt2">${it}</div></div>`;});h+='</div>';});document.getElementById('cl-c').innerHTML=h;document.getElementById('cl-f').style.width=tot?(dn/tot*100)+'%':'0%';document.getElementById('cl-l').textContent=`已完成 ${dn} / ${tot} 項`;}
 function swCL(tb,el){document.querySelectorAll('.cltb').forEach(t=>t.classList.remove('act'));el.classList.add('act');renderCL(tb);}
 function tCL(k){clS[k]=!clS[k];renderCL(cCL);}
+function rsCL(){if(!confirm('確定要清空所有勾選狀態嗎？'))return;for(const k in clS)delete clS[k];renderCL(cCL);}
+function dlCL(){
+  const d=CL[cCL],title=cCL==='t'?'房客自保點交清單':'房東點交清單';
+  const now=new Date(),ds=now.toLocaleDateString('zh-TW',{year:'numeric',month:'long',day:'numeric'}),ts=now.toLocaleTimeString('zh-TW',{hour:'2-digit',minute:'2-digit'});
+  let tot=0,dn=0,rows='';
+  d.forEach((g,gi)=>{
+    rows+=`<tr><td colspan="2" class="grp">${g.g}</td></tr>`;
+    g.i.forEach((it,ii)=>{const ck=!!clS[`${cCL}-${gi}-${ii}`];tot++;if(ck)dn++;
+      rows+=`<tr><td class="cb ${ck?'ok':''}">${ck?'☑':'☐'}</td><td class="it ${ck?'':'nd'}">${it}${ck?'':'　<span class="tag">未完成</span>'}</td></tr>`;});
+  });
+  const html=`<!DOCTYPE html><html lang="zh-TW"><head><meta charset="UTF-8"><title>入住點交報告_${ds}</title><style>
+  @page{margin:18mm 16mm}
+  body{font-family:"Microsoft JhengHei","PingFang TC","Noto Sans TC",sans-serif;color:#2B2B26;margin:0;font-size:13px;line-height:1.7}
+  .hd{border-bottom:3px solid #4A6741;padding-bottom:12px;margin-bottom:16px}
+  .brand{font-size:13px;font-weight:700;color:#4A6741;letter-spacing:2px}
+  h1{font-size:22px;margin:6px 0 4px}
+  .meta{font-size:12px;color:#6E6E66}
+  .info{display:flex;gap:24px;flex-wrap:wrap;margin:14px 0;font-size:13px}
+  .info div{min-width:220px}
+  .bl{display:inline-block;min-width:150px;border-bottom:1px solid #999}
+  table{width:100%;border-collapse:collapse;margin:10px 0}
+  td{border:1px solid #D8D4CA;padding:7px 10px;vertical-align:top}
+  .grp{background:#E4E8E3;font-weight:700;color:#34482E}
+  .cb{width:34px;text-align:center;font-size:16px}
+  .cb.ok{color:#4A6741;font-weight:700}
+  .nd{color:#8a8a80}
+  .tag{font-size:10px;color:#A8452F;border:1px solid #A8452F;border-radius:3px;padding:0 4px}
+  .sum{background:#F1EFE9;border:1px solid #D8D4CA;border-radius:6px;padding:10px 14px;margin:14px 0;font-size:13px}
+  .sig{display:flex;gap:40px;margin-top:34px}
+  .sig div{flex:1}
+  .sigline{border-bottom:1px solid #444;height:44px;margin-bottom:6px}
+  .siglb{font-size:12px;color:#6E6E66}
+  .ft{margin-top:26px;padding-top:10px;border-top:1px solid #D8D4CA;font-size:10.5px;color:#8a8a80}
+  .noprint{position:fixed;top:12px;right:14px}
+  .noprint button{background:#4A6741;color:#fff;border:none;border-radius:8px;padding:10px 18px;font-size:14px;font-weight:700;cursor:pointer;font-family:inherit}
+  @media print{.noprint{display:none}}
+  </style></head><body>
+  <div class="noprint"><button onclick="window.print()">💾 儲存為 PDF / 列印</button></div>
+  <div class="hd"><div class="brand">租事無憂 RENT WORRY-FREE</div><h1>入住點交報告｜${title}</h1><div class="meta">產出時間：${ds} ${ts}　·　完成度：${dn} / ${tot} 項（${tot?Math.round(dn/tot*100):0}%）</div></div>
+  <div class="info">
+    <div>租賃物件地址：<span class="bl">&nbsp;</span></div>
+    <div>點交日期：<span class="bl">&nbsp;</span></div>
+    <div>出租人（房東）：<span class="bl">&nbsp;</span></div>
+    <div>承租人（房客）：<span class="bl">&nbsp;</span></div>
+    <div>當日水表讀數：<span class="bl">&nbsp;</span></div>
+    <div>當日電表讀數：<span class="bl">&nbsp;</span></div>
+  </div>
+  <table>${rows}</table>
+  <div class="sum">📌 雙方確認：以上勾選項目已於點交當日共同檢查確認；未完成項目與現況瑕疵已另以照片／影片存證，並於備註欄或附件載明。本報告一式兩份，雙方各執一份。</div>
+  <div>備註／既有損傷記載：</div>
+  <div style="border:1px solid #D8D4CA;height:76px;border-radius:4px;margin-top:6px"></div>
+  <div class="sig">
+    <div><div class="sigline"></div><div class="siglb">出租人簽名／日期</div></div>
+    <div><div class="sigline"></div><div class="siglb">承租人簽名／日期</div></div>
+  </div>
+  <div class="ft">本報告由 rentfreely.life 入住點交清單工具產生，僅供點交記錄輔助使用，不構成法律文件效力之保證；建議搭配全程錄影與照片存證。© 2026 租事無憂團隊</div>
+  <script>setTimeout(()=>{try{window.print()}catch(e){}},400)<\/script></body></html>`;
+  const w=window.open('','_blank');
+  if(!w){alert('請允許彈出視窗，才能產生點交報告。');return;}
+  w.document.write(html);w.document.close();
+}
 function calcN(){
   const r=parseFloat(document.getElementById('n-r').value)||0,mo=parseFloat(document.getElementById('n-m').value)||12,dp=parseFloat(document.getElementById('n-d').value)||0,ty=document.getElementById('n-t').value;
   if(!r)return;
