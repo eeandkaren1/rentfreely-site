@@ -1,0 +1,65 @@
+---
+layout: default
+title: 深度文章 | 租事無憂
+description: 房東房客租屋知識深度文章。押金、修繕、合約、退租、政策補貼，每篇由實務角度深度撰寫，幫助你在每段租賃關係中站穩腳步。
+---
+<main>
+  <section class="sec arts-list-page">
+    <div class="wrap">
+      <div class="sh rv">
+        <div class="sl">深度文章</div>
+        <h1 class="st">租屋知識深度文章</h1>
+        <p class="ss">60 篇完整文章，房東、房客、租賃規範三大專區，找到你需要的答案。</p>
+      </div>
+
+      <!-- Filter tabs -->
+      <div class="arts-filter rv">
+        <a href="/articles/" class="arts-filter-btn {% unless page.url contains '?cat=' %}active{% endunless %}">全部文章</a>
+        <a href="/articles/?cat=landlord" class="arts-filter-btn">🏠 房東專區</a>
+        <a href="/articles/?cat=tenant" class="arts-filter-btn">🪪 房客專區</a>
+        <a href="/articles/?cat=rules" class="arts-filter-btn">📋 租賃規範</a>
+      </div>
+
+      <!-- All articles grid -->
+      <div class="arts-grid rv" id="arts-grid">
+        {% assign sorted_arts = site.articles | sort: "date" | reverse %}
+        {% for article in sorted_arts %}
+        <a href="{{ article.url | relative_url }}" class="art-card" data-cat="{{ article.category }}">
+          <div class="art-card-cat {% if article.category == 'landlord' %}badge-landlord{% elsif article.category == 'tenant' %}badge-tenant{% else %}badge-rules{% endif %}">
+            {% if article.category == "landlord" %}🏠 房東專區
+            {% elsif article.category == "tenant" %}🪪 房客專區
+            {% else %}📋 租賃規範{% endif %}
+          </div>
+          <div class="art-card-title">{{ article.title }}</div>
+          {% if article.description %}<div class="art-card-desc">{{ article.description | truncate: 60 }}</div>{% endif %}
+          {% if article.tags contains "hot" %}<span class="art-card-tag th">🔥 熱搜</span>
+          {% elsif article.tags contains "new" %}<span class="art-card-tag tn2">✨ 最新</span>
+          {% elsif article.tags contains "fav" %}<span class="art-card-tag tf">⭐ 必讀</span>{% endif %}
+        </a>
+        {% endfor %}
+      </div>
+
+      <!-- Client-side filter -->
+      <script>
+      (function(){
+        const params = new URLSearchParams(window.location.search);
+        const cat = params.get('cat');
+        if(!cat) return;
+        document.querySelectorAll('.art-card').forEach(c=>{
+          c.style.display = c.dataset.cat === cat ? 'block' : 'none';
+        });
+        document.querySelectorAll('.arts-filter-btn').forEach(b=>{
+          b.classList.toggle('active', b.href.includes('cat='+cat));
+        });
+        document.querySelector('.arts-filter-btn:first-child').classList.remove('active');
+      })();
+      </script>
+
+      <!-- LINE CTA -->
+      <div style="text-align:center;margin-top:52px;padding-top:36px;border-top:1.5px solid var(--bd)">
+        <p style="font-size:15px;color:var(--txm);margin-bottom:16px">有租屋問題找不到答案？加入 LINE 直接問我們</p>
+        <a href="https://lin.ee/xLs83C2" target="_blank" class="btn bp blg">💬 加入 LINE 官方帳號</a>
+      </div>
+    </div>
+  </section>
+</main>
