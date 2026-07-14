@@ -1,0 +1,43 @@
+name: 部署後冒煙測試
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 等待 Render 自動部署完成（120 秒）
+        run: sleep 120
+
+      - name: 首頁存活與內容檢查
+        run: |
+          BODY=$(curl -sf https://rentfreelylife.com/) || { echo "❌ 首頁無法連線"; exit 1; }
+          echo "$BODY" | grep -q "7 大工具" || { echo "❌ 首頁缺少最新工具區內容"; exit 1; }
+          echo "$BODY" | grep -q "ca-pub-9753491901026477" || { echo "❌ 首頁缺少 AdSense 代碼"; exit 1; }
+          echo "✅ 首頁正常"
+
+      - name: 文章列表頁版本標記檢查（防止子資料夾漏部署）
+        run: |
+          curl -sf https://rentfreelylife.com/articles/ | grep -q "rwf-build" \
+            || { echo "❌ articles/index.html 不是最新版本（缺 rwf-build 標記）"; exit 1; }
+          echo "✅ 文章列表頁為最新版"
+
+      - name: 搜尋索引 search.json 檢查
+        run: |
+          curl -sf https://rentfreelylife.com/search.json -o /tmp/s.json || { echo "❌ search.json 無法載入"; exit 1; }
+          python3 -c "
+          import json
+          d = json.load(open('/tmp/s.json'))
+          assert len(d) >= 61, f'文章數異常: {len(d)}'
+          assert any('寵物' in a['title'] for a in d), '索引中找不到寵物文章'
+          print(f'✅ search.json 正常（{len(d)} 篇，含寵物文章）')
+          "
+
+      - name: 關鍵頁面存活檢查
+        run: |
+          for p in /articles/pet-agreement-template/ /privacy/ /disclaimer/ /ads.txt /sitemap.xml /llms.txt /robots.txt; do
+            curl -sfo /dev/null "https://rentfreelylife.com$p" || { echo "❌ $p 無法存取"; exit 1; }
+            echo "✅ $p"
+          done
