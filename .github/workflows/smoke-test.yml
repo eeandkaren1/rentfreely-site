@@ -8,8 +8,19 @@ jobs:
   smoke:
     runs-on: ubuntu-latest
     steps:
-      - name: 等待 Render 自動部署完成（120 秒）
-        run: sleep 120
+      - name: 輪詢等待 Render 部署新版上線（最多 8 分鐘）
+        run: |
+          echo "等待正式站出現本次版本標記 rwf-build ..."
+          for i in $(seq 1 24); do
+            if curl -sf https://rentfreelylife.com/articles/ | grep -q "rwf-build"; then
+              echo "✅ 新版已上線（第 $((i*20)) 秒偵測到）"
+              exit 0
+            fi
+            echo "…第 $((i*20)) 秒：尚未上線，繼續等待"
+            sleep 20
+          done
+          echo "❌ 等待 8 分鐘後正式站仍是舊版 — 請到 Render Dashboard 檢查 Deploy 是否失敗"
+          exit 1
 
       - name: 首頁存活與內容檢查
         run: |
@@ -17,12 +28,6 @@ jobs:
           echo "$BODY" | grep -q "7 大工具" || { echo "❌ 首頁缺少最新工具區內容"; exit 1; }
           echo "$BODY" | grep -q "ca-pub-9753491901026477" || { echo "❌ 首頁缺少 AdSense 代碼"; exit 1; }
           echo "✅ 首頁正常"
-
-      - name: 文章列表頁版本標記檢查（防止子資料夾漏部署）
-        run: |
-          curl -sf https://rentfreelylife.com/articles/ | grep -q "rwf-build" \
-            || { echo "❌ articles/index.html 不是最新版本（缺 rwf-build 標記）"; exit 1; }
-          echo "✅ 文章列表頁為最新版"
 
       - name: 搜尋索引 search.json 檢查
         run: |
