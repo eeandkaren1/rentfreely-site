@@ -463,7 +463,7 @@ footer{background:#131B18;color:rgba(248,244,238,.52)}
   <div class="wrap">
     <div class="sh rv">
       <div class="sl">免費自助工具</div>
-      <h2 class="st">6 大工具，立即解決租屋疑難</h2>
+      <h2 class="st">7 大工具，立即解決租屋疑難</h2>
       <p class="ss">無需登入，直接使用。每個工具依官方資料設計，結果即時顯示。</p>
     </div>
     <div class="tgrid rv">
@@ -473,6 +473,7 @@ footer{background:#131B18;color:rgba(248,244,238,.52)}
       <div class="tc" onclick="openTool('checklist')"><div class="tic ib">📋</div><div class="tn">入住點交清單</div><div class="td">房東房客雙軌互動清單，逐項勾選，進度即時更新。</div><span class="tt">互動勾選</span></div>
       <div class="tc" onclick="openTool('notary')"><div class="tic iw">📜</div><div class="tn">公證規費試算</div><div class="td">依司法院費用標準估算公證費用，附必備文件與流程說明。</div><span class="tt">官方標準</span></div>
       <div class="tc" onclick="openTool('judgment')"><div class="tic ip">⚖️</div><div class="tn">裁判書查詢助手</div><div class="td">前端組合搜尋字串，一鍵導入司法院官方系統，零個資風險。</div><span class="tt">隱私保護</span></div>
+      <div class="tc" onclick="openTool('contract')"><div class="tic ig">📑</div><div class="tn">定型化契約檢核</div><div class="td">內政部官方契約下載入口＋簽約前十大檢核建議、點交與寵物附件指引。</div><span class="tt">官方版本</span></div>
     </div>
     <div class="tpanels">
       <div class="tpanel" id="panel-rent">
@@ -510,7 +511,7 @@ footer{background:#131B18;color:rgba(248,244,238,.52)}
         <div id="cl-c"></div>
         <div class="clp"><div class="clpb"><div class="clpf" id="cl-f" style="width:0%"></div></div><div class="clpl" id="cl-l">已完成 0 / 0 項</div></div>
         <div style="display:flex;gap:10px;margin-top:14px;flex-wrap:wrap"><button class="btn bp" onclick="dlCL()">📄 下載點交報告 PDF</button><button class="btn bo" onclick="rsCL()">↺ 重置勾選</button></div>
-        <div style="font-size:11.5px;color:var(--txm);opacity:.7;margin-top:8px">報告含勾選狀態、雙方簽名欄與日期，可存成 PDF 或直接列印，作為點交存證文件。</div>
+        <div style="font-size:11.5px;color:var(--txm);opacity:.7;margin-top:8px">報告含勾選狀態、雙方簽名欄與日期，可存成 PDF 或直接列印，作為點交存證文件。💡 列印後可<strong>直接作為住宅租賃定型化契約的附件（附本）</strong>與契約一併由雙方簽署保存，並於契約附件欄載明「詳如點交清單附件」。</div>
       </div>
       <div class="tpanel" id="panel-notary">
         <div class="ph"><div class="pt2">📜 公證規費試算</div><button class="pc" onclick="closeTool()">✕</button></div>
@@ -523,6 +524,38 @@ footer{background:#131B18;color:rgba(248,244,238,.52)}
           <div class="fg"><label class="fl">公證類型</label><select class="fs" id="n-t" onchange="calcN()"><option value="e">逕受強制執行公證（效力更強）</option><option value="g">一般公證</option></select></div>
         </div>
         <div class="rb" id="n-res" style="display:none"><div class="rn" id="n-n">—</div><div class="rl2">預估公證規費</div><div class="ris" id="n-i"></div></div>
+      </div>
+      <div class="tpanel" id="panel-contract">
+        <div class="ph"><div class="pt2">📑 住宅租賃定型化契約檢核</div><button class="pc" onclick="closeTool()">✕</button></div>
+        <div style="background:var(--grp);border:1px solid rgba(74,103,65,.15);border-radius:var(--r);padding:14px 18px;font-size:13px;color:var(--txm);margin-bottom:16px">📌 <strong>為什麼本站不幫你「產生」契約？</strong>住宅租約必須符合內政部公告的《住宅租賃定型化契約應記載及不得記載事項》，且規範會不定期修正。自行拼湊或由工具生成的契約極易漏列強制條款，反而造成無效或爭議。<strong>最安全的做法：直接使用內政部官方最新版本</strong>，再依下方建議逐項檢核。</div>
+        <button class="btn bp" onclick="window.open('https://pip.moi.gov.tw/Publicize/Info/G1020','_blank')" style="width:100%;justify-content:center;padding:14px;margin-bottom:20px">📥 前往內政部下載官方最新版定型化契約 →</button>
+        <div style="font-family:'Noto Serif TC',serif;font-size:15px;font-weight:900;color:var(--tx);margin-bottom:10px">✅ 簽約前十大檢核建議（雙方都適用）</div>
+        <div style="font-size:13.5px;line-height:2;color:var(--txm);margin-bottom:20px">
+          <div>1️⃣ <strong>審閱期：</strong>房客有至少 3 天契約審閱期，房東不得要求當場簽約</div>
+          <div>2️⃣ <strong>押金：</strong>不得超過 2 個月租金總額（可用本站押金試算器立即檢查）</div>
+          <div>3️⃣ <strong>電費：</strong>每度收費不得超過台電當月用電量最高級距費率</div>
+          <div>4️⃣ <strong>修繕責任：</strong>確認結構與附屬設備的自然損壞由出租人負責修繕</div>
+          <div>5️⃣ <strong>無效條款：</strong>「不得遷入戶籍」「不得申請租金補貼」等條款依法無效，看到可要求刪除</div>
+          <div>6️⃣ <strong>提前終止：</strong>確認終止事由與違約金約定（違約金以一個月租金為常見安全上限）</div>
+          <div>7️⃣ <strong>設備清單：</strong>契約應載明現況與附屬設備——建議直接以點交報告作為附件（見下方）</div>
+          <div>8️⃣ <strong>寵物約定：</strong>是否飼養、種類數量務必白紙黑字（見下方寵物附加清單）</div>
+          <div>9️⃣ <strong>公證評估：</strong>高額租金或長租約可辦理逕受強制執行公證（用本站公證規費試算）</div>
+          <div>🔟 <strong>雙方資訊：</strong>出租人與承租人姓名、身分證字號、地址、租金、租期完整載明（申請租金補貼必備）</div>
+        </div>
+        <div style="border:1.5px solid var(--bd);border-radius:var(--rl);padding:18px 20px;margin-bottom:14px;background:#fff">
+          <div style="font-weight:900;font-size:14px;color:var(--tx);margin-bottom:8px">📎 附件一建議：點交報告（契約附本）</div>
+          <div style="font-size:13px;color:var(--txm);line-height:1.8;margin-bottom:12px">用本站「入住點交清單」逐項勾選後產出的點交報告 PDF（含雙方簽名欄、水電表讀數），可直接<strong>作為租賃契約的附件（附本）</strong>與契約一併簽署保存，並於契約附件欄載明「詳如點交清單附件」——日後押金與屋況爭議的最強證據。</div>
+          <button class="btn bo" onclick="openTool('checklist')">📋 開啟入住點交清單 →</button>
+        </div>
+        <div style="border:1.5px solid var(--bd);border-radius:var(--rl);padding:18px 20px;margin-bottom:16px;background:#fff">
+          <div style="font-weight:900;font-size:14px;color:var(--tx);margin-bottom:8px">🐾 附件二建議：寵物入住前附加檢核清單</div>
+          <div style="font-size:13px;color:var(--txm);line-height:1.8;margin-bottom:10px">同意飼養寵物時，建議簽署寵物飼養附約並於入住前完成以下檢核：</div>
+          <div id="pet-cl" style="font-size:13px;color:var(--txm)"></div>
+          <div style="display:flex;gap:10px;margin-top:14px;flex-wrap:wrap">
+            <button class="btn bp" onclick="window.open('/articles/pet-agreement-template/','_blank')">📄 取得寵物飼養附約完整範本 →</button>
+          </div>
+        </div>
+        <div style="font-size:11.5px;color:var(--txm);opacity:.7">本工具僅提供檢核方向建議，不代撰、不生成契約條款；契約內容請以內政部公告最新版本為準，個案情形建議洽詢地政士或律師。</div>
       </div>
       <div class="tpanel" id="panel-judgment">
         <div class="ph"><div class="pt2">⚖️ 裁判書查詢助手</div><button class="pc" onclick="closeTool()">✕</button></div>
@@ -849,6 +882,14 @@ function openTool(id){
   const p=document.getElementById('panel-'+id);
   if(p){p.classList.add('act');setTimeout(()=>p.scrollIntoView({behavior:'smooth',block:'nearest'}),60)}
   if(id==='checklist')renderCL('t');
+  if(id==='contract')renderPetCL();
+}
+function renderPetCL(){
+  const el=document.getElementById('pet-cl');
+  if(!el||el.dataset.done)return;
+  const items=['已調閱社區規約，確認「未禁止」飼養動物（規約禁養時房東同意也無效）','寵物種類、數量、名字、晶片／登記號碼已載明於附約','已確認押金總額未因寵物超過 2 個月租金上限（可另約定退租清潔費並設上限）','已針對地板、門框、紗窗、牆面等寵物易損點特寫拍照存證（併入點交報告）','已約定公共區域牽繩、排泄物清理與噪音管理等飼養規範','已確認退租時專業清潔除味費用的負擔方式（憑單據實支實付＋金額上限）'];
+  el.innerHTML=items.map((t,i)=>`<label style="display:flex;gap:10px;align-items:flex-start;padding:7px 0;cursor:pointer;border-bottom:1px dashed rgba(0,0,0,.06)"><input type="checkbox" style="margin-top:4px;accent-color:var(--gr)"><span>${t}</span></label>`).join('');
+  el.dataset.done='1';
 }
 function closeTool(){document.querySelectorAll('.tpanel').forEach(p=>p.classList.remove('act'))}
 function fmt(n){return'NT$'+Math.round(n).toLocaleString('zh-TW')}
@@ -1001,7 +1042,6 @@ const POLICIES=[
   {ic:'🏠',tag:'房客補貼',name:'300億元中央擴大租金補貼',desc:'行政院自111年7月起推動的「300億元中央擴大租金補貼專案」，115年（2026年）持續辦理並擴大至75萬戶，全年隨到隨辦，符合資格者每月最高可領取數千元至上萬元補貼。',bullets:['資格：年滿18歲、本人及配偶無自有住宅、所得低於當地最低生活費3倍','補貼金額：依地區與家庭組成每月約2,000～8,000元，加碼後最高更高','加碼：單身青年1.2倍、新婚1.3倍、育兒最高1.8倍、弱勢加碼','申請：全年受理、隨到隨辦，線上申請最方便，舊戶自動帶入','房東不得因申請補貼漲租或解約（禁止條款無效，違者可罰）','▼ 詳細資格、金額與流程，請展開下方完整攻略'],link:'https://has.nlma.gov.tw/house300e/'},
   {ic:'🏢',tag:'房東優惠',name:'公益出租人稅務減免',desc:'房東將房屋出租給領有租金補貼的房客，即自動取得公益出租人資格，享有多項稅負優惠。',bullets:['資格：房客領有租金補貼即自動認定，無需另行申請','綜所稅：每屋每月租金收入 1.5 萬元以內免稅','房屋稅：適用最優惠 1.2%（一般出租 1.5%～2.4%）','地價稅：適用自用稅率千分之 2（一般千分之 10）','政府補貼房客同時回饋房東，雙贏制度'],link:'https://pip.moi.gov.tw/Publicize/Info/B4050'},
   {ic:'🏗️',tag:'社會住宅',name:'社會住宅申請',desc:'政府興辦的只租不售住宅，租金約市價 7 至 85 折，弱勢身分另享額外折扣，提供安穩居住環境。',bullets:['資格：年滿 18 歲、設籍或就業就學於當地、無自有住宅','所得限制：符合各縣市公告標準','申請：國家住都中心及各縣市住宅處網站','候補期間建議同步尋找一般租屋','弱勢戶、身障者、育兒家庭優先配額'],link:'https://pip.moi.gov.tw/Publicize/Info/B5010'},
-  {ic:'📋',tag:'合約規範',name:'住宅租賃定型化契約',desc:'內政部公告的強制基準，全台灣所有住宅租約都必須遵守，任何牴觸條款均直接無效。',bullets:['禁止禁設戶籍、禁申請補貼等限制條款','押金上限兩個月租金，超收可主張返還','電費收取上限＝台電當月用電量最高級距費率（2026 夏月為每度 8.86 元）','房東負責結構與設備自然損壞的修繕義務','可至內政部官網下載最新版本作為簽約依據'],link:'https://pip.moi.gov.tw/Publicize/Info/G1020'},
   {ic:'⚖️',tag:'調解服務',name:'鄉鎮市區調解委員會',desc:'免費、快速的租賃糾紛調解管道，調解成立經法院核定後效力等同確定判決，是九成租屋糾紛的最佳解。申請流程如下：',bullets:['STEP 1 確認管轄：向房東或房客任一方戶籍地，或房屋所在地的鄉鎮市區公所調解委員會提出','STEP 2 填寫聲請書：至公所填寫調解聲請書（現場備有格式），寫明糾紛事實、請求事項與對方姓名地址','STEP 3 檢附資料：租約影本、LINE 對話截圖、照片、繳費記錄等佐證影本','STEP 4 等候通知：委員會排定調解日期（通常 1～2 個月內）並通知雙方到場','STEP 5 進行調解：雙方到場陳述，調解委員居中協調；達成協議即簽署調解書','STEP 6 法院核定：調解書送法院核定後，效力等同確定判決，可直接聲請強制執行','全程免費、無需律師；押金、電費、修繕爭議均適用']},
   {ic:'🤝',tag:'包租代管',name:'包租代管政策',desc:'政府推動的租屋市場透明化政策，房東委託合格業者代管，享有政策補貼與稅務優惠，房客也受到更規範的保障。',bullets:['業者：向各縣市主管機關登記的合格業者','房東優惠：租金收入免稅額、修繕費補助','房客保障：標準租約、維修快速、糾紛有業者介入','協助房東輔導公益出租人資格認定','小房東省管理精力、合法節稅最佳途徑'],link:'https://pip.moi.gov.tw/Publicize/Info/B5020?mode=Info&PGID=314'},
   {ic:'👶',tag:'育兒補助',name:'育兒家庭租屋補助',desc:'設有未成年子女的家庭，可在一般租金補貼外申請育兒加碼，政府積極鼓勵友善生育的租屋環境。',bullets:['適用對象：育有未成年子女（未滿18歲）之家庭','加碼金額：租金補貼育有1名子女1.4倍、2名1.6倍、3名以上最高1.8倍','申請方式：於租金補貼申請時系統自動依戶籍資料認定加碼','另可同步申請中央育兒津貼（未滿2歲、2至未滿5歲分屬不同系統）','子女就讀公立幼兒園或托嬰中心者可查詢額外補助'],links:[{label:'未滿2歲請至：衛福部育兒津貼線上申辦',url:'https://twbaby.sfaa.gov.tw/home/apply-online/add'},{label:'2至5歲請至：全國教保資訊網育兒津貼專區',url:'https://www.ece.moe.edu.tw/ch/subsidy/allowance-1/'}]},

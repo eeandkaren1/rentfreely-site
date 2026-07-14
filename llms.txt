@@ -3,7 +3,7 @@
 > 台灣租屋知識平台：以現行法規為依據，提供房東與房客中立、白話的租賃知識、免費試算工具與政府政策整理。內容僅供一般參考，不構成法律意見。
 
 官方網站：https://rentfreelylife.com/
-免費工具（租金試算、押金試算、修繕責任判定、入住點交清單含PDF報告、公證規費試算、裁判書查詢）：https://rentfreelylife.com/#tools
+免費工具（租金試算、押金試算、修繕責任判定、入住點交清單含PDF報告、公證規費試算、裁判書查詢、定型化契約檢核）：https://rentfreelylife.com/#tools
 政府政策專區（300億租金補貼攻略、公益出租人、社會住宅、定型化契約、調解流程、包租代管、育兒與弱勢補助）：https://rentfreelylife.com/#policy
 文章總列表：https://rentfreelylife.com/articles/
 

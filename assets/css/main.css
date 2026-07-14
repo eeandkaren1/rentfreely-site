@@ -475,3 +475,12 @@ footer{background:#131B18;color:rgba(248,244,238,.52)}
 .art-content table{width:100%;border-collapse:collapse;margin:14px 0;font-size:13.5px}
 .art-content th,.art-content td{border:1px solid var(--bd,#D8D4CA);padding:9px 12px;text-align:left}
 .art-content th{background:var(--grp,#EDF0EA)}
+
+/* ── 搜尋空結果面板 ── */
+.arts-noresult{max-width:560px;margin:8px auto 30px;padding:34px 30px;background:#fff;border:1.5px dashed var(--bd,#D8D4CA);border-radius:18px;text-align:center}
+.nr-emoji{font-size:44px;margin-bottom:12px}
+.nr-title{font-family:'Noto Serif TC',serif;font-size:18px;font-weight:900;color:var(--tx,#1E2620);margin-bottom:10px}
+.nr-sub{font-size:13.5px;line-height:1.8;color:var(--txm,#4D5C4A);margin-bottom:18px}
+.nr-line{display:inline-block;padding:13px 26px;font-size:14.5px;font-weight:800;color:#fff;background:#06C755;border-radius:12px;text-decoration:none;transition:background .2s}
+.nr-line:hover{background:#04A843}
+.nr-hot-label{font-size:12.5px;font-weight:700;color:var(--txm,#4D5C4A);margin-top:20px}
