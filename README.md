@@ -96,3 +96,15 @@ tags: [new]          # 可選：hot / new / fav
 
 3. 推送部署後，該文章即自動出現在 `/articles/` 列表、擁有獨立可分享網址並被搜尋引擎收錄。
    `generate_content.py` 已更新為自動輸出至 `_articles/` 並自動補 front matter。
+
+## 🌐 正式網域（已完成綁定：rentfreelylife.com）
+
+全站正式網址為 https://rentfreelylife.com（Render 已綁定自訂網域；rentfreely-site.onrender.com 仍可存取並由 Render 自動導向）。
+`_config.yml`、`robots.txt`、`llms.txt` 已全部指向正式網域。
+
+後續待辦：
+1. GSC 以「網域」資源驗證 rentfreelylife.com，提交 https://rentfreelylife.com/sitemap.xml。
+2. AdSense → Sites 移除 onrender 站點，新增 rentfreelylife.com 後要求審核（ads.txt 已就位）。
+3. 社群簡介與 LINE 圖文選單的網站連結統一改為 https://rentfreelylife.com。
+
+⚠️ 提醒：IG／Threads 帳號名稱 @rentfreely.life 為社群帳號識別，與網站網域不同屬正常，無需變更。

@@ -1,0 +1,8 @@
+---
+layout: none
+permalink: /search.json
+---
+[
+{% for a in site.articles %}{"title":{{ a.title | jsonify }},"desc":{{ a.description | default: "" | jsonify }},"cat":"{{ a.category }}","url":"{{ a.url | relative_url }}","tags":{{ a.tags | jsonify }},"body":{{ a.content | strip_html | strip_newlines | jsonify }}}{% unless forloop.last %},
+{% endunless %}{% endfor %}
+]

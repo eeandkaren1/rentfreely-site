@@ -29,12 +29,14 @@ layout: default
       <span>{{ page.title | truncate: 30 }}</span>
     </div>
 
-    <!-- Article header -->
-    <div class="art-page-header">
+    <!-- Article header（分類色漸層橫幅） -->
+    <div class="art-page-header art-hero hero-{{ page.category | default: 'rules' }}">
+      <div class="art-hero-emoji" aria-hidden="true">{% if page.category == "landlord" %}🏠{% elsif page.category == "tenant" %}🪪{% else %}📋{% endif %}</div>
       <span class="art-cat-badge {{ cat_class }}">{{ cat_label }}</span>
       <h1 class="art-h1">{{ page.title }}</h1>
       <div class="art-meta">
         <span>📅 {{ page.date | date: "%Y 年 %-m 月 %-d 日" }}</span>
+        <span>⏱️ 約 {% assign chars = content | strip_html | size %}{{ chars | divided_by: 450 | plus: 1 }} 分鐘閱讀</span>
         <span>🏠 租事無憂 編輯團隊</span>
         {% if page.tags %}
           {% for tag in page.tags limit:3 %}

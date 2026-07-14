@@ -1,0 +1,78 @@
+# 租事無憂 Rent Worry-Free
+
+> 台灣租屋知識平台：以現行法規為依據，提供房東與房客中立、白話的租賃知識、免費試算工具與政府政策整理。內容僅供一般參考，不構成法律意見。
+
+官方網站：https://rentfreelylife.com/
+免費工具（租金試算、押金試算、修繕責任判定、入住點交清單含PDF報告、公證規費試算、裁判書查詢）：https://rentfreelylife.com/#tools
+政府政策專區（300億租金補貼攻略、公益出租人、社會住宅、定型化契約、調解流程、包租代管、育兒與弱勢補助）：https://rentfreelylife.com/#policy
+文章總列表：https://rentfreelylife.com/articles/
+
+## 租賃規範知識
+
+- [住宅租賃定型化契約完整解析：應記載與不得記載事項【2026最新版】](https://rentfreelylife.com/articles/standard-lease-contract-2026/): 住宅租賃定型化契約是由內政部依《消費者保護法》公告的強制性規範，適用於全台灣所有住宅租賃關係。不論房東使用自擬合約、書局
+- [租屋押金規定完整指南：上限計算、超收如何主張、退租時怎麼結算](https://rentfreelylife.com/articles/deposit-rules-complete-guide/): 押金是房客在租賃開始時交給房東的一筆擔保金，目的是擔保房客履行合約義務（按時繳租、維護房屋）。租約結束時，扣除應扣款項後
+- [修繕責任完整劃分：房東哪些一定要修？房客哪些要自己負責？](https://rentfreelylife.com/articles/repair-responsibility-division/): 判斷修繕責任的核心原則只有一個：看損壞的「原因」，不看「位置」。不是說廁所裡的東西就是房客的責任，或牆壁就是房東的責任。
+- [租約提前終止完整指南：合法程序、違約金計算、免賠的例外情況](https://rentfreelylife.com/articles/lease-early-termination-rules/): 租約是雙方的法律承諾，提前終止必然涉及違約責任。但「違約」不代表「必須付大筆賠償」，只要程序正確、溝通得當，損失可以大幅
+- [租約公證完整指南：公證費用、流程、逕受強制執行的威力](https://rentfreelylife.com/articles/lease-notarization-guide/): 很多人覺得公證很麻煩、沒必要，但真正遇到糾紛時才知道，公證和沒公證的差距，就是「打官司一年」和「立刻執行」的差距。特別是
+- [租屋糾紛調解完整指南：申請流程、準備文件、調解成功率](https://rentfreelylife.com/articles/rental-dispute-mediation-guide/): 發生租屋糾紛，很多人第一個念頭是「去告他」，但訴訟不是解決租屋糾紛的最佳途徑。調解的優點遠超過多數人的認識：完全免費、比
+- [租屋保證人制度：連帶保證vs一般保證、責任範圍、自保方式](https://rentfreelylife.com/articles/lease-guarantor-rules/): 部分房東在簽租約時要求房客提供保證人，作為房客履行義務的額外保障。保證人的法律責任依保證性質不同而有很大差異。在擔任保證
+- [設戶籍是房客的權利：合約禁止條款無效、實務操作完整說明](https://rentfreelylife.com/articles/household-registration-rights/): 「我的租約寫不能設戶籍，所以我不能設。」這個誤解困擾著非常多租屋族。事實是：這個條款在住宅租賃規範下屬於不得記載事項，即
+- [租屋裝修改造完整規範：可以做什麼、恢復原狀義務、如何保護自己](https://rentfreelylife.com/articles/rental-renovation-rules/): 租來的房子不是自己的，任何超出「正常使用」範圍的改動，原則上都需要事先取得房東的書面同意。但「正常使用」和「需要同意的改
+- [電費超收完整指南：法定上限、計費方式、超收如何主張退費](https://rentfreelylife.com/articles/electricity-fee-cap-rules/): 電費糾紛是租屋族最常遇到、也最容易被忽視的問題。很多人入住後才發現電費「莫名其妙」很高，卻不知道自己有權利主張退還。了解
+- [租屋寵物飼養完整指南：禁養條款效力、如何爭取、違約後果](https://rentfreelylife.com/articles/pet-clause-rules/): 台灣寵物飼養率持續上升，但租屋市場中允許養寵物的物件比例仍然偏低。了解寵物相關條款的效力，以及如何在租屋過程中正確處理寵
+- [凶宅告知義務與租到凶宅的救濟方式：完整權利主張指南](https://rentfreelylife.com/articles/stigmatized-property-rules/): 「凶宅」在台灣實務上通常指在房屋的「專有部分」（即租屋的室內空間，不含公共走廊、停車場等）內，發生過非自然死亡事件的房屋
+- [二房東轉租完整指南：合法授權辨識、詐騙手法、房客保護方式](https://rentfreelylife.com/articles/second-landlord-sublease-guide/): 二房東是指先向原房東（或建設公司）承租房屋，再轉租給一般房客的中間人。二房東制度本身並不違法，但必須建立在「原房東明確書
+- [退租大型廢棄物處理：清運責任、免費清運申請、押金爭議預防](https://rentfreelylife.com/articles/bulky-waste-disposal-moveout/): 退租時，房客有義務清除所有個人物品及垃圾，並將房屋恢復至「基本可使用」的狀態。這包含個人家具、雜物、自行購買的各類物品，
+- [租賃爭議常見判決趨勢分析：五大類型爭議，法院怎麼判？](https://rentfreelylife.com/articles/rental-court-ruling-trends/): 知道「類似的案子法院怎麼判」，不只是法律知識，更是談判的底氣。當你在跟房東協商時，心裡清楚「這樣的爭議對方去告也贏不了」
+- [租屋仲介服務費規範：收費上限、服務內容、查詢合法仲介方法](https://rentfreelylife.com/articles/rental-agency-fee-rules/): 台灣房屋仲介業有明確的服務費上限規定，但很多房客不清楚自己的權利，導致被收取超額服務費而不自知。了解收費規範，是保護自己
+- [租賃文件保存指南：保存多久、保存什麼、如何建立完整的租賃記錄檔](https://rentfreelylife.com/articles/rental-document-retention-guide/): 「都退租了，文件留著幹嘛？」這個想法害了不少人。租賃結束後，押金糾紛、稅務問題、損壞賠償爭議，可能在幾個月甚至幾年後才浮
+- [2026年租金補貼申請完整攻略：資格條件、補貼金額、申請步驟](https://rentfreelylife.com/articles/rent-subsidy-guide-2026/): 住宅租金補貼目前以「300億元中央擴大租金補貼專案」為主，由內政部國土管理署主辦，全年受理、隨到隨辦（115年度受理至1
+- [公益出租人制度完整解析：資格認定、三大稅務優惠、常見迷思澄清](https://rentfreelylife.com/articles/public-welfare-landlord-explained/): 公益出租人是政府推動的租屋市場良性循環機制。當房東將房屋出租給領有政府租金補貼的房客時，該房東自動取得公益出租人資格，享
+- [社會住宅申請完整指南：資格條件、抽籤流程、如何提高中籤機率](https://rentfreelylife.com/articles/social-housing-application-guide/): 社會住宅是由政府或政府委託機構興辦的「只租不售」住宅，以低於市場行情的租金出租給符合資格的民眾。台灣社會住宅的推動主要由
+- [寵物飼養同意書（租約附約）完整範本：房東房客都能用的合法條款寫法【2026】](https://rentfreelylife.com/articles/pet-agreement-template/): 房東想允許養寵物但怕房子被毀？房客想爭取毛孩入住？本文提供合法合規的寵物飼養特約條款範本與同意書表單，含押金上限合規警示
+
+## 房客專區
+
+- [第一次租屋完整教學：從看房到搬入，每個步驟不踩雷](https://rentfreelylife.com/articles/first-time-renting-guide/): 第一次租屋，最大的問題往往不是找不到房子，而是「太急」。因為急著搬入，跳過重要的查驗步驟，入住後才發現各種問題，但此時已
+- [押金被扣怎麼要回來：追討押金的完整流程與必備證據](https://rentfreelylife.com/articles/get-deposit-back/): 押金糾紛是租屋族最常遇到的困境。房東扣了押金，說「這裡壞掉」「那裡要整理」，但說不出具體依據；房客認為是正常使用，但手上
+- [電費被超收怎麼辦：合法上限、計算方式、追討差額完整流程](https://rentfreelylife.com/articles/electricity-overcharge-refund/): 台灣分租套房的電費糾紛，是最常見、也最容易被忽視的租屋問題之一。很多房客每個月乖乖繳電費，卻不知道房東可能收取了高於法定
+- [房東不修繕怎麼辦：催告程序、自行修繕求償、減租與解約的完整權利](https://rentfreelylife.com/articles/landlord-refuses-repairs/): 熱水器壞了、冷氣故障、牆壁漏水，通知了房東一週沒有下文——這是台灣租屋族非常普遍的困境。很多人不知道該怎麼辦，只能繼續忍
+- [租屋提前解約完整指南：如何降低違約金、協商技巧、哪些情況可以免賠](https://rentfreelylife.com/articles/tenant-early-termination-guide/): 工作異動、家庭狀況改變、找到更好的住所——提前解約的原因有很多。在決定提前走之前，先了解可能的損失，才能做出最有利的決策
+- [入住第一天的存證教學：全程錄影的正確方式、拍什麼、傳給誰](https://rentfreelylife.com/articles/move-in-day-evidence/): 退租糾紛的勝負，幾乎都在入住第一天決定了。你那天有沒有拍照，有沒有記錄屋況，決定了你未來在押金爭議中是強勢還是弱勢。這一
+- [租屋詐騙防範完整指南：識別手法、查驗技巧、遇到詐騙如何處理](https://rentfreelylife.com/articles/rental-scam-prevention/): 台灣每年有數百件以上的租屋詐騙案例，受害者損失從數萬到數十萬元不等。詐騙手法年年更新，但核心邏輯不變：利用租屋族急著找房
+- [租約陷阱條款識別指南：哪些簽了也無效、哪些需要特別注意](https://rentfreelylife.com/articles/lease-trap-clauses/): 很多房客以為「我已經簽名了，所以合約上的條款都有效」。這個認知是錯誤的。依住宅租賃規範，違反定型化契約不得記載事項的條款
+- [退租流程完整指南：30天倒數準備、點交技巧、押金全額退回的關鍵](https://rentfreelylife.com/articles/move-out-process-guide/): 很多人把心力放在入住前，卻沒有好好準備退租。但其實退租才是最容易發生糾紛的環節——押金能不能全額拿回，完全取決於退租這幾
+- [漏水問題完整處理手冊：責任判斷、催告流程、嚴重時如何解約](https://rentfreelylife.com/articles/water-leak-handling/): 台灣的氣候和老屋比例，讓漏水成為最頻繁出現的租屋問題。遇到漏水，如果處理方式不對，不只修不好，還可能在退租時被追責。了解
+- [分租套房電費完整指南：計算方式比較、如何確認有沒有被超收](https://rentfreelylife.com/articles/shared-room-electricity-fee/): 住在分租套房，電費糾紛比獨立租屋更常見。主要原因是計費方式多樣、缺乏透明度，加上部分房東習慣性超收，而房客不知道如何核對
+- [房東要求搬走合法嗎？租約期間的居住保障與應對方式](https://rentfreelylife.com/articles/landlord-asks-tenant-to-leave/): 「房子要賣了，你能不能提前搬走？」「我親戚要來住，你先找別的地方。」——這些要求，在租約期間內都沒有法律依據。了解你的居
+- [合租室友協議完整指南：如何保護自己、常見糾紛預防、替換室友的程序](https://rentfreelylife.com/articles/roommate-agreement-guide/): 和朋友合租，感覺輕鬆，但法律關係其實比一個人租複雜得多。因為涉及多人的財務分擔、多方的權利義務，以及當其中一人出現狀況時
+- [看房必問的15個問題：問完才決定租不租](https://rentfreelylife.com/articles/15-questions-before-renting/): 看房不是去參觀，是去蒐集決策所需的資訊。很多人看房時被裝潢吸引，問題沒問清楚就決定租，入住後才發現電費驚人、修繕沒人管、
+- [租屋糾紛解決全指南：調解、申訴、訴訟的選擇依據與費用比較](https://rentfreelylife.com/articles/rental-dispute-resolution-options/): 很多人遇到租屋糾紛，要不是忍著不講、要不是直接開戰。其實在這兩個極端之間，有很多效率高、成本低的解決管道。選對管道，才能
+- [設備維護與租屋責任：冷氣、熱水器、家電的維修歸屬完整解析](https://rentfreelylife.com/articles/appliance-repair-responsibility/): 冷氣壞了，到底誰出修理費？熱水器出問題，是自然損壞還是使用不當？這些問題幾乎每個租屋族都遇過，但很多人不清楚判斷原則，只
+- [租屋退清潔費、油漆費爭議完整解析：哪些錢不用付、如何對抗不合理扣款](https://rentfreelylife.com/articles/cleaning-painting-fee-disputes/): 退租時，房東最常提出的兩項費用是「油漆費」和「清潔費」。很多房客因為不了解規定，或急著結束租賃關係，就接受了不合理的扣款
+- [轉租、換室友、分租的程序：哪些情況需要房東同意、違規後果](https://rentfreelylife.com/articles/sublease-roommate-change-rules/): 你租的房子，有時候情況改變，想讓朋友接手，或想找人一起分擔費用。但在沒有了解清楚規定前，任何改變承租狀態的行為，都可能造
+- [租屋隱私權完整保障：房東擅入、監視器、個資保護的法律依據與因應方式](https://rentfreelylife.com/articles/tenant-privacy-protection/): 很多房客以為因為「不是自己的房子」，所以對房東的各種行為只能忍耐。這個觀念完全錯誤。租賃期間，你對租賃空間享有完整的使用
+- [2026年租金補貼完整申請教學：哪裡申請、需要什麼文件、常見退件原因與解決](https://rentfreelylife.com/articles/rent-subsidy-application-2026/): 住宅租金補貼是政府減輕租屋族負擔的重要政策，符合資格者每月最高可領取數千元的補助，直接減少每月的實際租金支出。很多人因為
+
+## 房東專區
+
+- [第一次出租房子完整 SOP：從定價到簽約，房東必看的出租準備流程](https://rentfreelylife.com/articles/first-time-landlord-sop/): 很多人第一次出租房子，最大的問題不是不知道流程，而是不知道自己哪些事「做了會有麻煩」。出租房屋之後，房客對該空間享有完整
+- [房東必看：住宅租約必備條款與常見違法地雷，避免簽出無效合約](https://rentfreelylife.com/articles/lease-must-have-clauses/): 一份好的租約是房東最重要的保障。很多房東自擬合約，加入各種看似有利的條款，卻不知道這些條款在法律上根本無效。更糟的是，以
+- [押金管理完全手冊：收多少合法、如何開立收據、退租時怎麼扣款才不敗訴](https://rentfreelylife.com/articles/deposit-management-guide/): 很多房東把押金視為「最後一個月的保障」或「破壞賠償的保險」，這個認知是正確的——但前提是扣款要有依據。押金不是房東的收入
+- [電費合法收費完整指南：每度多少錢合法、如何開立明細、常見糾紛處理](https://rentfreelylife.com/articles/electricity-fee-legal-guide/): 電費問題之所以這麼常出現糾紛，是因為很多房東不了解規定，而房客也不知道自己的權利。雙方在不清楚規範的情況下簽約，入住後才
+- [房客欠租完整處理手冊：催繳流程、終止租約、收回房屋的合法步驟](https://rentfreelylife.com/articles/tenant-rent-arrears-handling/): 遇到欠租的房客，很多房東的直覺反應是換鎖、斷水斷電，或自己去把東西搬出來。但這些「自力救濟」的做法，反而可能讓你從受害的
+- [房東如何合法調漲租金：時機選擇、漲幅建議、溝通技巧與注意事項](https://rentfreelylife.com/articles/rent-increase-legal-guide/): 很多房東猶豫是否調漲租金，要不是怕失去好房客，要不是不確定什麼時候可以調。其實，調漲租金是完全正當的，只要在正確的時機用
+- [房東進入出租房屋的界線：合法通知程序與擅自進入的法律風險](https://rentfreelylife.com/articles/landlord-entry-rules/): 很多房東有一種心理：「房子是我的，我當然可以進去看。」但租賃關係成立後，房客對該空間享有完整的使用權，這是法律保障的居住
+- [租約到期續租或收回房屋：房東的法定程序、時限與常見錯誤](https://rentfreelylife.com/articles/lease-renewal-or-repossession/): 很多房東以為「租約到期了，房客自然要走」，但實際上，如果沒有依程序處理，租約可能自動變成不定期租賃，房東反而更難收回房屋
+- [篩選好房客完整指南：如何查驗背景、面談觀察、合法與歧視的界線](https://rentfreelylife.com/articles/tenant-screening-guide/): 「房子好不好租不重要，重要的是租給對的人。」這句話對有出租經驗的房東來說，是深刻的體會。一個好房客，按時繳租、愛惜房屋、
+- [違約金條款設計指南：金額怎麼設合理、法院如何認定、範例條文寫法](https://rentfreelylife.com/articles/penalty-clause-design/): 違約金條款是租約中最容易被忽視、也最容易出問題的部分。寫得太籠統，發生糾紛時不知道怎麼計算；寫得太高，法院可能酌減；寫得
+- [房東修繕義務完整指南：哪些非修不可、修繕時限、房客自行修繕的處理](https://rentfreelylife.com/articles/landlord-repair-obligations/): 依《民法》第429條，出租人（房東）負有「保持租賃物合於約定使用狀態」的義務。這是一個持續性的義務，不是只在簽約時有效，
+- [房客提前解約時的求償計算：押金扣法、合理賠償範圍、常見爭議處理](https://rentfreelylife.com/articles/early-termination-compensation/): 很多房東以為房客提前解約就可以把押金全部留下，這個認知是錯誤的。押金的功能是擔保租約的整體履行，不是違約賠償的專屬工具。
+- [入住點交的完整程序：如何建立無懈可擊的交屋記錄，徹底預防退租糾紛](https://rentfreelylife.com/articles/move-in-inspection-landlord/): 幾乎所有的退租押金糾紛，最後都回到同一個問題：入住時有沒有做好點交記錄？有完整記錄的一方，在調解和訴訟中幾乎都佔優勢。這
+- [出租房屋年度維護完整手冊：保養項目、時程安排、小投資大效益的維護策略](https://rentfreelylife.com/articles/rental-property-annual-maintenance/): 一台使用5年的冷氣，每半年清洗濾網（費用約500至800元），正常可以再用5至8年。若長期不清洗，壓縮機可能在7至8年就
+- [好房東養成完整指南：長期出租的口碑經營、糾紛預防、提升持有報酬率](https://rentfreelylife.com/articles/good-landlord-guide/): 好房東不是什麼都不管、完全配合房客的「佛系房東」，也不是斤斤計較、每個細節都爭的「強硬房東」。好房東是：在合理範圍內負責
+- [長租 vs 短租策略比較：如何選擇最適合你的出租模式](https://rentfreelylife.com/articles/long-term-vs-short-term-rental/): 並不是所有物件都適合同一種出租策略。長租（一年以上定期租約）和短租（月租、季租）各有其優缺點，適合不同的房東需求和物件特
+- [老屋出租前的安全改善清單：必做項目、費用預算、改善後提升出租競爭力](https://rentfreelylife.com/articles/old-house-safety-checklist/): 30年以上的老屋出租，安全改善不只是保護房客，也是保護房東自己。安全事故發生後，房東可能面臨侵權損害賠償責任，且後悔莫及
+- [包租代管是什麼？費用、服務內容、稅務優惠、適合哪種房東](https://rentfreelylife.com/articles/property-management-explained/): 包租代管是由政府推動的租屋市場機制，鼓勵房東委託合格業者管理出租事務，同時為房客提供更規範的租賃環境。對於沒有時間管理出
+- [房東報稅完整指南：租金收入如何申報、節稅方式、公益出租人優惠計算](https://rentfreelylife.com/articles/landlord-tax-filing-guide/): 收取租金屬於「租賃所得」，必須在每年5月的綜合所得稅申報期間申報。很多房東以為「不報就沒事」，但房客申報租金支出、申請租
+- [公益出租人制度深度解析：申請方式、年度審核、如何最大化稅務優惠](https://rentfreelylife.com/articles/public-welfare-landlord-deep-dive/): 很多房東以為申請公益出租人很麻煩，或需要填寫大量表格。實際上，這個制度的設計極為簡單：你什麼都不用做，只要你的房客有申請
