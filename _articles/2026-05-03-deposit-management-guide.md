@@ -5,6 +5,7 @@ category: landlord
 slug: deposit-management-guide
 date: 2026-05-03
 tags: [hot]
+image: /assets/og/deposit-management-guide.png
 ---
 
 <h3>押金的正確認知</h3>

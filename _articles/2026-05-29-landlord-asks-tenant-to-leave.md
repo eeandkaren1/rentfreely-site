@@ -4,6 +4,7 @@ description: "「房子要賣了，你能不能提前搬走？」「我親戚要
 category: tenant
 slug: landlord-asks-tenant-to-leave
 date: 2026-05-29
+image: /assets/og/landlord-asks-tenant-to-leave.png
 ---
 
 <h3>「買賣不破租賃」是你的基本保障</h3>

@@ -5,6 +5,7 @@ category: tenant
 slug: first-time-renting-guide
 date: 2026-05-18
 tags: [fav]
+image: /assets/og/first-time-renting-guide.png
 ---
 
 <h3>租屋新手最常犯的錯誤</h3>

@@ -5,6 +5,7 @@ category: tenant
 slug: move-out-process-guide
 date: 2026-05-26
 tags: [fav]
+image: /assets/og/move-out-process-guide.png
 ---
 
 <h3>退租比入住更需要準備</h3>

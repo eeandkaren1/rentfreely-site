@@ -5,6 +5,7 @@ category: tenant
 slug: water-leak-handling
 date: 2026-05-27
 tags: [hot]
+image: /assets/og/water-leak-handling.png
 ---
 
 <h3>漏水是最常見的租屋困擾之一</h3>

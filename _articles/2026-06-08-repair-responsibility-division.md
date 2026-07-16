@@ -5,6 +5,7 @@ category: rules
 slug: repair-responsibility-division
 date: 2026-06-08
 tags: [hot]
+image: /assets/og/repair-responsibility-division.png
 ---
 
 <h3>修繕責任的判斷原則</h3>

@@ -4,6 +4,7 @@ description: "很多人遇到租屋糾紛，要不是忍著不講、要不是直
 category: tenant
 slug: rental-dispute-resolution-options
 date: 2026-06-01
+image: /assets/og/rental-dispute-resolution-options.png
 ---
 
 <h3>糾紛不等於撕破臉</h3>

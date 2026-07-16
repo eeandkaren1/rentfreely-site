@@ -5,6 +5,7 @@ category: landlord
 slug: electricity-fee-legal-guide
 date: 2026-05-04
 tags: [hot]
+image: /assets/og/electricity-fee-legal-guide.png
 ---
 
 <h3>電費是最常見的租屋糾紛來源之一</h3>

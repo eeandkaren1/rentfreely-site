@@ -4,6 +4,7 @@ description: "並不是所有物件都適合同一種出租策略。長租（一
 category: landlord
 slug: long-term-vs-short-term-rental
 date: 2026-05-16
+image: /assets/og/long-term-vs-short-term-rental.png
 ---
 
 <h3>選擇出租策略的關鍵考量</h3>

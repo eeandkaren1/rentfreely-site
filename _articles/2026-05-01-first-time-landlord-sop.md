@@ -5,6 +5,7 @@ category: landlord
 slug: first-time-landlord-sop
 date: 2026-05-01
 tags: [fav]
+image: /assets/og/first-time-landlord-sop.png
 ---
 
 <h3>出租前的心態準備</h3>

@@ -4,6 +4,7 @@ description: "很多房客以為因為「不是自己的房子」，所以對房
 category: tenant
 slug: tenant-privacy-protection
 date: 2026-06-05
+image: /assets/og/tenant-privacy-protection.png
 ---
 
 <h3>租屋處就是你的家，隱私權受完整保障</h3>

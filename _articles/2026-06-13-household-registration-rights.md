@@ -4,6 +4,7 @@ description: "「我的租約寫不能設戶籍，所以我不能設。」這個
 category: rules
 slug: household-registration-rights
 date: 2026-06-13
+image: /assets/og/household-registration-rights.png
 ---
 
 <h3>常見誤解的澄清</h3>

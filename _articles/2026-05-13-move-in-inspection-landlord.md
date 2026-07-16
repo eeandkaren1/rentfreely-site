@@ -5,6 +5,7 @@ category: landlord
 slug: move-in-inspection-landlord
 date: 2026-05-13
 tags: [fav]
+image: /assets/og/move-in-inspection-landlord.png
 ---
 
 <h3>點交記錄是押金糾紛的最終裁判</h3>

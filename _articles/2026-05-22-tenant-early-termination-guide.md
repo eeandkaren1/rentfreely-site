@@ -4,6 +4,7 @@ description: "工作異動、家庭狀況改變、找到更好的住所——提
 category: tenant
 slug: tenant-early-termination-guide
 date: 2026-05-22
+image: /assets/og/tenant-early-termination-guide.png
 ---
 
 <h3>提前解約前先評估損失</h3>

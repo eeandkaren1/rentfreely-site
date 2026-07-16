@@ -4,6 +4,7 @@ description: "台灣寵物飼養率持續上升，但租屋市場中允許養寵
 category: rules
 slug: pet-clause-rules
 date: 2026-06-16
+image: /assets/og/pet-clause-rules.png
 ---
 
 <h3>寵物與租屋：一個常見的兩難困境</h3>

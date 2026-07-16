@@ -5,6 +5,7 @@ category: rules
 slug: pet-agreement-template
 date: 2026-07-13
 tags: [new]
+image: /assets/og/pet-agreement-template.png
 ---
 
 <h3>為什麼需要一份寵物飼養附約？</h3>

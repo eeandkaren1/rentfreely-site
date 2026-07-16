@@ -4,6 +4,7 @@ description: "你租的房子，有時候情況改變，想讓朋友接手，或
 category: tenant
 slug: sublease-roommate-change-rules
 date: 2026-06-04
+image: /assets/og/sublease-roommate-change-rules.png
 ---
 
 <h3>轉租不等於自由處置</h3>

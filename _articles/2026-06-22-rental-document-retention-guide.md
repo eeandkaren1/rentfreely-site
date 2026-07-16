@@ -5,6 +5,7 @@ category: rules
 slug: rental-document-retention-guide
 date: 2026-06-22
 tags: [fav]
+image: /assets/og/rental-document-retention-guide.png
 ---
 
 <h3>為什麼要保存租賃文件？</h3>

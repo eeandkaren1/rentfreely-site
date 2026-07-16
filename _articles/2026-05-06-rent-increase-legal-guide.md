@@ -4,6 +4,7 @@ description: "很多房東猶豫是否調漲租金，要不是怕失去好房客
 category: landlord
 slug: rent-increase-legal-guide
 date: 2026-05-06
+image: /assets/og/rent-increase-legal-guide.png
 ---
 
 <h3>調漲租金的基本原則</h3>

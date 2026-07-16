@@ -5,6 +5,7 @@ category: tenant
 slug: 15-questions-before-renting
 date: 2026-05-31
 tags: [fav]
+image: /assets/og/15-questions-before-renting.png
 ---
 
 <h3>為什麼要帶著問題去看房？</h3>

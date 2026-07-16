@@ -4,6 +4,7 @@ description: "台灣房屋仲介業有明確的服務費上限規定，但很多
 category: rules
 slug: rental-agency-fee-rules
 date: 2026-06-21
+image: /assets/og/rental-agency-fee-rules.png
 ---
 
 <h3>透過仲介租屋的費用規範</h3>

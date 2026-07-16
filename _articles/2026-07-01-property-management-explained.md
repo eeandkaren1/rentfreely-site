@@ -5,6 +5,7 @@ category: landlord
 slug: property-management-explained
 date: 2026-07-01
 tags: [new]
+image: /assets/og/property-management-explained.png
 ---
 
 <h3>包租代管的基本概念</h3>

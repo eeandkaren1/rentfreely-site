@@ -5,6 +5,7 @@ category: tenant
 slug: electricity-overcharge-refund
 date: 2026-05-20
 tags: [hot]
+image: /assets/og/electricity-overcharge-refund.png
 ---
 
 <h3>你可能正在被超收電費而不知道</h3>

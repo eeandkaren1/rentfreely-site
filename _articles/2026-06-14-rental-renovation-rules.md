@@ -4,6 +4,7 @@ description: "租來的房子不是自己的，任何超出「正常使用」範
 category: rules
 slug: rental-renovation-rules
 date: 2026-06-14
+image: /assets/og/rental-renovation-rules.png
 ---
 
 <h3>租屋裝修的基本原則</h3>

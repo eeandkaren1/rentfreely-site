@@ -5,6 +5,7 @@ category: rules
 slug: electricity-fee-cap-rules
 date: 2026-06-15
 tags: [hot]
+image: /assets/og/electricity-fee-cap-rules.png
 ---
 
 <h3>電費爭議為什麼這麼常見？</h3>

@@ -4,6 +4,7 @@ description: "很多房東以為房客提前解約就可以把押金全部留下
 category: landlord
 slug: early-termination-compensation
 date: 2026-05-12
+image: /assets/og/early-termination-compensation.png
 ---
 
 <h3>提前解約不等於可以全扣押金</h3>

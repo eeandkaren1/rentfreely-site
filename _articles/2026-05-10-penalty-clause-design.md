@@ -4,6 +4,7 @@ description: "違約金條款是租約中最容易被忽視、也最容易出問
 category: landlord
 slug: penalty-clause-design
 date: 2026-05-10
+image: /assets/og/penalty-clause-design.png
 ---
 
 <h3>違約金條款的重要性</h3>

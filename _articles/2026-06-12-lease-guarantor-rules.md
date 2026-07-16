@@ -4,6 +4,7 @@ description: "部分房東在簽租約時要求房客提供保證人，作為房
 category: rules
 slug: lease-guarantor-rules
 date: 2026-06-12
+image: /assets/og/lease-guarantor-rules.png
 ---
 
 <h3>保證人在租屋中的角色</h3>

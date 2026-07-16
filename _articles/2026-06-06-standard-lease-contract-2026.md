@@ -5,6 +5,7 @@ category: rules
 slug: standard-lease-contract-2026
 date: 2026-06-06
 tags: [hot]
+image: /assets/og/standard-lease-contract-2026.png
 ---
 
 <h3>什麼是住宅租賃定型化契約？</h3>

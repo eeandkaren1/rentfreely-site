@@ -4,6 +4,7 @@ description: "很多房東有一種心理：「房子是我的，我當然可以
 category: landlord
 slug: landlord-entry-rules
 date: 2026-05-07
+image: /assets/og/landlord-entry-rules.png
 ---
 
 <h3>為什麼這是常見的爭議點？</h3>

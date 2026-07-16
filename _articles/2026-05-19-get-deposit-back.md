@@ -5,6 +5,7 @@ category: tenant
 slug: get-deposit-back
 date: 2026-05-19
 tags: [hot]
+image: /assets/og/get-deposit-back.png
 ---
 
 <h3>押金糾紛為什麼這麼常見？</h3>

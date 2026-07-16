@@ -5,6 +5,7 @@ category: rules
 slug: rent-subsidy-guide-2026
 date: 2026-07-05
 tags: [new]
+image: /assets/og/rent-subsidy-guide-2026.png
 ---
 
 <h3>租金補貼是什麼？</h3>

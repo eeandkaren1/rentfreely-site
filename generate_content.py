@@ -98,3 +98,5 @@ def generate_daily_content(target_day):
 
 if __name__ == "__main__":
     generate_daily_content(1)
+
+# ⚠️ 新增文章後，記得執行 python generate_og_images.py 產生對應的分享圖

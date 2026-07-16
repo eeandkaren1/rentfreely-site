@@ -5,6 +5,7 @@ category: rules
 slug: social-housing-application-guide
 date: 2026-07-07
 tags: [new]
+image: /assets/og/social-housing-application-guide.png
 ---
 
 <h3>什麼是社會住宅？</h3>

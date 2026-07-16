@@ -4,6 +4,7 @@ description: "冷氣壞了，到底誰出修理費？熱水器出問題，是自
 category: tenant
 slug: appliance-repair-responsibility
 date: 2026-06-02
+image: /assets/og/appliance-repair-responsibility.png
 ---
 
 <h3>設備問題是租屋中最頻繁的糾紛來源</h3>

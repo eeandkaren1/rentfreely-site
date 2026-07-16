@@ -5,6 +5,7 @@ category: landlord
 slug: landlord-tax-filing-guide
 date: 2026-07-02
 tags: [new]
+image: /assets/og/landlord-tax-filing-guide.png
 ---
 
 <h3>租金收入的稅務申報義務</h3>

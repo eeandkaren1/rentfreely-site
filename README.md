@@ -108,3 +108,14 @@ tags: [new]          # 可選：hot / new / fav
 3. 社群簡介與 LINE 圖文選單的網站連結統一改為 https://rentfreelylife.com。
 
 ⚠️ 提醒：IG／Threads 帳號名稱 @rentfreely.life 為社群帳號識別，與網站網域不同屬正常，無需變更。
+
+## 🖼️ 文章分享圖（OG image）自動產生
+
+每篇文章分享到 FB/LINE/Threads 時的預覽縮圖，由 `generate_og_images.py` 自動產生（帶標題＋分類色＋品牌），存於 `assets/og/<slug>.png`。
+
+**新增文章後，務必執行一次**（會自動為沒有圖的新文章產圖，已有的略過）：
+```
+pip install Pillow pyyaml    # 第一次才需要
+python generate_og_images.py
+```
+接著照常 git add / commit / push 即可。要全部重新產圖用 `python generate_og_images.py --force`。

@@ -4,6 +4,7 @@ description: "退租時，房客有義務清除所有個人物品及垃圾，並
 category: rules
 slug: bulky-waste-disposal-moveout
 date: 2026-06-19
+image: /assets/og/bulky-waste-disposal-moveout.png
 ---
 
 <h3>退租清運責任的基本原則</h3>

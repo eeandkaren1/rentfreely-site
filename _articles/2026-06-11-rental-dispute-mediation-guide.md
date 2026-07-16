@@ -5,6 +5,7 @@ category: rules
 slug: rental-dispute-mediation-guide
 date: 2026-06-11
 tags: [fav]
+image: /assets/og/rental-dispute-mediation-guide.png
 ---
 
 <h3>為什麼選調解而不是提告？</h3>

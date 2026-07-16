@@ -5,6 +5,7 @@ category: tenant
 slug: cleaning-painting-fee-disputes
 date: 2026-06-03
 tags: [hot]
+image: /assets/og/cleaning-painting-fee-disputes.png
 ---
 
 <h3>退租時最容易被坑的兩筆費用</h3>

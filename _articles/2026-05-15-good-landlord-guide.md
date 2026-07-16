@@ -5,6 +5,7 @@ category: landlord
 slug: good-landlord-guide
 date: 2026-05-15
 tags: [fav]
+image: /assets/og/good-landlord-guide.png
 ---
 
 <h3>好房東的定義</h3>

@@ -4,6 +4,7 @@ description: "租約是雙方的法律承諾，提前終止必然涉及違約責
 category: rules
 slug: lease-early-termination-rules
 date: 2026-06-09
+image: /assets/og/lease-early-termination-rules.png
 ---
 
 <h3>提前解約前要知道的事</h3>

@@ -4,6 +4,7 @@ description: "住在分租套房，電費糾紛比獨立租屋更常見。主要
 category: tenant
 slug: shared-room-electricity-fee
 date: 2026-05-28
+image: /assets/og/shared-room-electricity-fee.png
 ---
 
 <h3>分租套房的電費為什麼這麼複雜？</h3>

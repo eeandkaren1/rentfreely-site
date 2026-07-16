@@ -5,6 +5,7 @@ category: rules
 slug: deposit-rules-complete-guide
 date: 2026-06-07
 tags: [hot]
+image: /assets/og/deposit-rules-complete-guide.png
 ---
 
 <h3>押金的法律定義</h3>

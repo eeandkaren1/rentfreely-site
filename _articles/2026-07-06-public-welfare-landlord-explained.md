@@ -5,6 +5,7 @@ category: rules
 slug: public-welfare-landlord-explained
 date: 2026-07-06
 tags: [new]
+image: /assets/og/public-welfare-landlord-explained.png
 ---
 
 <h3>公益出租人是什麼？</h3>

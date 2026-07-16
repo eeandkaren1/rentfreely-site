@@ -5,6 +5,7 @@ category: landlord
 slug: public-welfare-landlord-deep-dive
 date: 2026-07-03
 tags: [new]
+image: /assets/og/public-welfare-landlord-deep-dive.png
 ---
 
 <h3>公益出租人不需要你做什麼</h3>

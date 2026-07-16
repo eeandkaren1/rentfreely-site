@@ -5,6 +5,7 @@ category: rules
 slug: rental-court-ruling-trends
 date: 2026-06-20
 tags: [fav]
+image: /assets/og/rental-court-ruling-trends.png
 ---
 
 <h3>了解判決趨勢的重要性</h3>

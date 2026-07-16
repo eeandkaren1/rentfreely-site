@@ -4,6 +4,7 @@ description: "二房東是指先向原房東（或建設公司）承租房屋，
 category: rules
 slug: second-landlord-sublease-guide
 date: 2026-06-18
+image: /assets/og/second-landlord-sublease-guide.png
 ---
 
 <h3>什麼是二房東？</h3>

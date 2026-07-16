@@ -4,6 +4,7 @@ description: "和朋友合租，感覺輕鬆，但法律關係其實比一個人
 category: tenant
 slug: roommate-agreement-guide
 date: 2026-05-30
+image: /assets/og/roommate-agreement-guide.png
 ---
 
 <h3>合租的法律關係比想像複雜</h3>

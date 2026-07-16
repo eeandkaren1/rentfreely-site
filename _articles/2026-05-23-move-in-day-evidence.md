@@ -5,6 +5,7 @@ category: tenant
 slug: move-in-day-evidence
 date: 2026-05-23
 tags: [fav]
+image: /assets/og/move-in-day-evidence.png
 ---
 
 <h3>為什麼入住第一天最重要？</h3>

@@ -5,6 +5,7 @@ category: tenant
 slug: rental-scam-prevention
 date: 2026-05-24
 tags: [hot]
+image: /assets/og/rental-scam-prevention.png
 ---
 
 <h3>租屋詐騙的規模</h3>

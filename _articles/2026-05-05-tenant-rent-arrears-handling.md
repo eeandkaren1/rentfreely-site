@@ -5,6 +5,7 @@ category: landlord
 slug: tenant-rent-arrears-handling
 date: 2026-05-05
 tags: [hot]
+image: /assets/og/tenant-rent-arrears-handling.png
 ---
 
 <h3>欠租是房東最頭痛的問題之一</h3>

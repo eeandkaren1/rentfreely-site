@@ -5,6 +5,7 @@ category: landlord
 slug: lease-must-have-clauses
 date: 2026-05-02
 tags: [hot]
+image: /assets/og/lease-must-have-clauses.png
 ---
 
 <h3>為什麼合約這麼重要？</h3>

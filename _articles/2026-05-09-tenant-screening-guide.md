@@ -4,6 +4,7 @@ description: "「房子好不好租不重要，重要的是租給對的人。」
 category: landlord
 slug: tenant-screening-guide
 date: 2026-05-09
+image: /assets/og/tenant-screening-guide.png
 ---
 
 <h3>好房客的重要性</h3>

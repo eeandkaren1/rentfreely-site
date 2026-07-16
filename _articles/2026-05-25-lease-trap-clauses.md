@@ -5,6 +5,7 @@ category: tenant
 slug: lease-trap-clauses
 date: 2026-05-25
 tags: [fav]
+image: /assets/og/lease-trap-clauses.png
 ---
 
 <h3>簽名不等於全部有效</h3>

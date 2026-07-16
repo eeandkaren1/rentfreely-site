@@ -5,6 +5,7 @@ category: tenant
 slug: landlord-refuses-repairs
 date: 2026-05-21
 tags: [hot]
+image: /assets/og/landlord-refuses-repairs.png
 ---
 
 <h3>面對不修繕的房東，先搞清楚你有什麼權利</h3>

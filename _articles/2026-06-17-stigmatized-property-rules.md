@@ -4,6 +4,7 @@ description: "「凶宅」在台灣實務上通常指在房屋的「專有部分
 category: rules
 slug: stigmatized-property-rules
 date: 2026-06-17
+image: /assets/og/stigmatized-property-rules.png
 ---
 
 <h3>什麼是凶宅？</h3>

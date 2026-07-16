@@ -5,6 +5,7 @@ category: landlord
 slug: landlord-repair-obligations
 date: 2026-05-11
 tags: [hot]
+image: /assets/og/landlord-repair-obligations.png
 ---
 
 <h3>修繕義務的法律基礎</h3>

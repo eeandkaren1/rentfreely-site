@@ -5,6 +5,7 @@ category: rules
 slug: lease-notarization-guide
 date: 2026-06-10
 tags: [fav]
+image: /assets/og/lease-notarization-guide.png
 ---
 
 <h3>為什麼租約需要公證？</h3>

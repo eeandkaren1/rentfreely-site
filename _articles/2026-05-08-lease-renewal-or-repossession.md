@@ -4,6 +4,7 @@ description: "很多房東以為「租約到期了，房客自然要走」，但
 category: landlord
 slug: lease-renewal-or-repossession
 date: 2026-05-08
+image: /assets/og/lease-renewal-or-repossession.png
 ---
 
 <h3>租約到期的處理是房東最容易犯錯的環節</h3>
