@@ -1,13 +1,6 @@
 ---
 layout: default
 ---
-{% comment %} og-image-inject: 指定每篇專屬分享圖 {% endcomment %}
-{% assign og_img = "/assets/og/" | append: page.slug | append: ".png" | absolute_url %}
-<meta property="og:image" content="{{ og_img }}">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="{{ og_img }}">
 {% assign cat_label = "" %}
 {% assign cat_class = "" %}
 {% assign cat_url = "/articles/?cat=" | append: page.category %}
