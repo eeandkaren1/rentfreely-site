@@ -484,3 +484,7 @@ footer{background:#131B18;color:rgba(248,244,238,.52)}
 .nr-line{display:inline-block;padding:13px 26px;font-size:14.5px;font-weight:800;color:#fff;background:#06C755;border-radius:12px;text-decoration:none;transition:background .2s}
 .nr-line:hover{background:#04A843}
 .nr-hot-label{font-size:12.5px;font-weight:700;color:var(--txm,#4D5C4A);margin-top:20px}
+/* ── 法律免責聲明區塊（法律程序系列）── 請貼到 assets/css/main.css 最末端 */
+.art-note{margin:36px 0 8px;padding:18px 20px;background:var(--grp,#EDF0EA);border:1px solid var(--bd,#D8D4CA);border-left:4px solid var(--gr,#4A6741);border-radius:12px;font-size:13px;line-height:1.85;color:var(--txm,#4D5C4A)}
+.art-note p{margin:0}
+.art-note strong{color:var(--tx,#1E2620);font-weight:800}
