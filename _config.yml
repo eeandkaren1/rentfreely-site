@@ -47,3 +47,4 @@ defaults:
       type: articles
     values:
       layout: article
+future: true
