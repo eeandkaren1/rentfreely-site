@@ -602,37 +602,35 @@ footer{background:#131B18;color:rgba(248,244,238,.52)}
       </div>
     </div>
     <div class="kzones rv">
-      <div class="kz" onclick="toggleZ('l')">
+      <div class="kz" onclick="location.href='/articles/?cat=landlord'">
         <div class="kzh ld"><div class="kzic">🏠</div><div class="kztt">房東專區</div><div class="kzst">招租、合約、稅務、修繕管理，房東實務完整攻略</div></div>
         <div class="kzp"><div class="kzhot">
           <div class="kzhi"><span class="dot"></span>押金要收多少才對？</div>
           <div class="kzhi"><span class="dot"></span>遇到惡意欠租怎麼辦？</div>
           <div class="kzhi"><span class="dot"></span>公益出租人稅務優惠解析</div>
         </div></div>
-        <div class="kzbw"><button class="btn bp" style="width:100%;justify-content:center" onclick="event.stopPropagation();toggleZ('l')">查看全部文章 →</button></div>
+        <div class="kzbw"><button class="btn bp" style="width:100%;justify-content:center" onclick="location.href='/articles/?cat=landlord'">查看全部文章 →</button></div>
       </div>
-      <div class="kz" onclick="toggleZ('t')">
+      <div class="kz" onclick="location.href='/articles/?cat=tenant'">
         <div class="kzh tn"><div class="kzic">🪪</div><div class="kztt">房客專區</div><div class="kzst">看房、入住、糾紛處理、退租押金，房客自保全流程</div></div>
         <div class="kzp"><div class="kzhot">
           <div class="kzhi"><span class="dot"></span>押金被亂扣怎麼追回？</div>
           <div class="kzhi"><span class="dot"></span>電費被超收的自救方式</div>
           <div class="kzhi"><span class="dot"></span>房東不修繕我可以怎麼辦？</div>
         </div></div>
-        <div class="kzbw"><button class="btn bp" style="width:100%;justify-content:center;background:var(--grl)" onclick="event.stopPropagation();toggleZ('t')">查看全部文章 →</button></div>
+        <div class="kzbw"><button class="btn bp" style="width:100%;justify-content:center;background:var(--grl)" onclick="location.href='/articles/?cat=tenant'">查看全部文章 →</button></div>
       </div>
-      <div class="kz" onclick="toggleZ('r')">
+      <div class="kz" onclick="location.href='/articles/?cat=rules'">
         <div class="kzh ru"><div class="kzic">📋</div><div class="kztt">租賃規範知識</div><div class="kzst">合約條款、押金規定、修繕責任、公證制度完整解析</div></div>
         <div class="kzp"><div class="kzhot">
           <div class="kzhi"><span class="dot"></span>定型化契約無效條款大全</div>
           <div class="kzhi"><span class="dot"></span>公證 vs 不公證差在哪？</div>
           <div class="kzhi"><span class="dot"></span>租賃爭議怎麼走調解？</div>
         </div></div>
-        <div class="kzbw"><button class="btn" style="width:100%;justify-content:center;background:var(--br);color:#fff" onclick="event.stopPropagation();toggleZ('r')">查看全部文章 →</button></div>
+        <div class="kzbw"><button class="btn" style="width:100%;justify-content:center;background:var(--br);color:#fff" onclick="location.href='/articles/?cat=rules'">查看全部文章 →</button></div>
       </div>
     </div>
-    <div class="kdrawer" id="drawer-l"><div class="dbg"><div class="dh"><div class="dt">🏠 房東專區</div><button class="dc" onclick="toggleZ('l')">✕ 收起</button></div><div class="alist" id="arts-l"></div></div></div>
-    <div class="kdrawer" id="drawer-t"><div class="dbg"><div class="dh"><div class="dt">🪪 房客專區</div><button class="dc" onclick="toggleZ('t')">✕ 收起</button></div><div class="alist" id="arts-t"></div></div></div>
-    <div class="kdrawer" id="drawer-r"><div class="dbg"><div class="dh"><div class="dt">📋 租賃規範知識</div><button class="dc" onclick="toggleZ('r')">✕ 收起</button></div><div class="alist" id="arts-r"></div></div></div>
+  
   </div>
 </section>
 
