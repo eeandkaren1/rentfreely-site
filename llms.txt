@@ -30,6 +30,17 @@
 - [公益出租人制度完整解析：資格認定、三大稅務優惠、常見迷思澄清](https://rentfreelylife.com/articles/public-welfare-landlord-explained/): 公益出租人是政府推動的租屋市場良性循環機制。當房東將房屋出租給領有政府租金補貼的房客時，該房東自動取得公益出租人資格，享
 - [社會住宅申請完整指南：資格條件、抽籤流程、如何提高中籤機率](https://rentfreelylife.com/articles/social-housing-application-guide/): 社會住宅是由政府或政府委託機構興辦的「只租不售」住宅，以低於市場行情的租金出租給符合資格的民眾。台灣社會住宅的推動主要由
 - [寵物飼養同意書（租約附約）完整範本：房東房客都能用的合法條款寫法【2026】](https://rentfreelylife.com/articles/pet-agreement-template/): 房東想允許養寵物但怕房子被毀？房客想爭取毛孩入住？本文提供合法合規的寵物飼養特約條款範本與同意書表單，含押金上限合規警示
+- [存證信函怎麼寫？郵局格式、費用、寄送流程與結構範本一次看懂](https://rentfreelylife.com/articles/certified-letter-guide/): 存證信函沒有強制對方履行的效力，本質是由郵局證明「你在某年某月某日，把某段文字寄給了某人」。整理郵局格式、三份謄本、費用計算、寄送保存與結構要素。
+- [支付命令是什麼？聲請要件、費用、20日異議期完整說明](https://rentfreelylife.com/articles/payment-order-guide/): 支付命令規定於民事訴訟法第508條以下，聲請費500元定額、不開庭。但對方20日內提異議即失效，程序轉入訴訟。說明適用要件、費用、管轄與適用時機。
+- [強制執行是什麼？執行名義、聲請費用與遷讓房屋程序說明](https://rentfreelylife.com/articles/compulsory-execution-guide/): 強制執行的前提是先有「執行名義」。說明執行費計算（千分之八）、遷讓房屋流程與屋內物品的合法處理方式。
+- [小額訴訟怎麼進行？10萬元以下的裁判費、流程與一審終結原則](https://rentfreelylife.com/articles/small-claims-litigation-guide/): 小額訴訟適用10萬元以下金錢請求，裁判費1,000元、原則一次期日終結、不強制委任律師。說明適用範圍、程序特色與準備方向。
+- [租屋糾紛該找誰？調解委員會、地政局、消保官、法院的分工與選擇](https://rentfreelylife.com/articles/complaint-channels-comparison/): 調解委員會免費且成立後具執行名義效力；地政局管業者；消保官核心在定型化契約；法院是唯一能產生執行名義的地方。整理四大管道職掌與適用時機。
+- [租約到期沒續簽，卻還住著？不定期租賃的成立與雙方風險](https://rentfreelylife.com/articles/indefinite-tenancy-rules/): 民法451條規定期滿續住而出租人不即反對者視為不定期租賃；房屋租賃另有土地法100條收回限制。說明成立要件與雙方影響。
+- [房東把房子賣了，我的租約還算數嗎？「買賣不破租賃」與五年公證的例外](https://rentfreelylife.com/articles/sale-does-not-break-lease/): 民法425條規定所有權讓與第三人時租約仍繼續存在，但未經公證且逾五年或未定期限者不適用。說明原則、例外與押金爭議。
+- [斷水斷電、換鎖趕房客：這類做法在實務上如何被評價](https://rentfreelylife.com/articles/utility-cutoff-lock-change-risks/): 我國法制以循國家程序實現權利為原則，自助行為要件嚴格。說明民法423條、刑法304條等規範脈絡與雙方風險。
+- [沒簽書面租約，租賃關係算數嗎？口頭約定的效力與常見佐證資料](https://rentfreelylife.com/articles/oral-lease-evidence/): 租賃契約原則不以書面為成立要件；民法422條逾一年未立字據者視為不定期而非無效。整理常被提出的佐證資料類型與整理原則。
+- [房客失聯、東西全留著：為什麼房東最不該做的就是自行清空](https://rentfreelylife.com/articles/abandoned-tenant-property-risks/): 欠租是債務關係、物品所有權是物權關係，兩者分開。說明自行清空的風險、正當途徑兩層次與等待期間的紀錄工作。
+
 
 ## 房客專區
 
