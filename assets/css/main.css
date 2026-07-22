@@ -520,3 +520,4 @@ section.hero .hero-text{min-width:0!important}
   section.hero .hero-img{margin-bottom:12px!important}
 }
 .hero-img .hey{margin-bottom:14px}
+@media(max-width:900px){.hero{padding-top:20px}}
