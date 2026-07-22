@@ -513,10 +513,11 @@ footer{background:#131B18;color:rgba(248,244,238,.52)}
   .hero{overflow:hidden}
   .hgrid{grid-template-columns:1fr minmax(0,640px)}
   .hero-img{
-    width:calc(50vw - 20px);
-    max-width:none;
-    margin-right:calc((100vw - 1100px) / -2 - 20px);
+    width:calc(50vw - 20px)!important;
+    max-width:none!important;
+    margin-right:calc((100vw - 1100px) / -2 - 20px)!important;
     justify-content:flex-start;
+  }
   }
   .hero-img img{width:100%}
 }
