@@ -65,7 +65,7 @@ header{position:sticky;top:0;z-index:200;background:rgba(247,244,239,.96);backdr
 /* ── Hero ── */
 .hero{padding:64px 0 56px;background:linear-gradient(135deg,#EDF2E8 0%,#F0EBE0 40%,#E8DFD3 75%,#DED7CC 100%);position:relative;overflow:hidden}
 .hero::after{content:'租事無憂';position:absolute;right:-20px;bottom:-30px;font-family:'Noto Serif TC',serif;font-size:160px;font-weight:900;color:rgba(58,88,48,.05);pointer-events:none;letter-spacing:8px;white-space:nowrap}
-.hgrid{display:grid;grid-template-columns:1fr minmax(0,520px);gap:52px;align-items:center}
+.hgrid{display:grid;grid-template-columns:1fr minmax(0,680px);gap:52px;align-items:center}
 .hey{display:inline-flex;align-items:center;gap:6px;background:rgba(61,107,79,.1);color:var(--gr);padding:5px 14px;border-radius:20px;font-size:12px;font-weight:700;letter-spacing:.06em;margin-bottom:20px}
 .hero h1{font-size:clamp(28px,4vw,48px);font-weight:900;margin-bottom:18px;color:var(--tx)}
 .hero h1 em{color:var(--gr);font-style:normal}
