@@ -505,3 +505,6 @@ footer{background:#131B18;color:rgba(248,244,238,.52)}
   .hero::after{display:none!important}
   .hsub{max-width:100%!important}
 }
+/* ── 強制 hero 圖片縮放 ── */
+.hero-img{width:100%!important;max-width:100%!important;display:block!important}
+.hero-img img{width:100%!important;max-width:100%!important;height:auto!important;object-fit:contain!important}
