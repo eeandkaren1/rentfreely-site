@@ -493,4 +493,12 @@ footer{background:#131B18;color:rgba(248,244,238,.52)}
 .hero-img img{width:100%;max-width:100%;height:auto;border-radius:28px;box-shadow:0 18px 50px rgba(30,38,32,.16);display:block}
 @media(max-width:900px){
 .hero-img img{width:100%;max-width:100%;margin:26px auto 0;border-radius:22px}
+}/* ── 強制防止水平溢出 ── */
+html,body{overflow-x:hidden;max-width:100%}
+.hero .wrap{max-width:100%;overflow-x:hidden}
+@media(max-width:900px){
+  .hgrid{grid-template-columns:1fr!important;max-width:100%}
+  .hero-img{width:100%;max-width:100%;min-width:0}
+  .hero-img img{width:100%!important;max-width:100%!important;height:auto}
+  .hsub{max-width:100%!important}
 }
