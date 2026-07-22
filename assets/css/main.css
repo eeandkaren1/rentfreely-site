@@ -509,3 +509,13 @@ footer{background:#131B18;color:rgba(248,244,238,.52)}
   }
   .hero::after{display:none}
 }
+/* ═══ Hero 最終版（最高優先）═══ */
+section.hero .hgrid{display:grid!important;grid-template-columns:1fr 1fr!important;gap:56px!important;align-items:center!important}
+section.hero .hero-img{min-width:0!important;width:auto!important;max-width:100%!important;overflow:hidden!important}
+section.hero .hero-img img{width:100%!important;max-width:100%!important;height:auto!important;display:block!important}
+section.hero .hero-text{min-width:0!important}
+@media(max-width:900px){
+  section.hero .hgrid{display:block!important}
+  section.hero .hero-img,section.hero .hero-text{width:100%!important}
+  section.hero .hero-img{margin-bottom:12px!important}
+}
