@@ -508,3 +508,15 @@ footer{background:#131B18;color:rgba(248,244,238,.52)}
 /* ── 強制 hero 圖片縮放 ── */
 .hero-img{width:100%!important;max-width:100%!important;display:block!important}
 .hero-img img{width:100%!important;max-width:100%!important;height:auto!important;object-fit:contain!important}
+/* ── Hero 圖片延伸貼邊（進階）── */
+@media(min-width:901px){
+  .hero{overflow:hidden}
+  .hgrid{grid-template-columns:1fr minmax(0,640px)}
+  .hero-img{
+    width:calc(50vw - 20px);
+    max-width:none;
+    margin-right:calc((100vw - 1100px) / -2 - 20px);
+    justify-content:flex-start;
+  }
+  .hero-img img{width:100%}
+}
